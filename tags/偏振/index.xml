@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>偏振 on 余佰凌的空间</title><link>https://yubailing666.github.io/tags/%E5%81%8F%E6%8C%AF/</link><description>Recent content in 偏振 on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/tags/%E5%81%8F%E6%8C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>第三十三章——电磁波与光</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%AB%A0%E7%94%B5%E7%A3%81%E6%B3%A2%E4%B8%8E%E5%85%89/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%AB%A0%E7%94%B5%E7%A3%81%E6%B3%A2%E4%B8%8E%E5%85%89/</guid><description>&lt;hr&gt;
+&lt;h3 id="1-介质中的-em-波"&gt;1. 介质中的 EM 波
+&lt;/h3&gt;&lt;p&gt;真空中：\(c = 3\times 10^8\) m/s。介质中光速变慢：&lt;/p&gt;
+$$v = \frac{c}{n}$$&lt;p&gt;&lt;strong&gt;折射率（Index of Refraction）&lt;/strong&gt;：
+&lt;/p&gt;
+$$n = \frac{c}{v} = \sqrt{K K_m} \approx \sqrt{K}$$&lt;ul&gt;
+&lt;li&gt;\(K\) = 介电常数（dielectric constant）&lt;/li&gt;
+&lt;li&gt;光通过介质时 &lt;strong&gt;频率不变&lt;/strong&gt;，波长变短：\(\lambda_{\text{介质}} = \lambda_{\text{真空}}/n\)&lt;/li&gt;
+&lt;li&gt;\(n\) 依赖于频率 → 这就是&lt;strong&gt;色散&lt;/strong&gt;的原因&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;例题&lt;/strong&gt;：钠黄光 \(f = 5.09\times 10^{14}\) Hz，钻石 \(K=5.84\)，求钻石中的光速和波长。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;真空波长：\(\lambda_0 = c/f = 3\times 10^8 / 5.09\times 10^{14} \approx 589\) nm&lt;/li&gt;
+&lt;li&gt;钻石中光速：\(v = c/\sqrt{K} = 3\times 10^8 / \sqrt{5.84} \approx 1.24\times 10^8\) m/s&lt;/li&gt;
+&lt;li&gt;钻石中波长：\(\lambda = \lambda_0 / n = 589 / \sqrt{5.84} \approx 244\) nm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;📝 &lt;strong&gt;考试记住：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\(f\) 穿过介质不变（光源决定，不是介质决定）&lt;/li&gt;
+&lt;li&gt;\(\lambda\) 变小（光速变慢了，频率不变，波长自然缩了）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="2-偏振polarization"&gt;2. 偏振（Polarization）
+&lt;/h3&gt;&lt;p&gt;偏振方向定义为 &lt;strong&gt;电场 \(\mathbf{E}\) 的振动方向&lt;/strong&gt;。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;类型&lt;/th&gt;
+&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Linearly Polarized（线偏振）&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;E 在一个固定平面内振动&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Circularly Polarized（圆偏振）&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;E 矢量端点做圆周运动（左旋/右旋）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;strong&gt;Unpolarized（自然光）&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;E 随机方向振动，可分解为两个垂直分量&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="马吕斯定律maluss-law"&gt;马吕斯定律（Malus&amp;rsquo;s Law）
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;经过一个偏振片&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自然光 → 偏振片 → \(I_1 = I_0/2\)（一半强度丢了）&lt;/li&gt;
+&lt;li&gt;偏振光 → 偏振片（夹角 \(\theta\)）→ \(I = I_0 \cos^2\theta\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;经过两个偏振片&lt;/strong&gt;（起偏器 + 分析器）：&lt;/p&gt;
+&lt;p&gt;自然光 → 偏振片1（\(I_0/2\)）→ 偏振片2（\(I_0/2 \cdot \cos^2\theta\)）&lt;/p&gt;
+&lt;h4 id="经典考题三个偏振片"&gt;经典考题：三个偏振片
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;自然光 → 偏振片A（0°）→ 偏振片B（45°）→ 偏振片C（90°）
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;A 处：\(I_A = I_0/2\)&lt;/li&gt;
+&lt;li&gt;B 处：\(I_B = I_A \cos^2 45^\circ = I_0/2 \cdot 1/2 = I_0/4\)&lt;/li&gt;
+&lt;li&gt;C 处：\(I_C = I_B \cos^2 45^\circ = I_0/4 \cdot 1/2 = I_0/8\)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;如果&lt;strong&gt;去掉中间&lt;/strong&gt;的 B：A（0°）→ C（90°）→ \(I = 0\)（垂直，全挡）&lt;/p&gt;
+&lt;p&gt;📝 &lt;strong&gt;反直觉&lt;/strong&gt;：中间加一片反而有光透过去！因为中间那片把偏振方向扭转了 45°，让原本垂直的两片有了重叠分量。&lt;/p&gt;
+&lt;h4 id="考试技巧"&gt;考试技巧
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;看见&amp;quot;自然光&amp;quot; → 先减半（\(I_0/2\)）&lt;/li&gt;
+&lt;li&gt;看见&amp;quot;线偏振光&amp;quot; → 直接套 \(I = I_0\cos^2\theta\)&lt;/li&gt;
+&lt;li&gt;计算器别忘了：\(\cos 45^\circ = \sqrt{2}/2 \approx 0.707\)，平方是 0.5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="3-反射与折射"&gt;3. 反射与折射
+&lt;/h3&gt;&lt;h4 id="snells-law斯涅尔定律"&gt;Snell&amp;rsquo;s Law（斯涅尔定律）
+&lt;/h4&gt;$$n_1 \sin\theta_1 = n_2 \sin\theta_2$$&lt;ul&gt;
+&lt;li&gt;\(\theta_1\)：入射角（相对于法线）&lt;/li&gt;
+&lt;li&gt;\(\theta_2\)：折射角（相对于法线）&lt;/li&gt;
+&lt;li&gt;光从光疏到光密（\(n_1 &lt; n_2\)）：折射光线&lt;strong&gt;靠近法线&lt;/strong&gt;（\(\theta_2 &lt; \theta_1\)）&lt;/li&gt;
+&lt;li&gt;光从光密到光疏（\(n_1 &gt; n_2\)）：折射光线&lt;strong&gt;远离法线&lt;/strong&gt;（\(\theta_2 &gt; \theta_1\)）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="全内反射total-internal-reflection"&gt;全内反射（Total Internal Reflection）
+&lt;/h4&gt;&lt;p&gt;条件：光从光密到光疏（\(n_1 &gt; n_2\)），且入射角超过临界角。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;临界角&lt;/strong&gt;：&lt;/p&gt;
+$$\sin\theta_c = \frac{n_2}{n_1}$$&lt;p&gt;当 \(\theta_1 &gt; \theta_c\) → 全部反射回介质中，没有折射光。&lt;/p&gt;
+&lt;p&gt;💡 应用：光纤通信、内窥镜&lt;/p&gt;
+&lt;h4 id="考试技巧-1"&gt;考试技巧
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;分清哪边是 \(n_1\) 哪边是 \(n_2\)——错误多从这里来&lt;/li&gt;
+&lt;li&gt;算临界角时 \(n_2\) 是光疏介质（折射出去那边的折射率小）&lt;/li&gt;
+&lt;li&gt;全内反射只发生在 \(n_1 &gt; n_2\) 的情况下&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id="4-色散dispersion与彩虹"&gt;4. 色散（Dispersion）与彩虹
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;色散&lt;/strong&gt;：折射率 \(n\) 依赖于光的波长——不同颜色的光在介质中速度不同。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;颜色&lt;/th&gt;
+&lt;th style="text-align: left"&gt;折射率变化&lt;/th&gt;
+&lt;th style="text-align: left"&gt;偏折程度&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;紫/蓝光&lt;/td&gt;
+&lt;td style="text-align: left"&gt;\(n\) 更大&lt;/td&gt;
+&lt;td style="text-align: left"&gt;偏折更多&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;红光&lt;/td&gt;
+&lt;td style="text-align: left"&gt;\(n\) 更小&lt;/td&gt;
+&lt;td style="text-align: left"&gt;偏折最少&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id="彩虹的形成"&gt;彩虹的形成
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;太阳光 → 进入水滴（折射）
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; → 在水滴内壁一次反射
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; → 离开水滴时再次折射（色散分开）
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;红光偏折最小 → &lt;strong&gt;外侧&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;蓝紫光偏折最大 → &lt;strong&gt;内侧&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;彩虹出现在太阳对面约 \(42^\circ\) 视角&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;记忆法&lt;/strong&gt;：&lt;strong&gt;外红内紫&lt;/strong&gt;——和七色光的顺序一致（ROYGBIV，红在波长端外侧）&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id="5-公式速查--考试技巧"&gt;5. 公式速查 &amp;amp; 考试技巧
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;公式&lt;/th&gt;
+&lt;th style="text-align: left"&gt;用途&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;\(v = c/n\)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;介质中光速&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;\(n = \sqrt{K}\)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;由介电常数算折射率&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;\(n_1 \sin\theta_1 = n_2 \sin\theta_2\)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;Snell&amp;rsquo;s Law&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;\(\sin\theta_c = n_2/n_1\)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;全内反射临界角&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;\(I = I_0/2\)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;自然光过偏振片&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;\(I = I_0 \cos^2\theta\)&lt;/td&gt;
+&lt;td style="text-align: left"&gt;马吕斯定律（偏振光过偏振片）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;计算器小抄&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;\(\mu_0 c = 120\pi \approx 377\)（真空阻抗，Ch.32 的技法）&lt;/li&gt;
+&lt;li&gt;\(\sqrt{2}/2 \approx 0.707\)（45° 的 sin/cos）&lt;/li&gt;
+&lt;li&gt;Snell&amp;rsquo;s law 考试常给 \(n\) 值，直接代公式&lt;/li&gt;
+&lt;li&gt;偏振题看清初始光是自然光还是偏振光——决定了要不要先乘 1/2&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
