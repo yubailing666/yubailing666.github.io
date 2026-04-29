@@ -77,7 +77,7 @@ $$r = -\beta \pm \sqrt{\beta^2 - \omega_0^2}$$&lt;h4 id="三种情况"&gt;三种
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Overdamped（过阻尼）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\beta &amp;gt; \omega_0$ $(R &amp;gt; 2\sqrt{L/C})$&lt;/td&gt;
+&lt;td&gt;$\beta &gt; \omega_0$ $(R &gt; 2\sqrt{L/C})$&lt;/td&gt;
 &lt;td&gt;无振荡，直接指数衰减&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -87,13 +87,13 @@ $$r = -\beta \pm \sqrt{\beta^2 - \omega_0^2}$$&lt;h4 id="三种情况"&gt;三种
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;Underdamped（欠阻尼）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\beta &amp;lt; \omega_0$ $(R &amp;lt; 2\sqrt{L/C})$&lt;/td&gt;
+&lt;td&gt;$\beta &lt; \omega_0$ $(R &lt; 2\sqrt{L/C})$&lt;/td&gt;
 &lt;td&gt;振幅指数衰减的振荡&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;欠阻尼解&lt;/strong&gt;：&lt;/p&gt;
-$$q(t) = Q e^{-\beta t} \cos(\omega' t + \varphi)$$&lt;p&gt;其中 $\omega&amp;rsquo; = \sqrt{\omega_0^2 - \beta^2}$（阻尼振荡频率）&lt;/p&gt;
+$$q(t) = Q e^{-\beta t} \cos(\omega' t + \varphi)$$&lt;p&gt;其中 $\omega' = \sqrt{\omega_0^2 - \beta^2}$（阻尼振荡频率）&lt;/p&gt;
 &lt;h4 id="现实情景对比"&gt;现实情景对比
 &lt;/h4&gt;&lt;table&gt;
 &lt;thead&gt;
@@ -121,7 +121,7 @@ $$q(t) = Q e^{-\beta t} \cos(\omega' t + \varphi)$$&lt;p&gt;其中 $\omega&amp;r
 &lt;h4 id="题型总结-1"&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;判断阻尼类型&lt;/strong&gt; → 比较 $R$ 与 $2\sqrt{L/C}$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;求欠阻尼 $\omega&amp;rsquo;$&lt;/strong&gt; → $\omega&amp;rsquo; = \sqrt{1/LC - R^2/4L^2}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;求欠阻尼 $\omega'$&lt;/strong&gt; → $\omega' = \sqrt{1/LC - R^2/4L^2}$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;能量衰减速率&lt;/strong&gt; → $e^{-Rt/L}$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
@@ -154,7 +154,7 @@ $$q(t) = Q e^{-\beta t} \cos(\omega' t + \varphi)$$&lt;p&gt;其中 $\omega&amp;r
 &lt;td&gt;&lt;strong&gt;$R$（电阻）&lt;/strong&gt;&lt;/td&gt;
 &lt;td style="text-align: center"&gt;同相 $(\phi=0)$&lt;/td&gt;
 &lt;td style="text-align: center"&gt;$R$（电阻）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$&amp;gt;0$（耗能）&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$&gt;0$（耗能）&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;$C$（电容）&lt;/strong&gt;&lt;/td&gt;
@@ -171,13 +171,13 @@ $$q(t) = Q e^{-\beta t} \cos(\omega' t + \varphi)$$&lt;p&gt;其中 $\omega&amp;r
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h4 id="电阻-r-电路"&gt;电阻 $R$ 电路
+&lt;h4 id="电阻--电路"&gt;电阻 $R$ 电路
 &lt;/h4&gt;$$v = V_{\text{max}}\cos\omega t,\quad i = \frac{v}{R} = \frac{V_{\text{max}}}{R}\cos\omega t = I_{\text{max}}\cos\omega t$$&lt;ul&gt;
 &lt;li&gt;同相，无相位差&lt;/li&gt;
 &lt;li&gt;$I_{\text{max}} = V_{\text{max}} / R$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id="详细推导纯电容-c-电路"&gt;详细推导——纯电容 $C$ 电路
+&lt;h4 id="详细推导纯电容--电路"&gt;详细推导——纯电容 $C$ 电路
 &lt;/h4&gt;&lt;h5 id="基本关系核心方程"&gt;基本关系（核心方程！）
 &lt;/h5&gt;$$i = C \frac{dv}{dt}$$&lt;p&gt;电流 $\neq$ 电压的原因：电容是&lt;strong&gt;积累电荷&lt;/strong&gt;的元件，电流流入后电荷慢慢堆积，电压才逐渐建立起来。所以是&lt;strong&gt;电流决定电压的变化速率&lt;/strong&gt;，而不是直接等于电压。&lt;/p&gt;
 &lt;h5 id="设电压求电流"&gt;设电压，求电流
@@ -196,7 +196,7 @@ $$&lt;p&gt;📌 &lt;strong&gt;关键三角变换&lt;/strong&gt;：$-\sin\theta =
 $$i(t) = I_{\text{max}}\cos(\omega t + 90^\circ)$$&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;电流领先电压 $90^\circ$&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;strong&gt;物理直觉&lt;/strong&gt;：电压刚要从 0 往上升的那一瞬间，&lt;strong&gt;斜率 $dv/dt$ 最大&lt;/strong&gt;，由 $i = C,dv/dt$ 可知电流此时已经到峰值了。等电压升到顶峰（$dv/dt = 0$），电流降至 0。所以电流总是&lt;strong&gt;跑在电压前面&lt;/strong&gt; $90^\circ$。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;物理直觉&lt;/strong&gt;：电压刚要从 0 往上升的那一瞬间，&lt;strong&gt;斜率 $dv/dt$ 最大&lt;/strong&gt;，由 $i = C\,dv/dt$ 可知电流此时已经到峰值了。等电压升到顶峰（$dv/dt = 0$），电流降至 0。所以电流总是&lt;strong&gt;跑在电压前面&lt;/strong&gt; $90^\circ$。&lt;/p&gt;
 &lt;h5 id="振幅关系"&gt;振幅关系
 &lt;/h5&gt;$$I_{\text{max}} = \omega C V_{\text{max}} = \frac{V_{\text{max}}}{X_C}$$&lt;p&gt;其中 &lt;strong&gt;容抗&lt;/strong&gt; $X_C = \dfrac{1}{\omega C}$，单位 $\Omega$&lt;/p&gt;
 &lt;h5 id="参数变化分析"&gt;参数变化分析
@@ -238,7 +238,7 @@ $$i(t) = I_{\text{max}}\cos(\omega t + 90^\circ)$$&lt;blockquote&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;一句话&lt;/strong&gt;：电容&lt;strong&gt;通高频阻低频，隔直流通交流&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="详细推导纯电感-l-电路"&gt;详细推导——纯电感 $L$ 电路
+&lt;h4 id="详细推导纯电感--电路"&gt;详细推导——纯电感 $L$ 电路
 &lt;/h4&gt;&lt;h5 id="基本关系核心方程-1"&gt;基本关系（核心方程！）
 &lt;/h5&gt;$$v = L \frac{di}{dt}$$&lt;p&gt;电流 $\neq$ 电压的原因：电感通过磁场&lt;strong&gt;抵抗电流变化&lt;/strong&gt;，电流不能突变。外加电压是为了克服这个&amp;quot;惯性&amp;quot;把电流推起来，所以&lt;strong&gt;电压先来，电流后到&lt;/strong&gt;。&lt;/p&gt;
 &lt;h5 id="设电压求电流-1"&gt;设电压，求电流
@@ -359,8 +359,8 @@ $$i(t) = I_{\text{max}}\cos(\omega t - 90^\circ)$$&lt;blockquote&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;公式推导记忆：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;$X_L = \omega L$&lt;/strong&gt;：从 $v = L,di/dt$ 出发，设 $i = I\cos\omega t$，得 $v = -\omega L I\sin\omega t$，振幅 $V_{\text{max}} = \omega L I_{\text{max}}$，所以 $X_L = V_{\text{max}}/I_{\text{max}} = \omega L$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;$X_C = 1/\omega C$&lt;/strong&gt;：从 $i = C,dv/dt$ 出发，设 $v = V\cos\omega t$，得 $i = -\omega C V\sin\omega t$，振幅 $I_{\text{max}} = \omega C V_{\text{max}}$，所以 $X_C = V_{\text{max}}/I_{\text{max}} = 1/\omega C$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$X_L = \omega L$&lt;/strong&gt;：从 $v = L\,di/dt$ 出发，设 $i = I\cos\omega t$，得 $v = -\omega L I\sin\omega t$，振幅 $V_{\text{max}} = \omega L I_{\text{max}}$，所以 $X_L = V_{\text{max}}/I_{\text{max}} = \omega L$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;$X_C = 1/\omega C$&lt;/strong&gt;：从 $i = C\,dv/dt$ 出发，设 $v = V\cos\omega t$，得 $i = -\omega C V\sin\omega t$，振幅 $I_{\text{max}} = \omega C V_{\text{max}}$，所以 $X_C = V_{\text{max}}/I_{\text{max}} = 1/\omega C$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;☝️ 关键记忆：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -403,7 +403,7 @@ obreakspace\omega \uparrow$ → $X_C \downarrow$（高频容易过电容）&lt;/
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;相位差 $\phi$&lt;/strong&gt;&lt;/td&gt;
 &lt;td&gt;$\tan\phi = (X_L - X_C)/R$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$\phi&amp;gt;0$：电流落后（感性）；$\phi&amp;lt;0$：电流领先（容性）&lt;/td&gt;
+&lt;td style="text-align: left"&gt;$\phi&gt;0$：电流落后（感性）；$\phi&lt;0$：电流领先（容性）&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -449,14 +449,14 @@ $$V_{\text{max}}^2 = I_{\text{max}}^2[R^2 + (X_L - X_C)^2]$$$$\boxed{Z = \sqrt{R
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td&gt;$X_L &amp;gt; X_C$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\phi &amp;gt; 0$&lt;/td&gt;
+&lt;td&gt;$X_L &gt; X_C$&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$\phi &gt; 0$&lt;/td&gt;
 &lt;td style="text-align: left"&gt;&lt;strong&gt;Inductive（感性）&lt;/strong&gt;&lt;/td&gt;
 &lt;td style="text-align: left"&gt;电流&lt;strong&gt;落后&lt;/strong&gt;电压&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;$X_L &amp;lt; X_C$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\phi &amp;lt; 0$&lt;/td&gt;
+&lt;td&gt;$X_L &lt; X_C$&lt;/td&gt;
+&lt;td style="text-align: center"&gt;$\phi &lt; 0$&lt;/td&gt;
 &lt;td style="text-align: left"&gt;&lt;strong&gt;Capacitive（容性）&lt;/strong&gt;&lt;/td&gt;
 &lt;td style="text-align: left"&gt;电流&lt;strong&gt;领先&lt;/strong&gt;电压&lt;/td&gt;
 &lt;/tr&gt;
@@ -513,8 +513,8 @@ $$Q = \frac{\omega_0 L}{R} = \frac{1}{\omega_0 R C}$$&lt;p&gt;$Q$ 越大 → 谐
 &lt;hr&gt;
 &lt;h3 id="7-变压器-transformer"&gt;7. 变压器 (Transformer)
 &lt;/h3&gt;$$\frac{V_2}{V_1} = \frac{N_2}{N_1},\qquad \frac{I_2}{I_1} = \frac{N_1}{N_2}$$&lt;ul&gt;
-&lt;li&gt;$N_2 &amp;gt; N_1$ → &lt;strong&gt;step-up（升压）&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;$N_2 &amp;lt; N_1$ → &lt;strong&gt;step-down（降压）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;$N_2 &gt; N_1$ → &lt;strong&gt;step-up（升压）&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;$N_2 &lt; N_1$ → &lt;strong&gt;step-down（降压）&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;能量守恒：$V_1 I_1 = V_2 I_2$&lt;/li&gt;
 &lt;li&gt;阻抗变换：$Z_{\text{in}} = (N_1/N_2)^2 \cdot Z_{\text{load}}$&lt;/li&gt;
 &lt;/ul&gt;
@@ -542,8 +542,8 @@ $$Q = \frac{\omega_0 L}{R} = \frac{1}{\omega_0 R C}$$&lt;p&gt;$Q$ 越大 → 谐
 &lt;td&gt;$\omega = 2\pi f$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;谐振 $\omega_0$ vs 阻尼 $\omega&amp;rsquo;$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\omega_0 = 1/\sqrt{LC}$，$\omega&amp;rsquo; = \sqrt{\omega_0^2 - \beta^2}$&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;谐振 $\omega_0$ vs 阻尼 $\omega'$&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;$\omega_0 = 1/\sqrt{LC}$，$\omega' = \sqrt{\omega_0^2 - \beta^2}$&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;strong&gt;$I_{\text{max}}$ vs $I_{\text{rms}}$&lt;/strong&gt;&lt;/td&gt;
