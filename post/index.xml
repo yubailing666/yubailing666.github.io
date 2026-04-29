@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 余佰凌的空间</title><link>https://yubailing666.github.io/post/</link><description>Recent content in Posts on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>第三十二章——麦克斯韦方程组与电磁波</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</guid><description>&lt;hr&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 余佰凌的空间</title><link>https://yubailing666.github.io/post/</link><description>Recent content in Posts on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 浏览器控制 —— Playwright 搭建笔记</title><link>https://yubailing666.github.io/p/ai-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6-playwright-%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/ai-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6-playwright-%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="为什么需要这个"&gt;为什么需要这个
+&lt;/h2&gt;&lt;p&gt;AI 只能读文本、跑命令，但很多信息在网页里——登录后才能看的内容、需要 JavaScript 渲染的页面、图表截图。&lt;/p&gt;
+&lt;p&gt;装上 Playwright 后，AI 可以通过脚本操控浏览器：打开网页、点击、填表单、截图、抓取内容。&lt;/p&gt;
+&lt;h2 id="安装"&gt;安装
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm install -g playwright
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npx playwright install chromium
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;安装后会在 &lt;code&gt;AppData\Local\ms-playwright\&lt;/code&gt; 下下载 Chromium 浏览器内核（约 180MB）。&lt;/p&gt;
+&lt;h2 id="测试是否能用"&gt;测试是否能用
+&lt;/h2&gt;&lt;p&gt;写一个测试脚本 &lt;code&gt;test.js&lt;/code&gt;：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt; &lt;span class="nx"&gt;chromium&lt;/span&gt; &lt;span class="p"&gt;}&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;require&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;playwright&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kr"&gt;async&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;browser&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;chromium&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;launch&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt; &lt;span class="nx"&gt;headless&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt; &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;page&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;browser&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;newPage&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="kr"&gt;goto&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;https://yubailing666.github.io&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;const&lt;/span&gt; &lt;span class="nx"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;title&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="nx"&gt;console&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Page title:&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;title&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;page&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;screenshot&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt; &lt;span class="nx"&gt;path&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;screenshot.png&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nx"&gt;fullPage&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt; &lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="kr"&gt;await&lt;/span&gt; &lt;span class="nx"&gt;browser&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;close&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;})();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;跑：&lt;code&gt;node test.js&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;成功的话会输出页面标题并保存截图。&lt;/p&gt;
+&lt;h2 id="注意事项"&gt;注意事项
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;国内网络下 &lt;code&gt;npx playwright install chromium&lt;/code&gt; 下载可能慢（约 180MB 的 Chromium 包）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;headless: true&lt;/code&gt; 表示无头模式（不弹出浏览器窗口）&lt;/li&gt;
+&lt;li&gt;截图默认保存在当前目录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="后续可能的应用"&gt;后续可能的应用
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;截图验证博客部署效果（不用等 GitHub Actions 跑完）&lt;/li&gt;
+&lt;li&gt;自动登录网站抓取校园网数据&lt;/li&gt;
+&lt;li&gt;监控网页变化&lt;/li&gt;
+&lt;li&gt;截图调试前端页面&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>第三十二章——麦克斯韦方程组与电磁波</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</guid><description>&lt;hr&gt;
 &lt;h3 id="1-麦克斯韦方程组四条"&gt;1. 麦克斯韦方程组（四条）
 &lt;/h3&gt;&lt;table&gt;
 &lt;thead&gt;
