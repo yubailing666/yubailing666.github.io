@@ -37,23 +37,10 @@
 &lt;p&gt;&lt;strong&gt;Solvation（溶剂化）&lt;/strong&gt;：溶剂分子包围溶质粒子的过程。溶剂为水时称为 &lt;strong&gt;Hydration（水合）&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id="3-溶液形成中的能量变化"&gt;3. 溶液形成中的能量变化
-&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;(solute)n → n solute ΔH_solute &amp;gt; 0（破坏溶质间作用力，吸热）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;(solvent)n → n solvent ΔH_solvent &amp;gt; 0（破坏溶剂间作用力，吸热）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;n solute + n solvent → solution ΔH_mix &amp;lt; 0（溶质–溶剂作用，放热）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;—————————————————————————————————————————————
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ΔH_soln = ΔH_solute + ΔH_solvent + ΔH_mix
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;ul&gt;
+&lt;/h3&gt;&lt;p&gt;$(\text{solute})&lt;em&gt;n \rightarrow n;\text{solute}\quad \Delta H&lt;/em&gt;{\text{solute}} &amp;gt; 0$（破坏溶质间作用力，吸热）&lt;/p&gt;
+&lt;p&gt;$(\text{solvent})&lt;em&gt;n \rightarrow n;\text{solvent}\quad \Delta H&lt;/em&gt;{\text{solvent}} &amp;gt; 0$（破坏溶剂间作用力，吸热）&lt;/p&gt;
+&lt;p&gt;$n;\text{solute} + n;\text{solvent} \rightarrow \text{solution}\quad \Delta H_{\text{mix}} &amp;lt; 0$（溶质–溶剂作用，放热）&lt;/p&gt;
+$$\Delta H_{\text{soln}} = \Delta H_{\text{solute}} + \Delta H_{\text{solvent}} + \Delta H_{\text{mix}}$$&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Exothermic dissolution（放热溶解）&lt;/strong&gt;：$ΔH_{solv} &amp;lt; 0$（如 MgSO₄）&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Endothermic dissolution（吸热溶解）&lt;/strong&gt;：$ΔH_{solv} &amp;gt; 0$（如 NH₄NO₃ → 速冷冰袋）&lt;/li&gt;
 &lt;/ul&gt;
