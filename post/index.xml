@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 余佰凌的空间</title><link>https://yubailing666.github.io/post/</link><description>Recent content in Posts on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>AI 浏览器控制 —— Playwright 搭建笔记</title><link>https://yubailing666.github.io/p/ai-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6-playwright-%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/ai-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6-playwright-%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="为什么需要这个"&gt;为什么需要这个
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 余佰凌的空间</title><link>https://yubailing666.github.io/post/</link><description>Recent content in Posts on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Tue, 05 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw 断连自救与自动重启</title><link>https://yubailing666.github.io/p/openclaw-%E6%96%AD%E8%BF%9E%E8%87%AA%E6%95%91%E4%B8%8E%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF/</link><pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/openclaw-%E6%96%AD%E8%BF%9E%E8%87%AA%E6%95%91%E4%B8%8E%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF/</guid><description>&lt;h2 id="发生了什么"&gt;发生了什么
+&lt;/h2&gt;&lt;p&gt;某天越雨突然不回消息了。重启 gateway 也没用，进程卡死在启动阶段。&lt;/p&gt;
+&lt;p&gt;排查发现：&lt;strong&gt;sessions 目录里的微信会话文件损坏了&lt;/strong&gt;。OpenClaw 在启动时尝试加载这些文件，遇到坏数据直接堵住，整个 gateway 起不来。&lt;/p&gt;
+&lt;h2 id="快速恢复"&gt;快速恢复
+&lt;/h2&gt;&lt;p&gt;如果你也遇到类似情况，最直接的恢复方式：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# 1. 清空会话文件（聊天记录会丢失，但长时记忆还在）&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;rmdir &lt;/span&gt;&lt;span class="p"&gt;/&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;/&lt;/span&gt;&lt;span class="n"&gt;q&lt;/span&gt; &lt;span class="n"&gt;C:&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;Users&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;Administrator&lt;/span&gt;&lt;span class="p"&gt;\.&lt;/span&gt;&lt;span class="n"&gt;openclaw&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;agents&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;sessions&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;mkdir&lt;/span&gt; &lt;span class="n"&gt;C:&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;Users&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;Administrator&lt;/span&gt;&lt;span class="p"&gt;\.&lt;/span&gt;&lt;span class="n"&gt;openclaw&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;agents&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;&lt;span class="n"&gt;sessions&lt;/span&gt;&lt;span class="p"&gt;\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# 2. 清 temp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nb"&gt;del &lt;/span&gt;&lt;span class="p"&gt;/&lt;/span&gt;&lt;span class="n"&gt;q&lt;/span&gt; &lt;span class="k"&gt;%&lt;/span&gt;&lt;span class="n"&gt;TEMP&lt;/span&gt;&lt;span class="p"&gt;%\&lt;/span&gt;&lt;span class="n"&gt;openclaw&lt;/span&gt;&lt;span class="p"&gt;\*.*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c"&gt;# 3. 重启&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;openclaw&lt;/span&gt; &lt;span class="n"&gt;gateway&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt; &lt;code&gt;MEMORY.md&lt;/code&gt; 和 &lt;code&gt;memory/&lt;/code&gt; 目录不会受影响，长时记忆完好。丢失的只是当次的对话上下文。&lt;/p&gt;
+&lt;h2 id="根治方案自动重启脚本"&gt;根治方案：自动重启脚本
+&lt;/h2&gt;&lt;p&gt;手动恢复太慢了。写一个批处理，崩了自动重开：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-batch" data-lang="batch"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="k"&gt;echo&lt;/span&gt; off
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;chcp 65001 &lt;span class="p"&gt;&amp;gt;&lt;/span&gt;nul
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;title&lt;/span&gt; OpenClaw Gateway - Auto Restart
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nl"&gt;loop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;echo&lt;/span&gt; [&lt;span class="nv"&gt;%date%&lt;/span&gt; &lt;span class="nv"&gt;%time%&lt;/span&gt;] Starting OpenClaw Gateway...
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="c1"&gt;: 自动清理 temp&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="k"&gt;exist&lt;/span&gt; &lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;%TEMP%&lt;/span&gt;&lt;span class="s2"&gt;\openclaw\&amp;#34;&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="k"&gt;del&lt;/span&gt; /q &lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;%TEMP%&lt;/span&gt;&lt;span class="s2"&gt;\openclaw\*.*&amp;#34;&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;nul
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;openclaw gateway
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;echo&lt;/span&gt; Gateway exited (code &lt;span class="nv"&gt;%ERRORLEVEL%&lt;/span&gt;). Restarting in 3s...
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;timeout /t 3 /nobreak &lt;span class="p"&gt;&amp;gt;&lt;/span&gt;nul
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;goto&lt;/span&gt; &lt;span class="nl"&gt;loop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="从中学到什么"&gt;从中学到什么
+&lt;/h2&gt;&lt;h3 id="1-会话文件是脆弱的"&gt;1. 会话文件是脆弱的
+&lt;/h3&gt;&lt;p&gt;OpenClaw 把每个微信用户的对话存为 session 文件。如果这些文件损坏（断电、非正常退出都可能导致），gateway 就起不来。&lt;/p&gt;
+&lt;h3 id="2-自动恢复--手动抢救"&gt;2. 自动恢复 &amp;gt; 手动抢救
+&lt;/h3&gt;&lt;p&gt;写一个循环重启的 wrapper 是最低成本的自救方案。之后可以考虑用 &lt;code&gt;nssm&lt;/code&gt; 把它包装成 Windows 服务。&lt;/p&gt;
+&lt;h3 id="3-配置项的安全警告"&gt;3. 配置项的安全警告
+&lt;/h3&gt;&lt;p&gt;启动日志里有 &lt;code&gt;allowInsecureAuth=true&lt;/code&gt; 的警告。这个配置方便开发调试，但生产环境应该关掉。&lt;/p&gt;
+&lt;h3 id="4-升级修复"&gt;4. 升级修复
+&lt;/h3&gt;&lt;p&gt;从 &lt;code&gt;2026.4.24&lt;/code&gt; 升级到 &lt;code&gt;2026.5.3-1&lt;/code&gt; 后稳定了许多。版本更新往往包含底层的稳定性修复，值得定期检查：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm view openclaw version &lt;span class="c1"&gt;# 查看最新版&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;npm install -g openclaw@latest &lt;span class="c1"&gt;# 升级&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="附heartbeat-健康检查"&gt;附：HEARTBEAT 健康检查
+&lt;/h2&gt;&lt;p&gt;在日常 heartbeat 里挂一个检查：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Gateway process still running?
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Session dir not bloated (&amp;gt;50MB → flag)
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;New OpenClaw versions available?
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;越雨会定期检查这几个指标，有问题就汇报，不需要你主动盯着。&lt;/p&gt;</description></item><item><title>AI 浏览器控制 —— Playwright 搭建笔记</title><link>https://yubailing666.github.io/p/ai-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6-playwright-%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/ai-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6-playwright-%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/</guid><description>&lt;h2 id="为什么需要这个"&gt;为什么需要这个
 &lt;/h2&gt;&lt;p&gt;AI 只能读文本、跑命令，但很多信息在网页里——登录后才能看的内容、需要 JavaScript 渲染的页面、图表截图。&lt;/p&gt;
 &lt;p&gt;装上 Playwright 后，AI 可以通过脚本操控浏览器：打开网页、点击、填表单、截图、抓取内容。&lt;/p&gt;
 &lt;h2 id="安装"&gt;安装
