@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Md on 余佰凌的空间</title>
+        <link>https://yubailing666.github.io/tags/md/</link>
+        <description>Recent content in Md on 余佰凌的空间</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>余佰凌</copyright>
+        <lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/tags/md/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>把工作流搬到 md 之后，我回不去了</title>
+        <link>https://yubailing666.github.io/p/%E6%8A%8A%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%90%AC%E5%88%B0-md-%E4%B9%8B%E5%90%8E%E6%88%91%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86/</link>
+        <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://yubailing666.github.io/p/%E6%8A%8A%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%90%AC%E5%88%B0-md-%E4%B9%8B%E5%90%8E%E6%88%91%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86/</guid>
+        <description>&lt;p&gt;把工作流搬到 md 之后，我回不去了&lt;/p&gt;
+&lt;p&gt;也不是什么了不起的发现。就是用了几个月之后发现，自己再也不想碰 docx 了。&lt;/p&gt;
+&lt;p&gt;先说我之前是怎么干活的。&lt;/p&gt;
+&lt;p&gt;写笔记用 Word，存到 OneDrive，写的时候调格式的时间比写内容还长。写完了想分享，复制到微信格式全乱。想搜索一个之前的笔记，得在文件夹里翻半天。&lt;/p&gt;
+&lt;p&gt;后来换成了这套：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;写东西：md（用任何文本编辑器都行，我用的 Obsidian）&lt;/li&gt;
+&lt;li&gt;存东西：一个本地文件夹，git 管理版本&lt;/li&gt;
+&lt;li&gt;发东西：转成 html，丢到博客上&lt;/li&gt;
+&lt;li&gt;和 AI 对接：直接跟 OpenClaw 说，它读 md 文件，不需要我复制粘贴格式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这套东西没什么技术含量。但省下来的事很具体：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;格式不是一个需要担心的问题了。md 就几种语法，标题、列表、代码块、引用，写完就是排版完。&lt;/li&gt;
+&lt;li&gt;搜索用 git grep 或者 Obsidian 的搜索，不需要回忆&amp;quot;那个文件我放哪了&amp;quot;。&lt;/li&gt;
+&lt;li&gt;跟 AI 沟通的时候不需要说&amp;quot;帮我写一段文字放在表格第三列&amp;quot;——直接给 md，它懂结构。&lt;/li&gt;
+&lt;li&gt;想做演示文稿的时候，直接跑一个 next-slide 的工具脚本，md 自动转成 html 幻灯片。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;怎么给 OpenClaw 写记忆规则&lt;/p&gt;
+&lt;p&gt;OpenClaw 有一个 memory 系统。本质上就是一些 md 文件，放在 ~/.openclaw/workspace/memory/ 下面。&lt;/p&gt;
+&lt;p&gt;规则只有两条。&lt;/p&gt;
+&lt;p&gt;一条是关于你自己的。比如我会在 memory 里写清楚我的体质（火旺，容易想太多），我的学习习惯（从底层往上推），我讨厌什么（AI 说废话、并列排比结尾）。&lt;/p&gt;
+&lt;p&gt;另一条是关于在做的事。比如项目进度、待办、下一个想研究的方向。&lt;/p&gt;
+&lt;p&gt;写的时候不用考虑格式对不对、用语正不正规。它就是给你的 AI 看的笔记，你平时怎么自言自语就怎么写。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;怎么用别人的工具包&lt;/p&gt;
+&lt;p&gt;OpenClaw 有一个社区市场叫 ClawHub。里面有人写好了各种 skill，比如做 PPT 的、查天气的、写周报的。&lt;/p&gt;
+&lt;p&gt;安装就是一条命令，或者把 skill 文件夹放在指定目录下。&lt;/p&gt;
+&lt;p&gt;我用得最多的是 next-slide 这个 skill。把我的 md 文件传给它，几秒生成一套 html 幻灯片，50 多种主题，不需要 Keynote 也不需要 PowerPoint。&lt;/p&gt;
+&lt;p&gt;还有一个技能叫 memory-keeper，是帮我自己定期整理记忆文件的。我记性不太好，写了很多碎片笔记，它会定期帮我归一下类。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;说到底，这套东西的改变是什么？&lt;/p&gt;
+&lt;p&gt;不是变快了。是写东西和想东西之间的阻力变小了。&lt;/p&gt;
+&lt;p&gt;之前写个笔记要想用哪个软件、存哪个文件夹、字体大小对不对。现在打开编辑器就写，写完就是一个结构化的文件。剩下的不管是做网页、做幻灯片、还是丢给 AI 继续加工——都是同一份原料。&lt;/p&gt;
+&lt;p&gt;想试的话，从明天开始把你的一篇笔记写成 md 试试。别一次全换，先写一篇感受一下。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
