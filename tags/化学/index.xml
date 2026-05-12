@@ -1,11 +1,632 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>化学 on 余佰凌的空间</title><link>https://yubailing666.github.io/tags/%E5%8C%96%E5%AD%A6/</link><description>Recent content in 化学 on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/tags/%E5%8C%96%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>第十三章——Properties of Solutions</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</guid><description>&lt;h1 id="大学化学--复习卡片"&gt;大学化学 · 复习卡片
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>化学 on 余佰凌的空间</title>
+        <link>https://yubailing666.github.io/tags/%E5%8C%96%E5%AD%A6/</link>
+        <description>Recent content in 化学 on 余佰凌的空间</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>余佰凌</copyright>
+        <lastBuildDate>Wed, 06 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/tags/%E5%8C%96%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第十四章——Chemical Kinetics（新版）</title>
+        <link>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0chemical-kinetics%E6%96%B0%E7%89%88/</link>
+        <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0chemical-kinetics%E6%96%B0%E7%89%88/</guid>
+        <description>&lt;blockquote&gt;
+&lt;p&gt;📖 每个概念配一个生活例子 — 化学来自生活，记例子就是记概念。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;核心activation-energy活化能-&#34;&gt;核心：Activation Energy（活化能, $E_a$）
+&lt;/h2&gt;&lt;p&gt;化学动力学的一切，从一个问题开始：&lt;strong&gt;分子凭什么能反应？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;答案是：分子必须翻过一个能量屏障（Energy Barrier）。这个屏障的高度就是 &lt;strong&gt;Activation Energy（活化能, $E_a$）&lt;/strong&gt;。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$E_a$ 高 → 只有极少数分子有足够能量翻过去 → &lt;strong&gt;反应慢&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;$E_a$ 低 → 大部分分子都能翻过去 → &lt;strong&gt;反应快&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — &amp;ldquo;钻石恒久远&amp;rdquo;&lt;/strong&gt;
+钻石（diamond）→ 石墨（graphite）的 $\Delta G &lt; 0$，&lt;strong&gt;热力学上自发&lt;/strong&gt;。但钻石在室温下放一万年也不会变成石墨 — 因为 $E_a$ 极高，分子根本翻不过去。&lt;strong&gt;热力学告诉你&amp;quot;能不能&amp;quot;，动力学告诉你&amp;quot;要多久&amp;quot;&lt;/strong&gt;。所以钻石的&amp;quot;恒久远&amp;quot;其实是动力学给的，不是热力学。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;枝1分子怎么翻越屏障&#34;&gt;枝1：分子怎么&amp;quot;翻越&amp;quot;屏障？
+&lt;/h2&gt;&lt;h3 id=&#34;collision-theory碰撞理论-分子凭什么能反应&#34;&gt;Collision Theory（碰撞理论）—— 分子凭什么能反应
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Collision Theory（碰撞理论）&lt;/strong&gt; 回答了最基本的问题：分子为什么要碰撞才能反应？&lt;/p&gt;
+&lt;p&gt;三个必要条件：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;#&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;English&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;中文&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;类比 — 扔篮球进篮筐&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;1&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Collision&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;分子必须&lt;strong&gt;碰撞&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;球必须碰到篮筐才算数&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;2&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Sufficient energy&lt;/strong&gt;（$\ge E_a$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;能量要&lt;strong&gt;超过活化能&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;力气要够大，否则球碰不到筐&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;3&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Proper orientation&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;碰撞&lt;strong&gt;取向要对&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;球要在合适的方向和角度投出去&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;必要条件 vs 充分条件：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  碰撞 ✓          + 够能量 ✓          + 方向对 ✓      = 有效碰撞（Effective Collision）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  缺一不可！       缺一不可！          缺一不可！
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;为什么碰撞是必需的？&lt;/strong&gt;
+因为反应需要旧键断裂、新键形成。键的断裂和形成只能通过分子靠近时电子的重新排布来完成 — 不靠近，不改键。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Frequency Factor $A$&lt;/strong&gt; 就是 Collision Theory 的量化产物：
+&lt;/p&gt;
+$$A = \text{Collision Frequency} \times \text{Orientation Factor}$$&lt;ul&gt;
+&lt;li&gt;撞得越多 → $A$ 越大&lt;/li&gt;
+&lt;li&gt;乱撞之中方向对的比例 → Orientation factor（通常远小于 1）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 撞球&lt;/strong&gt;
+桌球（pool）中，母球撞目标球：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Collision&lt;/strong&gt;：球A必须碰到球B&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sufficient energy&lt;/strong&gt;：碰到没用，得撞够用力才能把球B送进袋&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Proper orientation&lt;/strong&gt;：即使力大，对着袋口反方向打也进不了 — 方向要对&lt;/li&gt;
+&lt;li&gt;和化学反应完全一样，&lt;strong&gt;缺一不可&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;reaction-rate反应速率&#34;&gt;Reaction Rate（反应速率）
+&lt;/h3&gt;$$v = -\frac{1}{a}\frac{d[A]}{dt} = \frac{1}{c}\frac{d[C]}{dt}$$&lt;p&gt;本质：&lt;strong&gt;单位时间内翻过去的分子数&lt;/strong&gt;。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;类型&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;English&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;平均速率&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Average rate&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;一段时间内的平均变化&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;瞬时速率&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Instantaneous rate&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;某一时刻的斜率&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;起始速率&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Initial rate&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$t=0$ 时的速率，&lt;strong&gt;最受关注&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 开车&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Average rate = 从广州到深圳的平均速度&lt;/li&gt;
+&lt;li&gt;Instantaneous rate = 此刻仪表盘上的速度&lt;/li&gt;
+&lt;li&gt;Initial rate = 绿灯亮起那一脚油门 — 这时路况最清晰&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rate-law速率方程&#34;&gt;Rate Law（速率方程）
+&lt;/h3&gt;$$v = k[A]^m[B]^n$$&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;符号&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;English&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;意义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;它与 Ea 的关系&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$k$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Rate constant&lt;/strong&gt;（速率常数）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反映 &lt;strong&gt;$E_a$ 的影响&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;温度和催化剂通过改变 $k$ 来加速反应&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$m, n$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Reaction order&lt;/strong&gt;（反应级数）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;实验确定&lt;/strong&gt;，不等于计量系数&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;告诉你反应的真实微观过程&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$[A]^m$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Concentration term（浓度项）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反映&lt;strong&gt;碰撞频率&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;改变浓度不影响 $k$，只影响碰撞次数&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;三大铁律（反复考）&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Rate law 必须由&lt;strong&gt;实验&lt;/strong&gt;确定 — 不能从 balanced equation 直接写级数&lt;/li&gt;
+&lt;li&gt;Reaction order 只针对**reactant（反应物）**浓度&lt;/li&gt;
+&lt;li&gt;Reaction order 与 &lt;strong&gt;stoichiometric coefficient（化学计量系数）&lt;/strong&gt; 无关&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 烤面包&lt;/strong&gt;
+Rate constant $k$ 就像烤箱的温度设定，reaction order 就像面包片的数量对烤熟速度的影响。烤箱温度变了($k$ 变了)，烤得更快。面包多了（浓度高了），同时烤的面包多了，但每片单独烤熟的时间不变（$k$ 没变）。&lt;/p&gt;
+&lt;h3 id=&#34;reaction-order反应级数的物理意义&#34;&gt;Reaction Order（反应级数）的物理意义
+&lt;/h3&gt;&lt;p&gt;级数不是数学游戏，它告诉你反应的真实微观过程：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Order&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;English&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;物理含义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;常见场景&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;0&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Zero-order&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;速率与浓度无关&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;表面催化、&lt;strong&gt;酒精代谢&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;First-order&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;单分子过程&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;放射性衰变、&lt;strong&gt;药物代谢&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Second-order&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;双分子碰撞&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;大部分气相反应&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 喝酒代谢&lt;/strong&gt;
+&lt;strong&gt;酒精在体内的代谢是零级反应（zero-order）&lt;/strong&gt; — 无论你喝了多少酒，肝脏每小时只能代谢固定量的酒精（大约 10-15g/h）。因为乙醇脱氢酶（alcohol dehydrogenase）被饱和了。这就是为什么喝得越多，醉得越久 — 代谢不会变快。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 咖啡因代谢&lt;/strong&gt;
+&lt;strong&gt;咖啡因在体内的代谢是一级反应（first-order）&lt;/strong&gt; — 半衰期大约 5 小时。一杯咖啡下肚，5 小时后体内还剩一半。这就是为什么下午喝咖啡会影响晚上睡眠。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;判断方法 — Initial Rate Method（初始速率法）&lt;/strong&gt;：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;浓度变化&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;速率变化&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;结论&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\times 2$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;不变&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Zero-order&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\times 2$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\times 2$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;First-order&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\times 2$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\times 4$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Second-order&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;公式：$(\text{concentration ratio})^n = \text{rate ratio}$ → 解 $n$&lt;/p&gt;
+&lt;h3 id=&#34;integrated-rate-laws--half-life积分速率方程与半衰期&#34;&gt;Integrated Rate Laws &amp;amp; Half-life（积分速率方程与半衰期）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Half-life（半衰期, $t_{1/2}$）&lt;/strong&gt;：浓度降到初始值一半所需的时间。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Order&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Integrated Rate Law&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;线性图（Linear Plot）&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Half-life&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;关键特征&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;0&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$[A] = [A]_0 - kt$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$[A]$ vs $t$（斜率 $-k$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$[A]_0/2k$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;匀速消耗，与浓度成正比&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\ln[A] = -kt + \ln[A]_0$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\ln[A]$ vs $t$（斜率 $-k$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$0.693/k$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Half-life 与初始浓度无关！&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$1/[A] = 1/[A]_0 + kt$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$1/[A]$ vs $t$（斜率 $k$）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$1/(k[A]_0)$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Half-life 依赖浓度&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 碳-14 测年（Carbon-14 Dating）&lt;/strong&gt;
+$\ce{^14C}$ 的衰变是 &lt;strong&gt;first-order&lt;/strong&gt;，半衰期 5730 年。无论你有一克还是一吨 $\ce{^14C}$，减少到一半都需要 5730 年。考古学家就是靠这个判断文物年代的。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;枝2怎么影响翻越&#34;&gt;枝2：怎么影响&amp;quot;翻越&amp;quot;？
+&lt;/h2&gt;&lt;p&gt;要加快反应（accelerate the reaction），只有&lt;strong&gt;三条路&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                     ┌ 路线A：Temperature ──── 给分子加能量（翻同一个屏障）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;影响反应速率的本质 ──┼ 路线B：Catalyst ────── 给屏障降高度（走一条新路）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                     └ 路线C：Concentration ── 增加碰撞次数（不改 k）
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;路线atemperature温度--改变分子的能量&#34;&gt;路线A：Temperature（温度） — 改变分子的能量
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Arrhenius Equation（阿伦尼乌斯方程）：&lt;/strong&gt;&lt;/p&gt;
+$$k = Ae^{-E_a/RT}$$&lt;p&gt;拆开看：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;部分&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;English&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;含义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;谁控制？&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$A$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Frequency factor&lt;/strong&gt;（频率因子）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;碰撞频率 × 取向概率&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;分子本身性质&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$e^{-E_a/RT}$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Boltzmann factor&lt;/strong&gt;（玻尔兹曼因子）&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;能量超过 $E_a$ 的分子比例&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;温度 $T$ 决定&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;本质&lt;/strong&gt;：升温不是让每个分子跑得更快，而是让 &lt;strong&gt;Boltzmann distribution（玻尔兹曼分布）的尾巴变肥&lt;/strong&gt; — 更多分子达到能量阈值。&lt;/p&gt;
+$$\ln k = -\frac{E_a}{R}\left(\frac{1}{T}\right) + \ln A \quad \rightarrow \quad \text{作图求 } E_a$$&lt;p&gt;&lt;strong&gt;Two-point form（两点式）&lt;/strong&gt;（考试最爱）：&lt;/p&gt;
+$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$&lt;p&gt;&lt;strong&gt;生活例子 — 冰箱&lt;/strong&gt;
+冰箱的 4°C 让细菌代谢反应变慢，食物保质期从几小时延长到几天。这不是杀死细菌（杀菌要高温），而是降低反应速率 — 因为 $T$ 下降了，$k$ 变小了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 美拉德反应（Maillard Reaction）&lt;/strong&gt;
+煎牛排时，高温（&amp;gt;140°C）触发氨基酸和糖的反应，产生焦香风味。低温烹饪（sous vide）虽然均匀，但缺少这种&amp;quot;锅气&amp;quot; — 因为温度不够高，$k$ 太小。&lt;/p&gt;
+&lt;h3 id=&#34;路线bcatalyst催化剂--改变屏障的高度&#34;&gt;路线B：Catalyst（催化剂） — 改变屏障的高度
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;本质&lt;/strong&gt;：同一起点到同一终点，但把&amp;quot;翻山&amp;quot;变成&amp;quot;钻隧道&amp;quot;。&lt;/p&gt;
+&lt;p&gt;Catalyst 通过提供一条 &lt;strong&gt;alternative reaction pathway（替代反应路径）&lt;/strong&gt; 来 &lt;strong&gt;lower the activation energy（降低活化能）&lt;/strong&gt;，自身不被消耗（not consumed）。&lt;/p&gt;
+&lt;p&gt;这是最容混淆的点 —— 温度 vs 催化剂：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;温度：          ┌─────────────────┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                │  分子有了更多能量  │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                │  去翻同一个屏障    │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                └─────────────────┘
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;催化剂：        ┌─────────────────┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                │  屏障本身变低了   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                │  分子用原来的能量  │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                │  就能翻过去       │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                └─────────────────┘
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Temperature&lt;/strong&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Catalyst&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;改变什么？&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Kinetic energy&lt;/strong&gt; of molecules&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Reaction pathway&lt;/strong&gt; (降低 $E_a$)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;影响 $k$ 的哪个部分？&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Boltzmann factor $e^{-E_a/RT}$ 中的 $T$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$E_a$ 本身&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;上限？&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反应物分解温度&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Catalyst 失活温度&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;与 $E_a$ 关系&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;不改变&lt;/strong&gt; $E_a$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;降低&lt;/strong&gt; $E_a$&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;Catalyst 不改变 Equilibrium Constant（平衡常数）&lt;/strong&gt;
+$K = k_{forward}/k_{reverse}$，催化剂同时降低正逆反应的 $E_a$，分子分母同比例变化 → $K$ 不变。&lt;/p&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;Catalyst 不改变 $\Delta H$（焓变）&lt;/strong&gt;
+因为起始和终点能量没变，变的只是中间过渡态。&lt;/p&gt;
+&lt;h4 id=&#34;三种催化剂&#34;&gt;三种催化剂
+&lt;/h4&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;类型&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;English&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;原理&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;生活例子&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;均相催化&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Homogeneous catalysis&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;催化剂与反应物同相&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;胃酸（HCl）催化蛋白质水解&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;多相催化&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Heterogeneous catalysis&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;固体表面吸附反应物&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;汽车 &lt;strong&gt;Catalytic converter&lt;/strong&gt;（催化转化器）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;酶催化&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Enzyme catalysis&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;活性位点稳定过渡态&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;唾液淀粉酶分解淀粉&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 双氧水滴在伤口上起泡&lt;/strong&gt;
+药店买的 Hydrogen peroxide（过氧化氢, $\ce{H2O2}$）滴在伤口上会冒白泡 — 那是 &lt;strong&gt;Catalase（过氧化氢酶）&lt;/strong&gt; 在催化分解：
+&lt;/p&gt;
+$$\ce{2H2O2 -&gt;[catalase] 2H2O + O2 ^}$$&lt;p&gt;
+血液和组织里的 Catalase 把 $E_a$ 从 75 kJ/mol 降到 8 kJ/mol — 反应速度加快了 $10^{11}$ 倍！&lt;/p&gt;
+&lt;h4 id=&#34;催化剂与温度的交互&#34;&gt;催化剂与温度的交互
+&lt;/h4&gt;&lt;p&gt;催化剂加速反应，但&lt;strong&gt;催化剂本身也受温度影响&lt;/strong&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Rate vs Temperature（有 Catalyst）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     ↑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     │    ╱
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     │   ╱
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     │  ╱  ← 升温加速反应（Arrhenius）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     │ ╱
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     │╱
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;     └────────→ Temperature
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        \
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         \  ← 温度太高，催化剂失活（酶变性、烧结、积碳）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          ↘
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          ⚡ Optimal temperature（最适温度）= 两个效应的平衡点
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;strong&gt;生活例子 — 发烧&lt;/strong&gt;
+人体酶的最适温度（optimal temperature）是 37°C 左右。发烧到 39-40°C 时，酶活性先升高（反应加速），但继续升温到 42°C 以上 → 酶开始 &lt;strong&gt;denature（变性）&lt;/strong&gt; → 催化能力崩溃。这就是高烧危险的生化本质。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 汽车催化转化器&lt;/strong&gt;
+为什么刚启动时尾气很臭？因为 &lt;strong&gt;Catalytic converter&lt;/strong&gt; 需要 &lt;strong&gt;warm-up&lt;/strong&gt; 到 ~300°C 才开始高效工作。冷启动（cold start）阶段是排放最高的 — 这就是催化剂也受温度制约的活例子。&lt;/p&gt;
+&lt;h3 id=&#34;路线cconcentration浓度--改变碰撞频率&#34;&gt;路线C：Concentration（浓度） — 改变碰撞频率
+&lt;/h3&gt;&lt;p&gt;最简单、最直觉：人多 → 撞得多 → 反应快。&lt;/p&gt;
+&lt;p&gt;但 &lt;strong&gt;$k$ 不变&lt;/strong&gt; — 因为浓度只影响 collision frequency（碰撞频率），不影响 $E_a$ 或分子能量。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 火&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;纯氧中燃烧比空气中剧烈 5 倍 — 氧浓度高了（20% → 100%），碰撞频率增加&lt;/li&gt;
+&lt;li&gt;木屑比木块燃烧快得多 — 表面积大 → 更多反应位点暴露 → 有效碰撞增多了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;枝3多步翻越的路径--reaction-mechanism反应机理&#34;&gt;枝3：多步&amp;quot;翻越&amp;quot;的路径 — Reaction Mechanism（反应机理）
+&lt;/h2&gt;&lt;h3 id=&#34;基元反应&#34;&gt;基元反应
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Elementary reaction（基元反应）&lt;/strong&gt;：反应物直接碰撞生成产物的单步反应。对 elementary reaction，rate law 可以直接从 molecularity 写：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Molecularity（分子数）&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;含义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Rate Law&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Unimolecular&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;一个分子分解/重排&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$v = k[A]$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Bimolecular&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;两个分子碰撞&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$v = k[A][B]$ 或 $v = k[A]^2$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Termolecular&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;三个同时碰撞，极少见&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$v = k[A][B][C]$&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;rate-determining-step决速步-rds&#34;&gt;Rate-Determining Step（决速步, RDS）
+&lt;/h3&gt;&lt;p&gt;多步反应中，&lt;strong&gt;$E_a$ 最高的那一步最慢&lt;/strong&gt;，决定了整体速率。就像一群人翻山 — &lt;strong&gt;最高那座山的难度决定全军速度&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3 id=&#34;pre-equilibrium-approximation快平衡近似&#34;&gt;Pre-Equilibrium Approximation（快平衡近似）
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;套路&lt;/strong&gt;：快平衡（fast equilibrium）→ 慢反应（slow, RDS）→ 用 equilibrium constant 代换中间体。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;经典例题&lt;/strong&gt;：
+$2NO + Br_2 \rightarrow 2NOBr$，实验测得 $v = k[NO]^2[Br_2]$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Step 1（快）：$NO + Br_2 \rightleftharpoons NOBr_2$&lt;/li&gt;
+&lt;li&gt;Step 2（慢/RDS）：$NOBr_2 + NO \rightarrow 2NOBr$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;推导：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;$v = k_2[NOBr_2][NO]$（从 RDS 写起）&lt;/li&gt;
+&lt;li&gt;快平衡：$k_1[NO][Br_2] = k_{-1}[NOBr_2]$ → $[NOBr_2] = (k_1/k_{-1})[NO][Br_2]$&lt;/li&gt;
+&lt;li&gt;代入：$v = k_2(k_1/k_{-1})[NO]^2[Br_2] = k[NO]^2[Br_2]$ ✓&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;生活例子 — 为什么火柴（match）一擦就着？&lt;/strong&gt;
+火柴头有红磷和氧化剂。擦火柴时摩擦生热 → 提供 $E_a$ → 红磷燃烧（RDS, 慢） → 引燃火柴杆。这就是一个 fast → slow 的序列反应。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;联系地图&#34;&gt;联系地图
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;23
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;24
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;25
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;26
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    ┌── Thermodynamics（热力学）──┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    │  ΔG &amp;lt; 0 能发生吗？          │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    │  但不是充分条件！            │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                    └─────────────┼───────────────┘
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                  │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                                  ▼
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;               ★ Activation Energy (Ea) ★
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                   决定反应的速率
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;                      │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      ┌───────────────┼───────────────────┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      │               │                   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      ▼               ▼                   ▼
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  Description      Acceleration        Mechanism
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  怎么描述？        怎么加速？           怎么分步？
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      │               │                   │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  ┌───┴───┐   ┌───┬───┴───┬────┐      ┌──┴───┐
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  │       │   │   │       │    │      │      │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Rate   Order Temp Catalyst Conc. Surf.  Elem.  RDS
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Law    (m,n)         │               rxn
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      │              │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      │              └── Catalyst activity
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      │                 受温度影响
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      │                 (Optimal Temperature)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;      └── Arrhenius Eq.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;          k = Ae^{-Ea/RT}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;公式速查&#34;&gt;公式速查
+&lt;/h2&gt;&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;公式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;English Name&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;它在回答什么问题？&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$v = k[A]^m[B]^n$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Rate Law&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;反应速率取决于什么？&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\ln[A] = -kt + \ln[A]_0$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;1st Order Integrated Rate Law&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;一级反应中，浓度怎么随时间变化？&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$1/[A] = 1/[A]_0 + kt$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;2nd Order Integrated Rate Law&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;二级反应呢？&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$t_{1/2} = 0.693/k$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Half-life (1st order)&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;一级反应，一半消耗掉要多久？&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$k = Ae^{-E_a/RT}$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Arrhenius Equation&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;温度和 $E_a$ 如何影响反应速度？&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\ln(k_2/k_1) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Two-point Form&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;两个温度下的 $k$ 已知，$E_a$ 是多少？&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>第十三章——Properties of Solutions</title>
+        <link>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</link>
+        <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</guid>
+        <description>&lt;h1 id=&#34;大学化学--复习卡片&#34;&gt;大学化学 · 复习卡片
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;边学边整理，期末直接背。关键术语保留英文，解释用中文。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id="ch13-properties-of-solutions溶液的性质"&gt;Ch.13 Properties of Solutions（溶液的性质）
+&lt;h2 id=&#34;ch13-properties-of-solutions溶液的性质&#34;&gt;Ch.13 Properties of Solutions（溶液的性质）
 &lt;/h2&gt;&lt;hr&gt;
-&lt;h3 id="1-基本概念"&gt;1. 基本概念
+&lt;h3 id=&#34;1-基本概念&#34;&gt;1. 基本概念
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Solution（溶液）&lt;/strong&gt;：两种或以上纯物质的均匀混合物&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Solute（溶质）&lt;/strong&gt; → 被分散的物质&lt;/li&gt;
@@ -13,30 +634,30 @@
 &lt;li&gt;溶液也可以是固体（合金）或气体（空气）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="2-溶液形成的驱动力"&gt;2. 溶液形成的驱动力
+&lt;h3 id=&#34;2-溶液形成的驱动力&#34;&gt;2. 溶液形成的驱动力
 &lt;/h3&gt;&lt;p&gt;取决于两个因素：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;因素&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Entropy（熵）↑&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;物质混合 → 混乱度↑ → 自发趋势&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Intermolecular interactions（分子间作用力）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶质–溶质、溶剂–溶剂、溶质–溶剂 三者竞争&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;因素&lt;/th&gt;
+          &lt;th&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Entropy（熵）↑&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;物质混合 → 混乱度↑ → 自发趋势&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Intermolecular interactions（分子间作用力）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶质–溶质、溶剂–溶剂、溶质–溶剂 三者竞争&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;⚠️ 溶质和溶剂之间的分子间力必须&lt;strong&gt;足够强&lt;/strong&gt;，才能竞争过溶质内部和溶剂内部的作用力。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solvation（溶剂化）&lt;/strong&gt;：溶剂分子包围溶质粒子的过程。溶剂为水时称为 &lt;strong&gt;Hydration（水合）&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="3-溶液形成中的能量变化"&gt;3. 溶液形成中的能量变化
+&lt;h3 id=&#34;3-溶液形成中的能量变化&#34;&gt;3. 溶液形成中的能量变化
 &lt;/h3&gt;&lt;p&gt;\((\text{solute})_n \rightarrow n\;\text{solute}\quad \Delta H_{\text{solute}} &gt; 0\)（破坏溶质间作用力，吸热）&lt;/p&gt;
 &lt;p&gt;\((\text{solvent})_n \rightarrow n\;\text{solvent}\quad \Delta H_{\text{solvent}} &gt; 0\)（破坏溶剂间作用力，吸热）&lt;/p&gt;
 &lt;p&gt;\(n\;\text{solute} + n\;\text{solvent} \rightarrow \text{solution}\quad \Delta H_{\text{mix}} &lt; 0\)（溶质–溶剂作用，放热）&lt;/p&gt;
@@ -46,75 +667,75 @@ $$\Delta H_{\text{soln}} = \Delta H_{\text{solute}} + \Delta H_{\text{solvent}} 
 &lt;/ul&gt;
 &lt;p&gt;📝 吸热也能自发 → &lt;strong&gt;Entropy（熵增）驱动！&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="4-dissolution--chemical-reaction"&gt;4. Dissolution ≠ Chemical Reaction
+&lt;h3 id=&#34;4-dissolution--chemical-reaction&#34;&gt;4. Dissolution ≠ Chemical Reaction
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Dissolution（溶解）是 physical change（物理变化）&lt;/strong&gt; → 蒸发溶剂可回收原溶质&lt;/li&gt;
 &lt;li&gt;如果回收不了 → 实际上是发生了&lt;strong&gt;化学反应&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="5-溶液类型"&gt;5. 溶液类型
+&lt;h3 id=&#34;5-溶液类型&#34;&gt;5. 溶液类型
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;定义&lt;/th&gt;
-&lt;th&gt;特点&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Saturated（饱和）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶剂量已溶解最大量溶质&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;dynamic equilibrium（动态平衡）&lt;/strong&gt;：dissolution = crystallization&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Unsaturated（不饱和）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶质量少于饱和所需&lt;/td&gt;
-&lt;td&gt;还能继续溶解&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Supersaturated（过饱和）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶质量超过正常溶解度&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;不稳定&lt;/strong&gt;，加 seed crystal 或 scratching 即结晶&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;定义&lt;/th&gt;
+          &lt;th&gt;特点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Saturated（饱和）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶剂量已溶解最大量溶质&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;dynamic equilibrium（动态平衡）&lt;/strong&gt;：dissolution = crystallization&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Unsaturated（不饱和）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶质量少于饱和所需&lt;/td&gt;
+          &lt;td&gt;还能继续溶解&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Supersaturated（过饱和）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶质量超过正常溶解度&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;不稳定&lt;/strong&gt;，加 seed crystal 或 scratching 即结晶&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;⚠️ &lt;strong&gt;Solubility（溶解度）定义&lt;/strong&gt;：一定温度下，某固态物质在 &lt;strong&gt;100 g 溶剂&lt;/strong&gt; 中达到饱和时所溶解的质量。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="6-影响-solubility-的因素"&gt;6. 影响 Solubility 的因素
-&lt;/h3&gt;&lt;h4 id="61-like-dissolves-like相似相溶"&gt;6.1 &amp;ldquo;Like Dissolves Like&amp;rdquo;（相似相溶）
+&lt;h3 id=&#34;6-影响-solubility-的因素&#34;&gt;6. 影响 Solubility 的因素
+&lt;/h3&gt;&lt;h4 id=&#34;61-like-dissolves-like相似相溶&#34;&gt;6.1 &amp;ldquo;Like Dissolves Like&amp;rdquo;（相似相溶）
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Solute（溶质）&lt;/th&gt;
-&lt;th&gt;Solvent（溶剂）&lt;/th&gt;
-&lt;th&gt;结果&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Polar（极性）&lt;/td&gt;
-&lt;td&gt;Polar（极性）&lt;/td&gt;
-&lt;td&gt;溶 ✔&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
-&lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
-&lt;td&gt;溶 ✔&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Polar&lt;/td&gt;
-&lt;td&gt;Nonpolar&lt;/td&gt;
-&lt;td&gt;不溶 ✘&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Solute（溶质）&lt;/th&gt;
+          &lt;th&gt;Solvent（溶剂）&lt;/th&gt;
+          &lt;th&gt;结果&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Polar（极性）&lt;/td&gt;
+          &lt;td&gt;Polar（极性）&lt;/td&gt;
+          &lt;td&gt;溶 ✔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
+          &lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
+          &lt;td&gt;溶 ✔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Polar&lt;/td&gt;
+          &lt;td&gt;Nonpolar&lt;/td&gt;
+          &lt;td&gt;不溶 ✘&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Glucose（葡萄糖）&lt;/strong&gt;（有 H-bonding）→ 溶于水 ✔&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cyclohexane（环己烷）&lt;/strong&gt;（只有 dispersion forces）→ 不溶于水 ✘&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Vitamin A&lt;/strong&gt; → 溶于非极性溶剂（脂肪）| &lt;strong&gt;Vitamin C&lt;/strong&gt; → 溶于极性溶剂（水）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="62-压力效应--henrys-law亨利定律"&gt;6.2 压力效应 — Henry&amp;rsquo;s Law（亨利定律）
+&lt;h4 id=&#34;62-压力效应--henrys-law亨利定律&#34;&gt;6.2 压力效应 — Henry&amp;rsquo;s Law（亨利定律）
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;（只对气体显著）&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;\(S_g = k \cdot P_g\)&lt;/p&gt;
@@ -128,104 +749,104 @@ $$\Delta H_{\text{soln}} = \Delta H_{\text{solute}} + \Delta H_{\text{solvent}} 
 &lt;p&gt;📝 &lt;strong&gt;例题&lt;/strong&gt;：CO₂ 在 4.0 atm 下，\(k = 3.4 \times 10^{-2}\) mol/L·atm
 → \(S_{CO_2} = (3.4 \times 10^{-2})(4.0) =\) &lt;strong&gt;0.14 M&lt;/strong&gt;
 M是摩尔每升&lt;/p&gt;
-&lt;h4 id="63-温度效应"&gt;6.3 温度效应
+&lt;h4 id=&#34;63-温度效应&#34;&gt;6.3 温度效应
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;溶质类型&lt;/th&gt;
-&lt;th&gt;温度↑ 的影响&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;固体&lt;/strong&gt; 溶质&lt;/td&gt;
-&lt;td&gt;Solubility ↑（通常）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;气体&lt;/strong&gt; 溶质&lt;/td&gt;
-&lt;td&gt;Solubility ↓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;溶质类型&lt;/th&gt;
+          &lt;th&gt;温度↑ 的影响&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;固体&lt;/strong&gt; 溶质&lt;/td&gt;
+          &lt;td&gt;Solubility ↑（通常）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;气体&lt;/strong&gt; 溶质&lt;/td&gt;
+          &lt;td&gt;Solubility ↓&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;生活例子&lt;/strong&gt;：碳酸饮料冷藏更&amp;quot;气泡足&amp;quot;；温水里氧气少&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="7-浓度表示法ways-of-expressing-concentration"&gt;7. 浓度表示法（Ways of Expressing Concentration）
+&lt;h3 id=&#34;7-浓度表示法ways-of-expressing-concentration&#34;&gt;7. 浓度表示法（Ways of Expressing Concentration）
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;名称&lt;/th&gt;
-&lt;th&gt;公式&lt;/th&gt;
-&lt;th&gt;注意&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Mass percentage（质量百分比）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;(溶质质量/溶液质量)×100%&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;ppm&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;(溶质质量/溶液质量)×\(10^6\)&lt;/td&gt;
-&lt;td&gt;百万分之一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;ppb&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;(溶质质量/溶液质量)×\(10^9\)&lt;/td&gt;
-&lt;td&gt;十亿分之一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Mole fraction \(X\)（摩尔分数）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(n_A / (n_A + n_B)\)&lt;/td&gt;
-&lt;td&gt;注意区分溶剂和溶质&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Molarity \(M\)（摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;moles of solute / 溶液体积(L)&lt;/td&gt;
-&lt;td&gt;❗ &lt;strong&gt;随温度变化&lt;/strong&gt;（体积热胀冷缩）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Molality \(m\)（重量摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;moles of solute / 溶剂质量(kg)&lt;/td&gt;
-&lt;td&gt;✅ &lt;strong&gt;不随温度变化&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;名称&lt;/th&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+          &lt;th&gt;注意&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mass percentage（质量百分比）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;(溶质质量/溶液质量)×100%&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ppm&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;(溶质质量/溶液质量)×\(10^6\)&lt;/td&gt;
+          &lt;td&gt;百万分之一&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ppb&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;(溶质质量/溶液质量)×\(10^9\)&lt;/td&gt;
+          &lt;td&gt;十亿分之一&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mole fraction \(X\)（摩尔分数）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(n_A / (n_A + n_B)\)&lt;/td&gt;
+          &lt;td&gt;注意区分溶剂和溶质&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Molarity \(M\)（摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;moles of solute / 溶液体积(L)&lt;/td&gt;
+          &lt;td&gt;❗ &lt;strong&gt;随温度变化&lt;/strong&gt;（体积热胀冷缩）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Molality \(m\)（重量摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;moles of solute / 溶剂质量(kg)&lt;/td&gt;
+          &lt;td&gt;✅ &lt;strong&gt;不随温度变化&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;温度变化时记得用 Molality (\(m\)) ！&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="8-colligative-properties依数性"&gt;8. Colligative Properties（依数性）
+&lt;h3 id=&#34;8-colligative-properties依数性&#34;&gt;8. Colligative Properties（依数性）
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;只与溶质&lt;strong&gt;粒子数量&lt;/strong&gt;有关，与溶质&lt;strong&gt;种类&lt;/strong&gt;无关。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;四种依数性：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;性质&lt;/th&gt;
-&lt;th&gt;规律&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Vapor-pressure lowering（蒸气压下降）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(P_{\text{solution}} &lt; P^\circ_{\text{solvent}}\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Boiling-point elevation（沸点升高）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(T_b &gt; T^\circ_b\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Freezing-point depression（凝固点降低）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(T_f &lt; T^\circ_f\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Osmotic pressure（渗透压）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(\pi\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;性质&lt;/th&gt;
+          &lt;th&gt;规律&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Vapor-pressure lowering（蒸气压下降）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(P_{\text{solution}} &lt; P^\circ_{\text{solvent}}\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Boiling-point elevation（沸点升高）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(T_b &gt; T^\circ_b\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Freezing-point depression（凝固点降低）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(T_f &lt; T^\circ_f\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Osmotic pressure（渗透压）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(\pi\)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="9-蒸气压下降--raoults-law拉乌尔定律"&gt;9. 蒸气压下降 — Raoult&amp;rsquo;s Law（拉乌尔定律）
+&lt;h3 id=&#34;9-蒸气压下降--raoults-law拉乌尔定律&#34;&gt;9. 蒸气压下降 — Raoult&amp;rsquo;s Law（拉乌尔定律）
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;\(P_{\text{solution}} = X_{\text{solvent}} \cdot P^\circ_{\text{solvent}}\)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -244,63 +865,63 @@ M是摩尔每升&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;⚠️ &lt;strong&gt;与稀溶液近似（dilute solution approximation）的区别&lt;/strong&gt;：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;对比项&lt;/th&gt;
-&lt;th style="text-align: left"&gt;理想溶液&lt;/th&gt;
-&lt;th style="text-align: left"&gt;稀溶液近似&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;浓度范围&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;任意浓度&lt;/strong&gt;都成立&lt;/td&gt;
-&lt;td style="text-align: left"&gt;只&lt;strong&gt;低浓度&lt;/strong&gt;下近似成立&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;Raoult&amp;rsquo;s Law 服从&lt;/td&gt;
-&lt;td style="text-align: left"&gt;严格服从&lt;/td&gt;
-&lt;td style="text-align: left"&gt;近似服从&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;\(\Delta H_{\text{mix}}\)&lt;/td&gt;
-&lt;td style="text-align: left"&gt;\(= 0\)&lt;/td&gt;
-&lt;td style="text-align: left"&gt;\(\approx 0\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;实际存在？&lt;/td&gt;
-&lt;td style="text-align: left"&gt;理想化模型，实际&lt;strong&gt;不存在&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;实际&lt;strong&gt;稀溶液&lt;/strong&gt;近似适用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;对比项&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;理想溶液&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;稀溶液近似&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;浓度范围&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;任意浓度&lt;/strong&gt;都成立&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;只&lt;strong&gt;低浓度&lt;/strong&gt;下近似成立&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Raoult&amp;rsquo;s Law 服从&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;严格服从&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;近似服从&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;\(\Delta H_{\text{mix}}\)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;\(= 0\)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;\(\approx 0\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;实际存在？&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;理想化模型，实际&lt;strong&gt;不存在&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;实际&lt;strong&gt;稀溶液&lt;/strong&gt;近似适用&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="10-boiling-point-elevation--freezing-point-depression"&gt;10. Boiling-Point Elevation &amp;amp; Freezing-Point Depression
+&lt;h3 id=&#34;10-boiling-point-elevation--freezing-point-depression&#34;&gt;10. Boiling-Point Elevation &amp;amp; Freezing-Point Depression
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;\(\Delta T_b = K_b \cdot m\)
 \(\Delta T_f = K_f \cdot m\)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;符号&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;\(K_b\)&lt;/td&gt;
-&lt;td&gt;molal boiling-point elevation constant（溶剂性质）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(K_f\)&lt;/td&gt;
-&lt;td&gt;molal freezing-point depression constant（溶剂性质）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(m\)&lt;/td&gt;
-&lt;td&gt;molality（重量摩尔浓度）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;符号&lt;/th&gt;
+          &lt;th&gt;含义&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(K_b\)&lt;/td&gt;
+          &lt;td&gt;molal boiling-point elevation constant（溶剂性质）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(K_f\)&lt;/td&gt;
+          &lt;td&gt;molal freezing-point depression constant（溶剂性质）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(m\)&lt;/td&gt;
+          &lt;td&gt;molality（重量摩尔浓度）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;\(T_b = T^\circ_b + \Delta T_b\)
 \(T_f = T^\circ_f - \Delta T_f\)&lt;/p&gt;
@@ -310,34 +931,34 @@ M是摩尔每升&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;推导过程&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;已知 \(\Delta T_f = K_f \cdot m\) 且 \(m\) = molality&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;span class="lnt"&gt;6
-&lt;/span&gt;&lt;span class="lnt"&gt;7
-&lt;/span&gt;&lt;span class="lnt"&gt;8
-&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;m = moles of solute / mass of solvent (kg)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; = (m_B / M_B) / m_A ← m_B：溶质质量(g)，M_B：摩尔质量(g/mol)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; = m_B / (M_B · m_A)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;代入 ΔT_f = K_f · m：
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ΔT_f = K_f · m_B / (M_B · m_A)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;移项：
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;M_B = K_f · m_B / (ΔT_f · m_A) ✓
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;m = moles of solute / mass of solvent (kg)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  = (m_B / M_B) / m_A            ← m_B：溶质质量(g)，M_B：摩尔质量(g/mol)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  = m_B / (M_B · m_A)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;代入 ΔT_f = K_f · m：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ΔT_f = K_f · m_B / (M_B · m_A)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;移项：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;M_B = K_f · m_B / (ΔT_f · m_A)  ✓
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;⚠️ &lt;strong&gt;注意单位&lt;/strong&gt;：\(m_B\) 是溶质质量(g)，\(m_A\) 是溶剂质量(kg)&lt;/p&gt;
 &lt;p&gt;📝 &lt;strong&gt;Antifreeze（防冻剂）应用&lt;/strong&gt;：ethylene glycol（乙二醇），40% 水溶液冰点 −24℃&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="11-电解质的依数性--vant-hoff-factor-"&gt;11. 电解质的依数性 — van&amp;rsquo;t Hoff Factor (\(i\))
+&lt;h3 id=&#34;11-电解质的依数性--vant-hoff-factor-&#34;&gt;11. 电解质的依数性 — van&amp;rsquo;t Hoff Factor (\(i\))
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;\(\Delta T = K \cdot m \cdot i\)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -348,7 +969,7 @@ M是摩尔每升&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;⚠️ 浓度越高 → 重新关联越多 → \(i\) 越小&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="12-osmosis渗透-osmotic-pressure渗透压"&gt;12. Osmosis（渗透）&amp;amp; Osmotic Pressure（渗透压）
+&lt;h3 id=&#34;12-osmosis渗透-osmotic-pressure渗透压&#34;&gt;12. Osmosis（渗透）&amp;amp; Osmotic Pressure（渗透压）
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Osmosis（渗透）&lt;/strong&gt;：溶剂从&lt;strong&gt;低溶质浓度侧&lt;/strong&gt; → &lt;strong&gt;高溶质浓度侧&lt;/strong&gt;，通过 semipermeable membrane（半透膜）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Osmotic pressure (\(\pi\)，渗透压)&lt;/strong&gt;：阻止渗透所需的最小压力&lt;/p&gt;
 &lt;blockquote&gt;
@@ -361,7 +982,7 @@ M是摩尔每升&lt;/p&gt;
 &lt;li&gt;\(T\) = 温度 (K)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id="直觉理解"&gt;直觉理解
+&lt;h4 id=&#34;直觉理解&#34;&gt;直觉理解
 &lt;/h4&gt;&lt;p&gt;渗透压可以类比为&lt;strong&gt;气体压强&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;气体分子撞容器壁 → 产生压强&lt;/li&gt;
@@ -369,39 +990,39 @@ M是摩尔每升&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;浓度越高（\(M\) 越大）、温度越高（\(T\) 越大），粒子撞得越猛 → \(\pi\) 越大。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="推导稀溶液近似"&gt;推导（稀溶液近似）
+&lt;h4 id=&#34;推导稀溶液近似&#34;&gt;推导（稀溶液近似）
 &lt;/h4&gt;&lt;p&gt;范特霍夫发现渗透压公式和理想气体状态方程&lt;strong&gt;形式完全一样&lt;/strong&gt;：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;理想气体&lt;/th&gt;
-&lt;th&gt;稀溶液渗透压&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;\(pV = nRT\)&lt;/td&gt;
-&lt;td&gt;\(\pi V = inRT\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(p = nRT/V\)&lt;/td&gt;
-&lt;td&gt;\(\pi = inRT/V\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(p = (n/V)RT\)&lt;/td&gt;
-&lt;td&gt;\(\pi = i \cdot (n/V)RT = iMRT\) ✓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;理想气体&lt;/th&gt;
+          &lt;th&gt;稀溶液渗透压&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(pV = nRT\)&lt;/td&gt;
+          &lt;td&gt;\(\pi V = inRT\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(p = nRT/V\)&lt;/td&gt;
+          &lt;td&gt;\(\pi = inRT/V\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(p = (n/V)RT\)&lt;/td&gt;
+          &lt;td&gt;\(\pi = i \cdot (n/V)RT = iMRT\) ✓&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;这不是巧合。在&lt;strong&gt;稀溶液&lt;/strong&gt;中，溶质分子间的相互作用可以忽略，行为像理想气体中的分子一样独立运动。唯一的区别是加上 \(i\) 来修正电解质电离带来的粒子数增加。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="-记忆方法"&gt;📝 记忆方法
+&lt;h4 id=&#34;-记忆方法&#34;&gt;📝 记忆方法
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;\(\pi = iMRT\) → 和理想气体 \(pV = nRT\) 长得一模一样，只是多了个 \(i\)&lt;/li&gt;
 &lt;li&gt;\(R\) 用 8.314（SI 单位，压力用 Pa）&lt;/li&gt;
 &lt;li&gt;\(\pi\) 是&lt;strong&gt;阻止&lt;/strong&gt;渗透的压力，不是渗透推动力，方向别搞反&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="题型总结"&gt;题型总结
+&lt;h4 id=&#34;题型总结&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;求 \(\pi\)&lt;/strong&gt; → \(\pi = iMRT\)（给了 \(M, T, i\) 直接代）&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;求 molar mass&lt;/strong&gt; → \(\pi = (m_B/M_B)RT/V\) → \(M_B = m_BRT/(\pi V)\)&lt;/li&gt;
@@ -409,35 +1030,35 @@ M是摩尔每升&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;电解质别忘了 \(\times i\)&lt;/strong&gt;：NaCl ≈ 2，CaCl₂ ≈ 3&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;定义&lt;/th&gt;
-&lt;th&gt;对细胞的影响&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Isotonic（等渗）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;内外渗透压相等&lt;/td&gt;
-&lt;td&gt;正常&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hypertonic（高渗）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;外 &amp;gt; 内&lt;/td&gt;
-&lt;td&gt;水流出 → &lt;strong&gt;crenation（皱缩）&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hypotonic（低渗）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;外 &amp;lt; 内&lt;/td&gt;
-&lt;td&gt;水流入 → &lt;strong&gt;hemolysis（溶血）&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;定义&lt;/th&gt;
+          &lt;th&gt;对细胞的影响&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Isotonic（等渗）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;内外渗透压相等&lt;/td&gt;
+          &lt;td&gt;正常&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hypertonic（高渗）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;外 &amp;gt; 内&lt;/td&gt;
+          &lt;td&gt;水流出 → &lt;strong&gt;crenation（皱缩）&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hypotonic（低渗）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;外 &amp;lt; 内&lt;/td&gt;
+          &lt;td&gt;水流入 → &lt;strong&gt;hemolysis（溶血）&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;Normal saline（生理盐水）&lt;/strong&gt;：0.16 M NaCl ≈ 0.9%，与血液等渗&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reverse osmosis（反渗透）&lt;/strong&gt;：施加大于 \(\pi\) 的压力在浓溶液侧 → 水反向流动 → &lt;strong&gt;desalination（海水淡化）&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="13-colloids胶体"&gt;13. Colloids（胶体）
+&lt;h3 id=&#34;13-colloids胶体&#34;&gt;13. Colloids（胶体）
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;：粒子直径 &lt;strong&gt;5~1000 nm&lt;/strong&gt;，介于真溶液和悬浮液之间&lt;/p&gt;
@@ -447,47 +1068,47 @@ M是摩尔每升&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;特点&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hydrophilic colloid（亲水胶体）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;与水亲和，稳定&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hydrophobic colloid（疏水胶体）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;怕水，需 &lt;strong&gt;emulsifier（乳化剂）&lt;/strong&gt; 稳定&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;特点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hydrophilic colloid（亲水胶体）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;与水亲和，稳定&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hydrophobic colloid（疏水胶体）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;怕水，需 &lt;strong&gt;emulsifier（乳化剂）&lt;/strong&gt; 稳定&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;词根记忆法（-philic vs -phobic）&lt;/strong&gt;：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;词根&lt;/th&gt;
-&lt;th&gt;来源&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;th&gt;例词&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;-philic&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;希腊语 &lt;em&gt;philia&lt;/em&gt; = 爱&lt;/td&gt;
-&lt;td&gt;→ 喜欢、亲和&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;hydrophilic&lt;/strong&gt;（hydro=水 + philic=爱 → 亲水）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;-phobic&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;希腊语 &lt;em&gt;phobia&lt;/em&gt; = 恐惧&lt;/td&gt;
-&lt;td&gt;→ 讨厌、排斥&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;hydrophobic&lt;/strong&gt;（hydro=水 + phobic=怕 → 疏水）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;词根&lt;/th&gt;
+          &lt;th&gt;来源&lt;/th&gt;
+          &lt;th&gt;含义&lt;/th&gt;
+          &lt;th&gt;例词&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;-philic&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;希腊语 &lt;em&gt;philia&lt;/em&gt; = 爱&lt;/td&gt;
+          &lt;td&gt;→ 喜欢、亲和&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;hydrophilic&lt;/strong&gt;（hydro=水 + philic=爱 → 亲水）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;-phobic&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;希腊语 &lt;em&gt;phobia&lt;/em&gt; = 恐惧&lt;/td&gt;
+          &lt;td&gt;→ 讨厌、排斥&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;hydrophobic&lt;/strong&gt;（hydro=水 + phobic=怕 → 疏水）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;两个速记法&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
@@ -497,22 +1118,22 @@ M是摩尔每升&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Emulsifier（乳化剂）&lt;/strong&gt;：一端亲水、一端疏水 → 乳化油脂（如肥皂 \(C_{17}H_{35}COONa\)）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;怎么判断适不适合做乳化剂？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;看分子结构是否同时具备&lt;strong&gt;两亲性（amphiphilic / amphipathic）&lt;/strong&gt;：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;疏水端（hydrophobic tail） 亲水端（hydrophilic head）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 长碳氢链（nonpolar） 极性/离子基团（polar/ionic）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; │ │
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; CH₃(CH₂)₁₄CH₂ — C(=O)O⁻ Na⁺
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ↑ ↑
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 亲油（爱脂肪） 亲水（爱水）
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;疏水端（hydrophobic tail）    亲水端（hydrophilic head）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   长碳氢链（nonpolar）           极性/离子基团（polar/ionic）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       │                               │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  CH₃(CH₂)₁₄CH₂ — C(=O)O⁻ Na⁺
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       ↑                               ↑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  亲油（爱脂肪）                    亲水（爱水）
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;strong&gt;判断三步走&lt;/strong&gt;：&lt;/p&gt;
@@ -534,43 +1155,43 @@ M是摩尔每升&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Dialysis（渗析）&lt;/strong&gt;：用 semipermeable membrane 分离离子和胶体粒子&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="14-公式汇总"&gt;14. 公式汇总
+&lt;h3 id=&#34;14-公式汇总&#34;&gt;14. 公式汇总
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;公式&lt;/th&gt;
-&lt;th&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;\(S_g = k \cdot P_g\)&lt;/td&gt;
-&lt;td&gt;Henry&amp;rsquo;s Law —— 气体溶解度&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(P_{\text{solution}} = X_{\text{solvent}} \cdot P^\circ_{\text{solvent}}\)&lt;/td&gt;
-&lt;td&gt;Raoult&amp;rsquo;s Law —— 蒸气压&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(\Delta T_b = K_b \cdot m \cdot i\)&lt;/td&gt;
-&lt;td&gt;Boiling-point elevation&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(\Delta T_f = K_f \cdot m \cdot i\)&lt;/td&gt;
-&lt;td&gt;Freezing-point depression&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(\pi = iMRT\)&lt;/td&gt;
-&lt;td&gt;Osmotic pressure&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(M_B = K_f \cdot m_B / (\Delta T_f \cdot m_A)\)&lt;/td&gt;
-&lt;td&gt;求 molar mass&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(S_g = k \cdot P_g\)&lt;/td&gt;
+          &lt;td&gt;Henry&amp;rsquo;s Law —— 气体溶解度&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(P_{\text{solution}} = X_{\text{solvent}} \cdot P^\circ_{\text{solvent}}\)&lt;/td&gt;
+          &lt;td&gt;Raoult&amp;rsquo;s Law —— 蒸气压&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(\Delta T_b = K_b \cdot m \cdot i\)&lt;/td&gt;
+          &lt;td&gt;Boiling-point elevation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(\Delta T_f = K_f \cdot m \cdot i\)&lt;/td&gt;
+          &lt;td&gt;Freezing-point depression&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(\pi = iMRT\)&lt;/td&gt;
+          &lt;td&gt;Osmotic pressure&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(M_B = K_f \cdot m_B / (\Delta T_f \cdot m_A)\)&lt;/td&gt;
+          &lt;td&gt;求 molar mass&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="练习题来自课件"&gt;练习题（来自课件）
+&lt;h3 id=&#34;练习题来自课件&#34;&gt;练习题（来自课件）
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&amp;ldquo;Like dissolves like&amp;rdquo; 指的是 ______ 的相似性&lt;/strong&gt;
@@ -618,294 +1239,9 @@ NaCl(\(i \approx 2\)) / CaCl₂(\(i \approx 3\)) / KI(\(i \approx 2\)) / LiNO₃
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;🗓 最后更新：2026-04-28 | 来源：Chapter 13 课件&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>第十四章——Chemical Kinetics</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0chemical-kinetics/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0chemical-kinetics/</guid><description>&lt;h2 id="ch14-chemical-kinetics化学动力学"&gt;Ch.14 Chemical Kinetics（化学动力学）
-&lt;/h2&gt;&lt;hr&gt;
-&lt;h3 id="0-热力学-vs-动力学"&gt;0. 热力学 vs 动力学
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;&lt;/th&gt;
-&lt;th style="text-align: left"&gt;&lt;strong&gt;化学热力学&lt;/strong&gt;&lt;/th&gt;
-&lt;th style="text-align: left"&gt;&lt;strong&gt;化学动力学&lt;/strong&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;回答&lt;/td&gt;
-&lt;td style="text-align: left"&gt;反应能否发生？进行到什么程度？热效应如何？&lt;/td&gt;
-&lt;td style="text-align: left"&gt;反应进行的速率？机理怎么走？如何控制？&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;本质&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;What can happen?&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;How does it happen?&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id="1-影响反应速率的四个因素"&gt;1. 影响反应速率的四个因素
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;因素&lt;/th&gt;
-&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Physical state（物理状态）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;均相反应通常更快；固体越细（表面积越大）反应越快&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Concentration（浓度）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;浓度越高 → 碰撞越多 → 速率越快&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Temperature（温度）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;温度越高 → 分子动能越大 → 有效碰撞越多&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Catalyst（催化剂）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;改变反应路径（机理），降低活化能，不消耗&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id="2-反应速率"&gt;2. 反应速率
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;：单位时间内浓度的变化量&lt;/p&gt;
-$$v = -\frac{1}{a}\frac{d[A]}{dt} = \frac{1}{c}\frac{d[C]}{dt} \quad \text{（对反应 } aA \rightarrow cC \text{）}$$&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;类型&lt;/th&gt;
-&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Average rate（平均速率）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;一段时间内的平均变化&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Instantaneous rate（瞬时速率）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;某一时刻的斜率（反应通常随时间减慢！）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Initial rate（起始速率）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$t=0$ 时的瞬时速率，化学家最关心的&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h3 id="3-速率方程rate-law"&gt;3. 速率方程（Rate Law）
-&lt;/h3&gt;$$v = k[A]^m[B]^n$$&lt;ul&gt;
-&lt;li&gt;$k$ = &lt;strong&gt;rate constant（速率常数）&lt;/strong&gt;，温度相关&lt;/li&gt;
-&lt;li&gt;$m$, $n$ = &lt;strong&gt;reaction order（反应级数）&lt;/strong&gt;，&lt;strong&gt;实验确定&lt;/strong&gt;，不等于计量系数！&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;重要性质&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;速率定律必须由&lt;strong&gt;实验&lt;/strong&gt;确定&lt;/li&gt;
-&lt;li&gt;反应级数只针对&lt;strong&gt;反应物&lt;/strong&gt;浓度，不针对产物&lt;/li&gt;
-&lt;li&gt;反应级数与化学计量系数&lt;strong&gt;无关&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id="4-积分速率方程与半衰期"&gt;4. 积分速率方程与半衰期
-&lt;/h3&gt;&lt;h4 id="零级反应zero-order"&gt;零级反应（Zero Order）
-&lt;/h4&gt;$$v = k,\quad [A]_t = [A]_0 - kt$$$$t_{1/2} = \frac{[A]_0}{2k}$$&lt;p&gt;线性关系：$[A]$ vs $t$（斜率为 $-k$）&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;常见于表面催化反应&lt;/strong&gt;（如乙烯加氢、氨在催化剂表面分解）&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id="一级反应first-order"&gt;一级反应（First Order）
-&lt;/h4&gt;$$v = k[A],\quad \ln[A]_t = -kt + \ln[A]_0$$$$t_{1/2} = \frac{0.693}{k}$$&lt;p&gt;线性关系：$\ln[A]$ vs $t$（斜率为 $-k$）&lt;/p&gt;
-&lt;p&gt;💡 &lt;strong&gt;一级反应的半衰期与初始浓度无关！&lt;/strong&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id="二级反应second-order"&gt;二级反应（Second Order）
-&lt;/h4&gt;$$v = k[A]^2,\quad \frac{1}{[A]_t} = \frac{1}{[A]_0} + kt$$$$t_{1/2} = \frac{1}{k[A]_0}$$&lt;p&gt;线性关系：$1/[A]$ vs $t$（斜率为 $k$）&lt;/p&gt;
-&lt;p&gt;⚠️ &lt;strong&gt;二级反应的半衰期依赖于初始浓度&lt;/strong&gt; — 浓度越高，半衰期越短&lt;/p&gt;
-&lt;hr&gt;
-&lt;h4 id="三种反应总结"&gt;三种反应总结
-&lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;级数&lt;/th&gt;
-&lt;th style="text-align: left"&gt;微分式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;积分式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;线性关系&lt;/th&gt;
-&lt;th style="text-align: left"&gt;半衰期&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;0&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$v = k$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$[A] = [A]_0 - kt$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$[A]$ vs $t$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$[A]_0/2k$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$v = k[A]$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$\ln[A] = -kt + \ln[A]_0$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$\ln[A]$ vs $t$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$0.693/k$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;2&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$v = k[A]^2$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$1/[A] = 1/[A]_0 + kt$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$1/[A]$ vs $t$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$1/(k[A]_0)$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;📝 &lt;strong&gt;判断级数的技巧&lt;/strong&gt;：看哪个图呈直线！&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id="5-温度与速率--arrhenius-equation阿伦尼乌斯方程"&gt;5. 温度与速率 — Arrhenius Equation（阿伦尼乌斯方程）
-&lt;/h3&gt;&lt;h4 id="碰撞理论collision-model"&gt;碰撞理论（Collision Model）
-&lt;/h4&gt;&lt;p&gt;反应发生的三个必要条件：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;碰撞&lt;/strong&gt;（必要条件，非充分条件）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;足够能量&lt;/strong&gt;（超过活化能）&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;有效取向&lt;/strong&gt;（有合适的碰撞方向）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id="活化能activation-energy-"&gt;活化能（Activation Energy, $E_a$）
-&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;活化能&lt;/strong&gt;：反应发生需要克服的最小能量屏障。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;过渡态（Transition State）&lt;/strong&gt;：反应过程中能量最高的状态，也称活化络合物（Activated Complex）。&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;反应物 → [过渡态]† → 产物
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ↑ 活化能 Ea
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;反应可以是吸热或放热的，但活化能始终为正。&lt;/p&gt;
-&lt;h4 id="arrhenius-公式"&gt;Arrhenius 公式
-&lt;/h4&gt;$$k = Ae^{-E_a/RT}$$&lt;ul&gt;
-&lt;li&gt;$A$ = &lt;strong&gt;frequency factor（频率因子）&lt;/strong&gt; — 反应物碰撞的频率和取向&lt;/li&gt;
-&lt;li&gt;$E_a$ = &lt;strong&gt;activation energy（活化能）&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;$R$ = 气体常数 (8.314 J/mol·K)&lt;/li&gt;
-&lt;li&gt;$T$ = 温度 (K)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;取对数形式：&lt;/p&gt;
-$$\ln k = -\frac{E_a}{R}\left(\frac{1}{T}\right) + \ln A$$&lt;p&gt;&lt;strong&gt;作图求 $E_a$&lt;/strong&gt;：$\ln k$ vs $1/T$ → 斜率为 $-E_a/R$&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;两点式&lt;/strong&gt;（已知两个温度下的 $k$）：&lt;/p&gt;
-$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$&lt;p&gt;📝 &lt;strong&gt;经验规律&lt;/strong&gt;：温度每升高 10°C，速率常数大约翻倍。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id="6-反应机理reaction-mechanisms"&gt;6. 反应机理（Reaction Mechanisms）
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;基元反应（Elementary Reaction）&lt;/strong&gt;：反应物直接碰撞生成产物的单步反应。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;分子数（Molecularity）&lt;/th&gt;
-&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Unimolecular（单分子）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;一个分子分解或重排，如 $O_3 \rightarrow O_2 + O$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Bimolecular（双分子）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;两个分子碰撞，最常见&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Termolecular（三分子）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;三个同时碰撞，极少见（概率太低）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;决速步（Rate-Determining Step）&lt;/strong&gt;：反应机理中最慢的那一步，决定了总反应的速率。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;一个合理的机理必须满足&lt;/strong&gt;：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;所有步骤相加 = 总反应方程&lt;/li&gt;
-&lt;li&gt;决速步能推导出实验测得的速率定律&lt;/li&gt;
-&lt;li&gt;每一步都平衡&lt;/li&gt;
-&lt;li&gt;中间体（Intermediate）被产生又被消耗&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;例子：快平衡 + 慢步骤&lt;/strong&gt;&lt;/p&gt;
-$$2NO + Br_2 \rightarrow 2NOBr$$&lt;p&gt;
-实验测得：$v = k[NO]^2[Br_2]$&lt;/p&gt;
-&lt;p&gt;机理：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Step 1（快）：$NO + Br_2 \rightleftharpoons NOBr_2$&lt;/li&gt;
-&lt;li&gt;Step 2（慢）：$NOBr_2 + NO \rightarrow 2NOBr$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$v = k_2[NOBr_2][NO]$，由快平衡 $k_1[NO][Br_2] = k_{-1}[NOBr_2]$ 得 $[NOBr_2] = (k_1/k_{-1})[NO][Br_2]$&lt;/p&gt;
-&lt;p&gt;代入：$v = k_2(k_1/k_{-1})[NO]^2[Br_2] = k[NO]^2[Br_2]$ ✓&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3 id="7-催化catalysis"&gt;7. 催化（Catalysis）
-&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;催化剂&lt;/strong&gt;：加快反应速率，但不出现在总反应方程式中。&lt;strong&gt;通过改变反应路径降低活化能&lt;/strong&gt;。&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;类型&lt;/th&gt;
-&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Homogeneous（均相催化）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;催化剂与反应物在同一相&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Heterogeneous（多相催化）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;催化剂与反应物在不同相（如固体催化剂 + 气体反应物）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Enzyme（酶催化）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;生物催化剂，锁钥模型，高度专一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;工业应用&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;汽车尾气催化转化器&lt;/li&gt;
-&lt;li&gt;合成氨（Haber-Bosch 法）&lt;/li&gt;
-&lt;li&gt;SCR 脱硝技术&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id="8-公式速查"&gt;8. 公式速查
-&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;公式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$v = k[A]^m[B]^n$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;速率方程（实验定）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\ln[A] = -kt + \ln[A]_0$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;一级反应积分式&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$1/[A] = 1/[A]_0 + kt$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;二级反应积分式&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$t_{1/2} = 0.693/k$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;一级反应半衰期&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$t_{1/2} = [A]_0/2k$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;零级反应半衰期&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$t_{1/2} = 1/(k[A]_0)$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;二级反应半衰期&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$k = Ae^{-E_a/RT}$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;Arrhenius 方程&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\ln(k_2/k_1) = E_a/R(1/T_1 - 1/T_2)$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;双温求 $E_a$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description></item></channel></rss>
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

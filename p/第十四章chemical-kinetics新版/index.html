@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="化学动力学：以活化能为核心，串联碰撞理论、速率方程、Arrhenius 方程、催化剂与反应机理">
+<title>第十四章——Chemical Kinetics（新版）</title>
+
+<link rel='canonical' href='https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0chemical-kinetics%E6%96%B0%E7%89%88/'>
+
+<link rel="stylesheet" href="/scss/style.min.c141fa7f089dce101a8f37fe2e449c3f3179af78da35bef65eef05d9a75c80ed.css"><meta property='og:title' content="第十四章——Chemical Kinetics（新版）">
+<meta property='og:description' content="化学动力学：以活化能为核心，串联碰撞理论、速率方程、Arrhenius 方程、催化剂与反应机理">
+<meta property='og:url' content='https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0chemical-kinetics%E6%96%B0%E7%89%88/'>
+<meta property='og:site_name' content='余佰凌的空间'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='化学' /><meta property='article:tag' content='动力学' /><meta property='article:tag' content='反应速率' /><meta property='article:tag' content='活化能' /><meta property='article:tag' content='催化剂' /><meta property='article:published_time' content='2026-05-06T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-05-06T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="第十四章——Chemical Kinetics（新版）">
+<meta name="twitter:description" content="化学动力学：以活化能为核心，串联碰撞理论、速率方程、Arrhenius 方程、催化剂与反应机理">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">余佰凌的空间</a></h1>
+            <h2 class="site-description">淋点雨，清醒点</h2>
+        </div>
+    </header><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/%E5%85%B3%E4%BA%8E/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>首页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#核心activation-energy活化能-">核心：Activation Energy（活化能, ）</a></li>
+    <li><a href="#枝1分子怎么翻越屏障">枝1：分子怎么&quot;翻越&quot;屏障？</a>
+      <ol>
+        <li><a href="#collision-theory碰撞理论-分子凭什么能反应">Collision Theory（碰撞理论）—— 分子凭什么能反应</a></li>
+        <li><a href="#reaction-rate反应速率">Reaction Rate（反应速率）</a></li>
+        <li><a href="#rate-law速率方程">Rate Law（速率方程）</a></li>
+        <li><a href="#reaction-order反应级数的物理意义">Reaction Order（反应级数）的物理意义</a></li>
+        <li><a href="#integrated-rate-laws--half-life积分速率方程与半衰期">Integrated Rate Laws &amp; Half-life（积分速率方程与半衰期）</a></li>
+      </ol>
+    </li>
+    <li><a href="#枝2怎么影响翻越">枝2：怎么影响&quot;翻越&quot;？</a>
+      <ol>
+        <li><a href="#路线atemperature温度--改变分子的能量">路线A：Temperature（温度） — 改变分子的能量</a></li>
+        <li><a href="#路线bcatalyst催化剂--改变屏障的高度">路线B：Catalyst（催化剂） — 改变屏障的高度</a>
+          <ol>
+            <li><a href="#三种催化剂">三种催化剂</a></li>
+            <li><a href="#催化剂与温度的交互">催化剂与温度的交互</a></li>
+          </ol>
+        </li>
+        <li><a href="#路线cconcentration浓度--改变碰撞频率">路线C：Concentration（浓度） — 改变碰撞频率</a></li>
+      </ol>
+    </li>
+    <li><a href="#枝3多步翻越的路径--reaction-mechanism反应机理">枝3：多步&quot;翻越&quot;的路径 — Reaction Mechanism（反应机理）</a>
+      <ol>
+        <li><a href="#基元反应">基元反应</a></li>
+        <li><a href="#rate-determining-step决速步-rds">Rate-Determining Step（决速步, RDS）</a></li>
+        <li><a href="#pre-equilibrium-approximation快平衡近似">Pre-Equilibrium Approximation（快平衡近似）</a></li>
+      </ol>
+    </li>
+    <li><a href="#联系地图">联系地图</a></li>
+    <li><a href="#公式速查">公式速查</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            
+            
+            
+            <a href="/categories/%E5%A4%A7%E5%AD%A6%E5%8C%96%E5%AD%A6/" style="background-color: hsl(120, 60%, 84%); color: hsl(120, 60%, 15%);">
+                大学化学
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/%E7%AC%AC%E5%8D%81%E5%9B%9B%E7%AB%A0chemical-kinetics%E6%96%B0%E7%89%88/">第十四章——Chemical Kinetics（新版）</a>
+        </h2>
+    
+        
+        <h3 class="article-subtitle">
+            化学动力学：以活化能为核心，串联碰撞理论、速率方程、Arrhenius 方程、催化剂与反应机理
+        </h3>
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published" datetime='2026-05-06T00:00:00Z'>2026-05-06</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 10 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>📖 每个概念配一个生活例子 — 化学来自生活，记例子就是记概念。</p>
+</blockquote>
+<hr>
+<h2 id="核心activation-energy活化能-">核心：Activation Energy（活化能, $E_a$）
+</h2><p>化学动力学的一切，从一个问题开始：<strong>分子凭什么能反应？</strong></p>
+<p>答案是：分子必须翻过一个能量屏障（Energy Barrier）。这个屏障的高度就是 <strong>Activation Energy（活化能, $E_a$）</strong>。</p>
+<ul>
+<li>$E_a$ 高 → 只有极少数分子有足够能量翻过去 → <strong>反应慢</strong></li>
+<li>$E_a$ 低 → 大部分分子都能翻过去 → <strong>反应快</strong></li>
+</ul>
+<p><strong>生活例子 — &ldquo;钻石恒久远&rdquo;</strong>
+钻石（diamond）→ 石墨（graphite）的 $\Delta G < 0$，<strong>热力学上自发</strong>。但钻石在室温下放一万年也不会变成石墨 — 因为 $E_a$ 极高，分子根本翻不过去。<strong>热力学告诉你&quot;能不能&quot;，动力学告诉你&quot;要多久&quot;</strong>。所以钻石的&quot;恒久远&quot;其实是动力学给的，不是热力学。</p>
+<hr>
+<h2 id="枝1分子怎么翻越屏障">枝1：分子怎么&quot;翻越&quot;屏障？
+</h2><h3 id="collision-theory碰撞理论-分子凭什么能反应">Collision Theory（碰撞理论）—— 分子凭什么能反应
+</h3><p><strong>Collision Theory（碰撞理论）</strong> 回答了最基本的问题：分子为什么要碰撞才能反应？</p>
+<p>三个必要条件：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: center">#</th>
+          <th style="text-align: left">English</th>
+          <th style="text-align: left">中文</th>
+          <th style="text-align: left">类比 — 扔篮球进篮筐</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center">1</td>
+          <td style="text-align: left"><strong>Collision</strong></td>
+          <td style="text-align: left">分子必须<strong>碰撞</strong></td>
+          <td style="text-align: left">球必须碰到篮筐才算数</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">2</td>
+          <td style="text-align: left"><strong>Sufficient energy</strong>（$\ge E_a$）</td>
+          <td style="text-align: left">能量要<strong>超过活化能</strong></td>
+          <td style="text-align: left">力气要够大，否则球碰不到筐</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">3</td>
+          <td style="text-align: left"><strong>Proper orientation</strong></td>
+          <td style="text-align: left">碰撞<strong>取向要对</strong></td>
+          <td style="text-align: left">球要在合适的方向和角度投出去</td>
+      </tr>
+  </tbody>
+</table></div>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">必要条件 vs 充分条件：
+</span></span><span class="line"><span class="cl">  碰撞 ✓          + 够能量 ✓          + 方向对 ✓      = 有效碰撞（Effective Collision）
+</span></span><span class="line"><span class="cl">  缺一不可！       缺一不可！          缺一不可！
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>为什么碰撞是必需的？</strong>
+因为反应需要旧键断裂、新键形成。键的断裂和形成只能通过分子靠近时电子的重新排布来完成 — 不靠近，不改键。</p>
+<p><strong>Frequency Factor $A$</strong> 就是 Collision Theory 的量化产物：
+</p>
+$$A = \text{Collision Frequency} \times \text{Orientation Factor}$$<ul>
+<li>撞得越多 → $A$ 越大</li>
+<li>乱撞之中方向对的比例 → Orientation factor（通常远小于 1）</li>
+</ul>
+<p><strong>生活例子 — 撞球</strong>
+桌球（pool）中，母球撞目标球：</p>
+<ul>
+<li><strong>Collision</strong>：球A必须碰到球B</li>
+<li><strong>Sufficient energy</strong>：碰到没用，得撞够用力才能把球B送进袋</li>
+<li><strong>Proper orientation</strong>：即使力大，对着袋口反方向打也进不了 — 方向要对</li>
+<li>和化学反应完全一样，<strong>缺一不可</strong>。</li>
+</ul>
+<hr>
+<h3 id="reaction-rate反应速率">Reaction Rate（反应速率）
+</h3>$$v = -\frac{1}{a}\frac{d[A]}{dt} = \frac{1}{c}\frac{d[C]}{dt}$$<p>本质：<strong>单位时间内翻过去的分子数</strong>。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">类型</th>
+          <th style="text-align: left">English</th>
+          <th style="text-align: left">说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">平均速率</td>
+          <td style="text-align: left"><strong>Average rate</strong></td>
+          <td style="text-align: left">一段时间内的平均变化</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">瞬时速率</td>
+          <td style="text-align: left"><strong>Instantaneous rate</strong></td>
+          <td style="text-align: left">某一时刻的斜率</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">起始速率</td>
+          <td style="text-align: left"><strong>Initial rate</strong></td>
+          <td style="text-align: left">$t=0$ 时的速率，<strong>最受关注</strong></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><strong>生活例子 — 开车</strong></p>
+<ul>
+<li>Average rate = 从广州到深圳的平均速度</li>
+<li>Instantaneous rate = 此刻仪表盘上的速度</li>
+<li>Initial rate = 绿灯亮起那一脚油门 — 这时路况最清晰</li>
+</ul>
+<h3 id="rate-law速率方程">Rate Law（速率方程）
+</h3>$$v = k[A]^m[B]^n$$<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">符号</th>
+          <th style="text-align: left">English</th>
+          <th style="text-align: left">意义</th>
+          <th style="text-align: left">它与 Ea 的关系</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$k$</td>
+          <td style="text-align: left"><strong>Rate constant</strong>（速率常数）</td>
+          <td style="text-align: left">反映 <strong>$E_a$ 的影响</strong></td>
+          <td style="text-align: left">温度和催化剂通过改变 $k$ 来加速反应</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$m, n$</td>
+          <td style="text-align: left"><strong>Reaction order</strong>（反应级数）</td>
+          <td style="text-align: left"><strong>实验确定</strong>，不等于计量系数</td>
+          <td style="text-align: left">告诉你反应的真实微观过程</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$[A]^m$</td>
+          <td style="text-align: left">Concentration term（浓度项）</td>
+          <td style="text-align: left">反映<strong>碰撞频率</strong></td>
+          <td style="text-align: left">改变浓度不影响 $k$，只影响碰撞次数</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>⚠️ <strong>三大铁律（反复考）</strong>：</p>
+<ol>
+<li>Rate law 必须由<strong>实验</strong>确定 — 不能从 balanced equation 直接写级数</li>
+<li>Reaction order 只针对**reactant（反应物）**浓度</li>
+<li>Reaction order 与 <strong>stoichiometric coefficient（化学计量系数）</strong> 无关</li>
+</ol>
+<p><strong>生活例子 — 烤面包</strong>
+Rate constant $k$ 就像烤箱的温度设定，reaction order 就像面包片的数量对烤熟速度的影响。烤箱温度变了($k$ 变了)，烤得更快。面包多了（浓度高了），同时烤的面包多了，但每片单独烤熟的时间不变（$k$ 没变）。</p>
+<h3 id="reaction-order反应级数的物理意义">Reaction Order（反应级数）的物理意义
+</h3><p>级数不是数学游戏，它告诉你反应的真实微观过程：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Order</th>
+          <th style="text-align: left">English</th>
+          <th style="text-align: left">物理含义</th>
+          <th style="text-align: left">常见场景</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>0</strong></td>
+          <td style="text-align: left"><strong>Zero-order</strong></td>
+          <td style="text-align: left">速率与浓度无关</td>
+          <td style="text-align: left">表面催化、<strong>酒精代谢</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>1</strong></td>
+          <td style="text-align: left"><strong>First-order</strong></td>
+          <td style="text-align: left">单分子过程</td>
+          <td style="text-align: left">放射性衰变、<strong>药物代谢</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>2</strong></td>
+          <td style="text-align: left"><strong>Second-order</strong></td>
+          <td style="text-align: left">双分子碰撞</td>
+          <td style="text-align: left">大部分气相反应</td>
+      </tr>
+  </tbody>
+</table></div>
+<p><strong>生活例子 — 喝酒代谢</strong>
+<strong>酒精在体内的代谢是零级反应（zero-order）</strong> — 无论你喝了多少酒，肝脏每小时只能代谢固定量的酒精（大约 10-15g/h）。因为乙醇脱氢酶（alcohol dehydrogenase）被饱和了。这就是为什么喝得越多，醉得越久 — 代谢不会变快。</p>
+<p><strong>生活例子 — 咖啡因代谢</strong>
+<strong>咖啡因在体内的代谢是一级反应（first-order）</strong> — 半衰期大约 5 小时。一杯咖啡下肚，5 小时后体内还剩一半。这就是为什么下午喝咖啡会影响晚上睡眠。</p>
+<p><strong>判断方法 — Initial Rate Method（初始速率法）</strong>：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">浓度变化</th>
+          <th style="text-align: left">速率变化</th>
+          <th style="text-align: left">结论</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$\times 2$</td>
+          <td style="text-align: left">不变</td>
+          <td style="text-align: left">Zero-order</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\times 2$</td>
+          <td style="text-align: left">$\times 2$</td>
+          <td style="text-align: left">First-order</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\times 2$</td>
+          <td style="text-align: left">$\times 4$</td>
+          <td style="text-align: left">Second-order</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>公式：$(\text{concentration ratio})^n = \text{rate ratio}$ → 解 $n$</p>
+<h3 id="integrated-rate-laws--half-life积分速率方程与半衰期">Integrated Rate Laws &amp; Half-life（积分速率方程与半衰期）
+</h3><p><strong>Half-life（半衰期, $t_{1/2}$）</strong>：浓度降到初始值一半所需的时间。</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Order</th>
+          <th style="text-align: left">Integrated Rate Law</th>
+          <th style="text-align: left">线性图（Linear Plot）</th>
+          <th style="text-align: left">Half-life</th>
+          <th style="text-align: left">关键特征</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>0</strong></td>
+          <td style="text-align: left">$[A] = [A]_0 - kt$</td>
+          <td style="text-align: left">$[A]$ vs $t$（斜率 $-k$）</td>
+          <td style="text-align: left">$[A]_0/2k$</td>
+          <td style="text-align: left">匀速消耗，与浓度成正比</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>1</strong></td>
+          <td style="text-align: left">$\ln[A] = -kt + \ln[A]_0$</td>
+          <td style="text-align: left">$\ln[A]$ vs $t$（斜率 $-k$）</td>
+          <td style="text-align: left">$0.693/k$</td>
+          <td style="text-align: left"><strong>Half-life 与初始浓度无关！</strong></td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>2</strong></td>
+          <td style="text-align: left">$1/[A] = 1/[A]_0 + kt$</td>
+          <td style="text-align: left">$1/[A]$ vs $t$（斜率 $k$）</td>
+          <td style="text-align: left">$1/(k[A]_0)$</td>
+          <td style="text-align: left">Half-life 依赖浓度</td>
+      </tr>
+  </tbody>
+</table></div>
+<p><strong>生活例子 — 碳-14 测年（Carbon-14 Dating）</strong>
+$\ce{^14C}$ 的衰变是 <strong>first-order</strong>，半衰期 5730 年。无论你有一克还是一吨 $\ce{^14C}$，减少到一半都需要 5730 年。考古学家就是靠这个判断文物年代的。</p>
+<hr>
+<h2 id="枝2怎么影响翻越">枝2：怎么影响&quot;翻越&quot;？
+</h2><p>要加快反应（accelerate the reaction），只有<strong>三条路</strong>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">                     ┌ 路线A：Temperature ──── 给分子加能量（翻同一个屏障）
+</span></span><span class="line"><span class="cl">影响反应速率的本质 ──┼ 路线B：Catalyst ────── 给屏障降高度（走一条新路）
+</span></span><span class="line"><span class="cl">                     └ 路线C：Concentration ── 增加碰撞次数（不改 k）
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="路线atemperature温度--改变分子的能量">路线A：Temperature（温度） — 改变分子的能量
+</h3><p><strong>Arrhenius Equation（阿伦尼乌斯方程）：</strong></p>
+$$k = Ae^{-E_a/RT}$$<p>拆开看：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">部分</th>
+          <th style="text-align: left">English</th>
+          <th style="text-align: left">含义</th>
+          <th style="text-align: left">谁控制？</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$A$</td>
+          <td style="text-align: left"><strong>Frequency factor</strong>（频率因子）</td>
+          <td style="text-align: left">碰撞频率 × 取向概率</td>
+          <td style="text-align: left">分子本身性质</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$e^{-E_a/RT}$</td>
+          <td style="text-align: left"><strong>Boltzmann factor</strong>（玻尔兹曼因子）</td>
+          <td style="text-align: left">能量超过 $E_a$ 的分子比例</td>
+          <td style="text-align: left"><strong>温度 $T$ 决定</strong></td>
+      </tr>
+  </tbody>
+</table></div>
+<p><strong>本质</strong>：升温不是让每个分子跑得更快，而是让 <strong>Boltzmann distribution（玻尔兹曼分布）的尾巴变肥</strong> — 更多分子达到能量阈值。</p>
+$$\ln k = -\frac{E_a}{R}\left(\frac{1}{T}\right) + \ln A \quad \rightarrow \quad \text{作图求 } E_a$$<p><strong>Two-point form（两点式）</strong>（考试最爱）：</p>
+$$\ln\frac{k_2}{k_1} = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$$<p><strong>生活例子 — 冰箱</strong>
+冰箱的 4°C 让细菌代谢反应变慢，食物保质期从几小时延长到几天。这不是杀死细菌（杀菌要高温），而是降低反应速率 — 因为 $T$ 下降了，$k$ 变小了。</p>
+<p><strong>生活例子 — 美拉德反应（Maillard Reaction）</strong>
+煎牛排时，高温（&gt;140°C）触发氨基酸和糖的反应，产生焦香风味。低温烹饪（sous vide）虽然均匀，但缺少这种&quot;锅气&quot; — 因为温度不够高，$k$ 太小。</p>
+<h3 id="路线bcatalyst催化剂--改变屏障的高度">路线B：Catalyst（催化剂） — 改变屏障的高度
+</h3><p><strong>本质</strong>：同一起点到同一终点，但把&quot;翻山&quot;变成&quot;钻隧道&quot;。</p>
+<p>Catalyst 通过提供一条 <strong>alternative reaction pathway（替代反应路径）</strong> 来 <strong>lower the activation energy（降低活化能）</strong>，自身不被消耗（not consumed）。</p>
+<p>这是最容混淆的点 —— 温度 vs 催化剂：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">温度：          ┌─────────────────┐
+</span></span><span class="line"><span class="cl">                │  分子有了更多能量  │
+</span></span><span class="line"><span class="cl">                │  去翻同一个屏障    │
+</span></span><span class="line"><span class="cl">                └─────────────────┘
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">催化剂：        ┌─────────────────┐
+</span></span><span class="line"><span class="cl">                │  屏障本身变低了   │
+</span></span><span class="line"><span class="cl">                │  分子用原来的能量  │
+</span></span><span class="line"><span class="cl">                │  就能翻过去       │
+</span></span><span class="line"><span class="cl">                └─────────────────┘
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left"></th>
+          <th style="text-align: left"><strong>Temperature</strong></th>
+          <th style="text-align: left"><strong>Catalyst</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">改变什么？</td>
+          <td style="text-align: left"><strong>Kinetic energy</strong> of molecules</td>
+          <td style="text-align: left"><strong>Reaction pathway</strong> (降低 $E_a$)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">影响 $k$ 的哪个部分？</td>
+          <td style="text-align: left">Boltzmann factor $e^{-E_a/RT}$ 中的 $T$</td>
+          <td style="text-align: left">$E_a$ 本身</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">上限？</td>
+          <td style="text-align: left">反应物分解温度</td>
+          <td style="text-align: left">Catalyst 失活温度</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">与 $E_a$ 关系</td>
+          <td style="text-align: left"><strong>不改变</strong> $E_a$</td>
+          <td style="text-align: left"><strong>降低</strong> $E_a$</td>
+      </tr>
+  </tbody>
+</table></div>
+<p>⚠️ <strong>Catalyst 不改变 Equilibrium Constant（平衡常数）</strong>
+$K = k_{forward}/k_{reverse}$，催化剂同时降低正逆反应的 $E_a$，分子分母同比例变化 → $K$ 不变。</p>
+<p>⚠️ <strong>Catalyst 不改变 $\Delta H$（焓变）</strong>
+因为起始和终点能量没变，变的只是中间过渡态。</p>
+<h4 id="三种催化剂">三种催化剂
+</h4><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">类型</th>
+          <th style="text-align: left">English</th>
+          <th style="text-align: left">原理</th>
+          <th style="text-align: left">生活例子</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>均相催化</strong></td>
+          <td style="text-align: left"><strong>Homogeneous catalysis</strong></td>
+          <td style="text-align: left">催化剂与反应物同相</td>
+          <td style="text-align: left">胃酸（HCl）催化蛋白质水解</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>多相催化</strong></td>
+          <td style="text-align: left"><strong>Heterogeneous catalysis</strong></td>
+          <td style="text-align: left">固体表面吸附反应物</td>
+          <td style="text-align: left">汽车 <strong>Catalytic converter</strong>（催化转化器）</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>酶催化</strong></td>
+          <td style="text-align: left"><strong>Enzyme catalysis</strong></td>
+          <td style="text-align: left">活性位点稳定过渡态</td>
+          <td style="text-align: left">唾液淀粉酶分解淀粉</td>
+      </tr>
+  </tbody>
+</table></div>
+<p><strong>生活例子 — 双氧水滴在伤口上起泡</strong>
+药店买的 Hydrogen peroxide（过氧化氢, $\ce{H2O2}$）滴在伤口上会冒白泡 — 那是 <strong>Catalase（过氧化氢酶）</strong> 在催化分解：
+</p>
+$$\ce{2H2O2 ->[catalase] 2H2O + O2 ^}$$<p>
+血液和组织里的 Catalase 把 $E_a$ 从 75 kJ/mol 降到 8 kJ/mol — 反应速度加快了 $10^{11}$ 倍！</p>
+<h4 id="催化剂与温度的交互">催化剂与温度的交互
+</h4><p>催化剂加速反应，但<strong>催化剂本身也受温度影响</strong>：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Rate vs Temperature（有 Catalyst）
+</span></span><span class="line"><span class="cl">     ↑
+</span></span><span class="line"><span class="cl">     │    ╱
+</span></span><span class="line"><span class="cl">     │   ╱
+</span></span><span class="line"><span class="cl">     │  ╱  ← 升温加速反应（Arrhenius）
+</span></span><span class="line"><span class="cl">     │ ╱
+</span></span><span class="line"><span class="cl">     │╱
+</span></span><span class="line"><span class="cl">     └────────→ Temperature
+</span></span><span class="line"><span class="cl">        \
+</span></span><span class="line"><span class="cl">         \  ← 温度太高，催化剂失活（酶变性、烧结、积碳）
+</span></span><span class="line"><span class="cl">          ↘
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">          ⚡ Optimal temperature（最适温度）= 两个效应的平衡点
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>生活例子 — 发烧</strong>
+人体酶的最适温度（optimal temperature）是 37°C 左右。发烧到 39-40°C 时，酶活性先升高（反应加速），但继续升温到 42°C 以上 → 酶开始 <strong>denature（变性）</strong> → 催化能力崩溃。这就是高烧危险的生化本质。</p>
+<p><strong>生活例子 — 汽车催化转化器</strong>
+为什么刚启动时尾气很臭？因为 <strong>Catalytic converter</strong> 需要 <strong>warm-up</strong> 到 ~300°C 才开始高效工作。冷启动（cold start）阶段是排放最高的 — 这就是催化剂也受温度制约的活例子。</p>
+<h3 id="路线cconcentration浓度--改变碰撞频率">路线C：Concentration（浓度） — 改变碰撞频率
+</h3><p>最简单、最直觉：人多 → 撞得多 → 反应快。</p>
+<p>但 <strong>$k$ 不变</strong> — 因为浓度只影响 collision frequency（碰撞频率），不影响 $E_a$ 或分子能量。</p>
+<p><strong>生活例子 — 火</strong></p>
+<ul>
+<li>纯氧中燃烧比空气中剧烈 5 倍 — 氧浓度高了（20% → 100%），碰撞频率增加</li>
+<li>木屑比木块燃烧快得多 — 表面积大 → 更多反应位点暴露 → 有效碰撞增多了</li>
+</ul>
+<hr>
+<h2 id="枝3多步翻越的路径--reaction-mechanism反应机理">枝3：多步&quot;翻越&quot;的路径 — Reaction Mechanism（反应机理）
+</h2><h3 id="基元反应">基元反应
+</h3><p><strong>Elementary reaction（基元反应）</strong>：反应物直接碰撞生成产物的单步反应。对 elementary reaction，rate law 可以直接从 molecularity 写：</p>
+<div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Molecularity（分子数）</th>
+          <th style="text-align: left">含义</th>
+          <th style="text-align: left">Rate Law</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Unimolecular</strong></td>
+          <td style="text-align: left">一个分子分解/重排</td>
+          <td style="text-align: left">$v = k[A]$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Bimolecular</strong></td>
+          <td style="text-align: left">两个分子碰撞</td>
+          <td style="text-align: left">$v = k[A][B]$ 或 $v = k[A]^2$</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Termolecular</strong></td>
+          <td style="text-align: left">三个同时碰撞，极少见</td>
+          <td style="text-align: left">$v = k[A][B][C]$</td>
+      </tr>
+  </tbody>
+</table></div>
+<h3 id="rate-determining-step决速步-rds">Rate-Determining Step（决速步, RDS）
+</h3><p>多步反应中，<strong>$E_a$ 最高的那一步最慢</strong>，决定了整体速率。就像一群人翻山 — <strong>最高那座山的难度决定全军速度</strong>。</p>
+<h3 id="pre-equilibrium-approximation快平衡近似">Pre-Equilibrium Approximation（快平衡近似）
+</h3><p><strong>套路</strong>：快平衡（fast equilibrium）→ 慢反应（slow, RDS）→ 用 equilibrium constant 代换中间体。</p>
+<p><strong>经典例题</strong>：
+$2NO + Br_2 \rightarrow 2NOBr$，实验测得 $v = k[NO]^2[Br_2]$</p>
+<ul>
+<li>Step 1（快）：$NO + Br_2 \rightleftharpoons NOBr_2$</li>
+<li>Step 2（慢/RDS）：$NOBr_2 + NO \rightarrow 2NOBr$</li>
+</ul>
+<p>推导：</p>
+<ol>
+<li>$v = k_2[NOBr_2][NO]$（从 RDS 写起）</li>
+<li>快平衡：$k_1[NO][Br_2] = k_{-1}[NOBr_2]$ → $[NOBr_2] = (k_1/k_{-1})[NO][Br_2]$</li>
+<li>代入：$v = k_2(k_1/k_{-1})[NO]^2[Br_2] = k[NO]^2[Br_2]$ ✓</li>
+</ol>
+<p><strong>生活例子 — 为什么火柴（match）一擦就着？</strong>
+火柴头有红磷和氧化剂。擦火柴时摩擦生热 → 提供 $E_a$ → 红磷燃烧（RDS, 慢） → 引燃火柴杆。这就是一个 fast → slow 的序列反应。</p>
+<hr>
+<h2 id="联系地图">联系地图
+</h2><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">                    ┌── Thermodynamics（热力学）──┐
+</span></span><span class="line"><span class="cl">                    │  ΔG &lt; 0 能发生吗？          │
+</span></span><span class="line"><span class="cl">                    │  但不是充分条件！            │
+</span></span><span class="line"><span class="cl">                    └─────────────┼───────────────┘
+</span></span><span class="line"><span class="cl">                                  │
+</span></span><span class="line"><span class="cl">                                  ▼
+</span></span><span class="line"><span class="cl">               ★ Activation Energy (Ea) ★
+</span></span><span class="line"><span class="cl">                   决定反应的速率
+</span></span><span class="line"><span class="cl">                      │
+</span></span><span class="line"><span class="cl">      ┌───────────────┼───────────────────┐
+</span></span><span class="line"><span class="cl">      │               │                   │
+</span></span><span class="line"><span class="cl">      ▼               ▼                   ▼
+</span></span><span class="line"><span class="cl">  Description      Acceleration        Mechanism
+</span></span><span class="line"><span class="cl">  怎么描述？        怎么加速？           怎么分步？
+</span></span><span class="line"><span class="cl">      │               │                   │
+</span></span><span class="line"><span class="cl">  ┌───┴───┐   ┌───┬───┴───┬────┐      ┌──┴───┐
+</span></span><span class="line"><span class="cl">  │       │   │   │       │    │      │      │
+</span></span><span class="line"><span class="cl">Rate   Order Temp Catalyst Conc. Surf.  Elem.  RDS
+</span></span><span class="line"><span class="cl">Law    (m,n)         │               rxn
+</span></span><span class="line"><span class="cl">      │              │
+</span></span><span class="line"><span class="cl">      │              └── Catalyst activity
+</span></span><span class="line"><span class="cl">      │                 受温度影响
+</span></span><span class="line"><span class="cl">      │                 (Optimal Temperature)
+</span></span><span class="line"><span class="cl">      │
+</span></span><span class="line"><span class="cl">      └── Arrhenius Eq.
+</span></span><span class="line"><span class="cl">          k = Ae^{-Ea/RT}
+</span></span></code></pre></td></tr></table>
+</div>
+</div><hr>
+<h2 id="公式速查">公式速查
+</h2><div class="table-wrapper"><table>
+  <thead>
+      <tr>
+          <th style="text-align: left">公式</th>
+          <th style="text-align: left">English Name</th>
+          <th style="text-align: left">它在回答什么问题？</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">$v = k[A]^m[B]^n$</td>
+          <td style="text-align: left"><strong>Rate Law</strong></td>
+          <td style="text-align: left">反应速率取决于什么？</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\ln[A] = -kt + \ln[A]_0$</td>
+          <td style="text-align: left"><strong>1st Order Integrated Rate Law</strong></td>
+          <td style="text-align: left">一级反应中，浓度怎么随时间变化？</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$1/[A] = 1/[A]_0 + kt$</td>
+          <td style="text-align: left"><strong>2nd Order Integrated Rate Law</strong></td>
+          <td style="text-align: left">二级反应呢？</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$t_{1/2} = 0.693/k$</td>
+          <td style="text-align: left"><strong>Half-life (1st order)</strong></td>
+          <td style="text-align: left">一级反应，一半消耗掉要多久？</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$k = Ae^{-E_a/RT}$</td>
+          <td style="text-align: left"><strong>Arrhenius Equation</strong></td>
+          <td style="text-align: left">温度和 $E_a$ 如何影响反应速度？</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">$\ln(k_2/k_1) = \frac{E_a}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$</td>
+          <td style="text-align: left"><strong>Two-point Form</strong></td>
+          <td style="text-align: left">两个温度下的 $k$ 已知，$E_a$ 是多少？</td>
+      </tr>
+  </tbody>
+</table></div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%8C%96%E5%AD%A6/">化学</a>
+        
+            <a href="/tags/%E5%8A%A8%E5%8A%9B%E5%AD%A6/">动力学</a>
+        
+            <a href="/tags/%E5%8F%8D%E5%BA%94%E9%80%9F%E7%8E%87/">反应速率</a>
+        
+            <a href="/tags/%E6%B4%BB%E5%8C%96%E8%83%BD/">活化能</a>
+        
+            <a href="/tags/%E5%82%AC%E5%8C%96%E5%89%82/">催化剂</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        const elementsToRender = [".main-article", ".widget--toc"];
+
+        elementsToRender.forEach(selector => {
+            const element = document.querySelector(selector);
+            if (element) {
+                renderMathInElement(element, {
+                    delimiters: [
+                        { left: "$$", right: "$$", display: true },
+                        { left: "$", right: "$", display: false },
+                        { left: "\\(", right: "\\)", display: false },
+                        { left: "\\[", right: "\\]", display: true }
+                    ],
+                    ignoredClasses: ["gist"]
+                });
+            }
+        });
+    });
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="">
+    <a href="/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">第十三章——Properties of Solutions</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2026 余佰凌
+    </section>
+    
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.34.2">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+    
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.c922af694cc257bf1ecc41c0dd7b0430f9114ec280ccf67cd2c6ad55f5316c4e.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

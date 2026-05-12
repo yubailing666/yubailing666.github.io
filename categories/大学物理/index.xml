@@ -1,39 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>大学物理 on 余佰凌的空间</title><link>https://yubailing666.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/</link><description>Recent content in 大学物理 on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml"/><item><title>第三十二章——麦克斯韦方程组与电磁波</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</guid><description>&lt;hr&gt;
-&lt;h3 id="1-麦克斯韦方程组四条"&gt;1. 麦克斯韦方程组（四条）
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>大学物理 on 余佰凌的空间</title>
+        <link>https://yubailing666.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/</link>
+        <description>Recent content in 大学物理 on 余佰凌的空间</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>余佰凌</copyright>
+        <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第三十二章——麦克斯韦方程组与电磁波</title>
+        <link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</link>
+        <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%BA%8C%E7%AB%A0%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84%E4%B8%8E%E7%94%B5%E7%A3%81%E6%B3%A2/</guid>
+        <description>&lt;hr&gt;
+&lt;h3 id=&#34;1-麦克斯韦方程组四条&#34;&gt;1. 麦克斯韦方程组（四条）
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;名称&lt;/th&gt;
-&lt;th style="text-align: left"&gt;积分形式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;物理意义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Gauss&amp;rsquo;s Law for E&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$$\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{enc}}/\varepsilon_0$$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;电通量 ∝ 内部电荷&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Gauss&amp;rsquo;s Law for B&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$$\oint \mathbf{B} \cdot d\mathbf{A} = 0$$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;无磁单极&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Faraday&amp;rsquo;s Law&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$$\oint \mathbf{E} \cdot d\mathbf{l} = -d\Phi_B/dt$$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;变化磁通 → 感应电场&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Ampere-Maxwell Law&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$$\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I + \mu_0\varepsilon_0\,d\Phi_E/dt$$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;修正后：电流 + 变化电通 → 磁场&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;名称&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;积分形式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;物理意义&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Gauss&amp;rsquo;s Law for E&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$$\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{enc}}/\varepsilon_0$$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;电通量 ∝ 内部电荷&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Gauss&amp;rsquo;s Law for B&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$$\oint \mathbf{B} \cdot d\mathbf{A} = 0$$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;无磁单极&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Faraday&amp;rsquo;s Law&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$$\oint \mathbf{E} \cdot d\mathbf{l} = -d\Phi_B/dt$$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;变化磁通 → 感应电场&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Ampere-Maxwell Law&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$$\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I + \mu_0\varepsilon_0\,d\Phi_E/dt$$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;修正后：电流 + 变化电通 → 磁场&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;对称性思想&lt;/strong&gt;：变化磁通→电场，那变化电通→磁场？→ 引入位移电流！&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="2-位移电流displacement-current"&gt;2. 位移电流（Displacement Current）
+&lt;h3 id=&#34;2-位移电流displacement-current&#34;&gt;2. 位移电流（Displacement Current）
 &lt;/h3&gt;&lt;p&gt;麦克斯韦的核心贡献：&lt;/p&gt;
 $$I_d = \varepsilon_0 \frac{d\Phi_E}{dt}$$&lt;ul&gt;
 &lt;li&gt;不是真实电荷运动，是&lt;strong&gt;虚构电流&lt;/strong&gt;&lt;/li&gt;
@@ -42,7 +57,7 @@ $$I_d = \varepsilon_0 \frac{d\Phi_E}{dt}$$&lt;ul&gt;
 $$I_d = I_{\text{导线}}$$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="关键直觉变化电场磁场就是位移电流"&gt;关键直觉：变化电场→磁场就是位移电流
+&lt;h3 id=&#34;关键直觉变化电场磁场就是位移电流&#34;&gt;关键直觉：变化电场→磁场就是位移电流
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;问题来源&lt;/strong&gt;：平行板电容器充电时，导线里有电流 I，但两极板之间没有电荷通过。取安培环路时，选不同的包围面会算出不同的磁场——矛盾。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;麦克斯韦的解&lt;/strong&gt;：两板之间虽然没有电荷流动，但电场在变化（E 在变大）。他把变化的电通量等效成一个&amp;quot;电流&amp;quot;：&lt;/p&gt;
 $$I_d = \varepsilon_0 \frac{d\Phi_E}{dt}$$&lt;p&gt;&lt;strong&gt;位移电流的物理图像&lt;/strong&gt;：&lt;/p&gt;
@@ -57,7 +72,7 @@ $$I_d = I_{\text{导线}}$$&lt;/li&gt;
 &lt;li&gt;位移电流是&lt;strong&gt;虚构&lt;/strong&gt;的（不是真实电荷移动），但它产生的磁场是&lt;strong&gt;真实&lt;/strong&gt;的&lt;/li&gt;
 &lt;li&gt;这个修正让麦克斯韦方程组在数学上自洽，也预言了电磁波的存在&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="考试技巧用好光速-c-快速计算"&gt;考试技巧：用好光速 c 快速计算
+&lt;h4 id=&#34;考试技巧用好光速-c-快速计算&#34;&gt;考试技巧：用好光速 c 快速计算
 &lt;/h4&gt;&lt;p&gt;公式中经常同时出现 $\mu_0$ 和 $\varepsilon_0$，记住它们和光速的关系可以省很多事：&lt;/p&gt;
 $$c = \frac{1}{\sqrt{\mu_0 \varepsilon_0}},\quad \mu_0 \varepsilon_0 = \frac{1}{c^2}$$&lt;p&gt;&lt;strong&gt;常用简化&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
@@ -73,88 +88,97 @@ $$I = \frac{E_0^2}{2\mu_0 c} = \frac{c\varepsilon_0}{2}E_0^2$$&lt;/li&gt;
 &lt;li&gt;所以 $I = E_0^2 / (2 \times 377) = E_0^2/754$，反过来 $E_0 = \sqrt{754I}$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;记这个数&lt;/strong&gt;：$\mu_0 c = 120\pi \approx 377\; \Omega$（真空阻抗），考试直接用这个算强度，比拆开算快很多。&lt;/p&gt;
-&lt;h3 id="3-电磁波波动方程"&gt;3. 电磁波波动方程
+&lt;h3 id=&#34;3-电磁波波动方程&#34;&gt;3. 电磁波波动方程
 &lt;/h3&gt;&lt;p&gt;真空中 $\rho = 0, \mathbf{J} = 0$：&lt;/p&gt;
 $$\nabla^2 \mathbf{E} = \mu_0\varepsilon_0 \frac{\partial^2 \mathbf{E}}{\partial t^2}$$&lt;p&gt;&lt;strong&gt;波速&lt;/strong&gt;：&lt;/p&gt;
 $$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}} = 3\times 10^8 \text{ m/s}$$&lt;p&gt;一组解（平面波）：
 &lt;/p&gt;
 $$\mathbf{E} = E_0 \cos(kx - \omega t) \hat{\mathbf{y}},\quad \mathbf{B} = B_0 \cos(kx - \omega t) \hat{\mathbf{z}}$$&lt;p&gt;&lt;strong&gt;关系&lt;/strong&gt;：&lt;/p&gt;
 $$\frac{\omega}{k} = c,\quad \frac{E_0}{B_0} = c$$&lt;hr&gt;
-&lt;h3 id="4-em波性质"&gt;4. EM波性质
+&lt;h3 id=&#34;4-em波性质&#34;&gt;4. EM波性质
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;性质&lt;/th&gt;
-&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;横波&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;E ⊥ B ⊥ 传播方向&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;E ⊥ B&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;互相垂直&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;同相&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;E 和 B 同时达峰&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;速度恒定&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$c = 3\times 10^8$ m/s&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;E = cB&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;电场与磁场振幅比&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;性质&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;横波&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;E ⊥ B ⊥ 传播方向&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;E ⊥ B&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;互相垂直&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;同相&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;E 和 B 同时达峰&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;速度恒定&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$c = 3\times 10^8$ m/s&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;E = cB&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;电场与磁场振幅比&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="5-能量与-poynting-vector"&gt;5. 能量与 Poynting Vector
+&lt;h3 id=&#34;5-能量与-poynting-vector&#34;&gt;5. 能量与 Poynting Vector
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;能量密度&lt;/strong&gt;：&lt;/p&gt;
 $$u_E = \frac{1}{2}\varepsilon_0 E^2,\; u_B = \frac{1}{2\mu_0}B^2,\; u_E = u_B$$&lt;p&gt;&lt;strong&gt;Poynting Vector&lt;/strong&gt;：&lt;/p&gt;
 $$\mathbf{S} = \frac{1}{\mu_0}\mathbf{E}\times\mathbf{B}$$&lt;p&gt;&lt;strong&gt;强度（时间平均）&lt;/strong&gt;：&lt;/p&gt;
 $$I = S_{\text{avg}} = \frac{E_0 B_0}{2\mu_0} = \frac{E_0^2}{2\mu_0 c}$$&lt;hr&gt;
-&lt;h3 id="6-辐射压力"&gt;6. 辐射压力
+&lt;h3 id=&#34;6-辐射压力&#34;&gt;6. 辐射压力
 &lt;/h3&gt;&lt;p&gt;完全吸收：&lt;/p&gt;
 $$P_{\text{rad}} = I/c$$&lt;p&gt;，完全反射：&lt;/p&gt;
 $$P_{\text{rad}} = 2I/c$$&lt;p&gt;💡 彗星尘埃尾、太阳帆&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="7-公式速查"&gt;7. 公式速查
+&lt;h3 id=&#34;7-公式速查&#34;&gt;7. 公式速查
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;公式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$c = 1/\sqrt{\mu_0\varepsilon_0}$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;光速&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$E/B = c$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;EM波场关系&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$I = E_0^2/(2\mu_0 c)$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;强度&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$P_{\text{rad}} = I/c$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;辐射压力（吸收）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\mathbf{S} = (1/\mu_0)\mathbf{E}\times\mathbf{B}$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;坡印廷矢量&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;公式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$c = 1/\sqrt{\mu_0\varepsilon_0}$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;光速&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$E/B = c$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;EM波场关系&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$I = E_0^2/(2\mu_0 c)$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;强度&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$P_{\text{rad}} = I/c$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;辐射压力（吸收）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\mathbf{S} = (1/\mu_0)\mathbf{E}\times\mathbf{B}$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;坡印廷矢量&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;hr&gt;</description></item><item><title>第三十三章——电磁波与光</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%AB%A0%E7%94%B5%E7%A3%81%E6%B3%A2%E4%B8%8E%E5%85%89/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%AB%A0%E7%94%B5%E7%A3%81%E6%B3%A2%E4%B8%8E%E5%85%89/</guid><description>&lt;hr&gt;
-&lt;h3 id="1-介质中的-em-波"&gt;1. 介质中的 EM 波
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>第三十三章——电磁波与光</title>
+        <link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%AB%A0%E7%94%B5%E7%A3%81%E6%B3%A2%E4%B8%8E%E5%85%89/</link>
+        <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%89%E7%AB%A0%E7%94%B5%E7%A3%81%E6%B3%A2%E4%B8%8E%E5%85%89/</guid>
+        <description>&lt;hr&gt;
+&lt;h3 id=&#34;1-介质中的-em-波&#34;&gt;1. 介质中的 EM 波
 &lt;/h3&gt;&lt;p&gt;真空中：$c = 3\times 10^8$ m/s。介质中光速变慢：&lt;/p&gt;
 $$v = \frac{c}{n}$$&lt;p&gt;&lt;strong&gt;折射率（Index of Refraction）&lt;/strong&gt;：
 &lt;/p&gt;
@@ -175,31 +199,31 @@ $$n = \frac{c}{v} = \sqrt{K K_m} \approx \sqrt{K}$$&lt;ul&gt;
 &lt;li&gt;$\lambda$ 变小（光速变慢了，频率不变，波长自然缩了）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="2-偏振polarization"&gt;2. 偏振（Polarization）
+&lt;h3 id=&#34;2-偏振polarization&#34;&gt;2. 偏振（Polarization）
 &lt;/h3&gt;&lt;p&gt;偏振方向定义为 &lt;strong&gt;电场 $\mathbf{E}$ 的振动方向&lt;/strong&gt;。&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;类型&lt;/th&gt;
-&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Linearly Polarized（线偏振）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;E 在一个固定平面内振动&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Circularly Polarized（圆偏振）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;E 矢量端点做圆周运动（左旋/右旋）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Unpolarized（自然光）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;E 随机方向振动，可分解为两个垂直分量&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;类型&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Linearly Polarized（线偏振）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;E 在一个固定平面内振动&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Circularly Polarized（圆偏振）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;E 矢量端点做圆周运动（左旋/右旋）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Unpolarized（自然光）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;E 随机方向振动，可分解为两个垂直分量&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id="马吕斯定律maluss-law"&gt;马吕斯定律（Malus&amp;rsquo;s Law）
+&lt;h4 id=&#34;马吕斯定律maluss-law&#34;&gt;马吕斯定律（Malus&amp;rsquo;s Law）
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;经过一个偏振片&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;自然光 → 偏振片 → $I_1 = I_0/2$（一半强度丢了）&lt;/li&gt;
@@ -207,13 +231,13 @@ $$n = \frac{c}{v} = \sqrt{K K_m} \approx \sqrt{K}$$&lt;ul&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;经过两个偏振片&lt;/strong&gt;（起偏器 + 分析器）：&lt;/p&gt;
 &lt;p&gt;自然光 → 偏振片1（$I_0/2$）→ 偏振片2（$I_0/2 \cdot \cos^2\theta$）&lt;/p&gt;
-&lt;h4 id="经典考题三个偏振片"&gt;经典考题：三个偏振片
-&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;h4 id=&#34;经典考题三个偏振片&#34;&gt;经典考题：三个偏振片
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;自然光 → 偏振片A（0°）→ 偏振片B（45°）→ 偏振片C（90°）
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;自然光 → 偏振片A（0°）→ 偏振片B（45°）→ 偏振片C（90°）
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
@@ -223,67 +247,67 @@ $$n = \frac{c}{v} = \sqrt{K K_m} \approx \sqrt{K}$$&lt;ul&gt;
 &lt;/ul&gt;
 &lt;p&gt;如果&lt;strong&gt;去掉中间&lt;/strong&gt;的 B：A（0°）→ C（90°）→ $I = 0$（垂直，全挡）&lt;/p&gt;
 &lt;p&gt;📝 &lt;strong&gt;反直觉&lt;/strong&gt;：中间加一片反而有光透过去！因为中间那片把偏振方向扭转了 45°，让原本垂直的两片有了重叠分量。&lt;/p&gt;
-&lt;h4 id="考试技巧"&gt;考试技巧
+&lt;h4 id=&#34;考试技巧&#34;&gt;考试技巧
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;看见&amp;quot;自然光&amp;quot; → 先减半（$I_0/2$）&lt;/li&gt;
 &lt;li&gt;看见&amp;quot;线偏振光&amp;quot; → 直接套 $I = I_0\cos^2\theta$&lt;/li&gt;
 &lt;li&gt;计算器别忘了：$\cos 45^\circ = \sqrt{2}/2 \approx 0.707$，平方是 0.5&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="3-反射与折射"&gt;3. 反射与折射
-&lt;/h3&gt;&lt;h4 id="snells-law斯涅尔定律"&gt;Snell&amp;rsquo;s Law（斯涅尔定律）
+&lt;h3 id=&#34;3-反射与折射&#34;&gt;3. 反射与折射
+&lt;/h3&gt;&lt;h4 id=&#34;snells-law斯涅尔定律&#34;&gt;Snell&amp;rsquo;s Law（斯涅尔定律）
 &lt;/h4&gt;$$n_1 \sin\theta_1 = n_2 \sin\theta_2$$&lt;ul&gt;
 &lt;li&gt;$\theta_1$：入射角（相对于法线）&lt;/li&gt;
 &lt;li&gt;$\theta_2$：折射角（相对于法线）&lt;/li&gt;
 &lt;li&gt;光从光疏到光密（$n_1 &lt; n_2$）：折射光线&lt;strong&gt;靠近法线&lt;/strong&gt;（$\theta_2 &lt; \theta_1$）&lt;/li&gt;
 &lt;li&gt;光从光密到光疏（$n_1 &gt; n_2$）：折射光线&lt;strong&gt;远离法线&lt;/strong&gt;（$\theta_2 &gt; \theta_1$）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="全内反射total-internal-reflection"&gt;全内反射（Total Internal Reflection）
+&lt;h4 id=&#34;全内反射total-internal-reflection&#34;&gt;全内反射（Total Internal Reflection）
 &lt;/h4&gt;&lt;p&gt;条件：光从光密到光疏（$n_1 &gt; n_2$），且入射角超过临界角。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;临界角&lt;/strong&gt;：&lt;/p&gt;
 $$\sin\theta_c = \frac{n_2}{n_1}$$&lt;p&gt;当 $\theta_1 &gt; \theta_c$ → 全部反射回介质中，没有折射光。&lt;/p&gt;
 &lt;p&gt;💡 应用：光纤通信、内窥镜&lt;/p&gt;
-&lt;h4 id="考试技巧-1"&gt;考试技巧
+&lt;h4 id=&#34;考试技巧-1&#34;&gt;考试技巧
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;分清哪边是 $n_1$ 哪边是 $n_2$——错误多从这里来&lt;/li&gt;
 &lt;li&gt;算临界角时 $n_2$ 是光疏介质（折射出去那边的折射率小）&lt;/li&gt;
 &lt;li&gt;全内反射只发生在 $n_1 &gt; n_2$ 的情况下&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="4-色散dispersion与彩虹"&gt;4. 色散（Dispersion）与彩虹
+&lt;h3 id=&#34;4-色散dispersion与彩虹&#34;&gt;4. 色散（Dispersion）与彩虹
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;色散&lt;/strong&gt;：折射率 $n$ 依赖于光的波长——不同颜色的光在介质中速度不同。&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;颜色&lt;/th&gt;
-&lt;th style="text-align: left"&gt;折射率变化&lt;/th&gt;
-&lt;th style="text-align: left"&gt;偏折程度&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;紫/蓝光&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$n$ 更大&lt;/td&gt;
-&lt;td style="text-align: left"&gt;偏折更多&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;红光&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$n$ 更小&lt;/td&gt;
-&lt;td style="text-align: left"&gt;偏折最少&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;颜色&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;折射率变化&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;偏折程度&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;紫/蓝光&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$n$ 更大&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;偏折更多&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;红光&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$n$ 更小&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;偏折最少&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id="彩虹的形成"&gt;彩虹的形成
-&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;h4 id=&#34;彩虹的形成&#34;&gt;彩虹的形成
+&lt;/h4&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;太阳光 → 进入水滴（折射）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; → 在水滴内壁一次反射
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; → 离开水滴时再次折射（色散分开）
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;太阳光 → 进入水滴（折射）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        → 在水滴内壁一次反射
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        → 离开水滴时再次折射（色散分开）
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;ul&gt;
@@ -293,40 +317,40 @@ $$\sin\theta_c = \frac{n_2}{n_1}$$&lt;p&gt;当 $\theta_1 &gt; \theta_c$ → 全�
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;记忆法&lt;/strong&gt;：&lt;strong&gt;外红内紫&lt;/strong&gt;——和七色光的顺序一致（ROYGBIV，红在波长端外侧）&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="5-公式速查--考试技巧"&gt;5. 公式速查 &amp;amp; 考试技巧
+&lt;h3 id=&#34;5-公式速查--考试技巧&#34;&gt;5. 公式速查 &amp;amp; 考试技巧
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;公式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$v = c/n$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;介质中光速&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$n = \sqrt{K}$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;由介电常数算折射率&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$n_1 \sin\theta_1 = n_2 \sin\theta_2$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;Snell&amp;rsquo;s Law&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\sin\theta_c = n_2/n_1$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;全内反射临界角&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$I = I_0/2$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;自然光过偏振片&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$I = I_0 \cos^2\theta$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;马吕斯定律（偏振光过偏振片）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;公式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$v = c/n$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;介质中光速&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$n = \sqrt{K}$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;由介电常数算折射率&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$n_1 \sin\theta_1 = n_2 \sin\theta_2$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Snell&amp;rsquo;s Law&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\sin\theta_c = n_2/n_1$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;全内反射临界角&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$I = I_0/2$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;自然光过偏振片&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$I = I_0 \cos^2\theta$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;马吕斯定律（偏振光过偏振片）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;计算器小抄&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
@@ -334,135 +358,144 @@ $$\sin\theta_c = \frac{n_2}{n_1}$$&lt;p&gt;当 $\theta_1 &gt; \theta_c$ → 全�
 &lt;li&gt;$\sqrt{2}/2 \approx 0.707$（45° 的 sin/cos）&lt;/li&gt;
 &lt;li&gt;Snell&amp;rsquo;s law 考试常给 $n$ 值，直接代公式&lt;/li&gt;
 &lt;li&gt;偏振题看清初始光是自然光还是偏振光——决定了要不要先乘 1/2&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>第三十一章——电磁振荡与交流电</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E7%AB%A0%E7%94%B5%E7%A3%81%E6%8C%AF%E8%8D%A1%E4%B8%8E%E4%BA%A4%E6%B5%81%E7%94%B5/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E7%AB%A0%E7%94%B5%E7%A3%81%E6%8C%AF%E8%8D%A1%E4%B8%8E%E4%BA%A4%E6%B5%81%E7%94%B5/</guid><description>&lt;hr&gt;
-&lt;h3 id="1-lc-振荡电路"&gt;1. LC 振荡电路
-&lt;/h3&gt;&lt;h4 id="直觉引入"&gt;直觉引入
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>第三十一章——电磁振荡与交流电</title>
+        <link>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E7%AB%A0%E7%94%B5%E7%A3%81%E6%8C%AF%E8%8D%A1%E4%B8%8E%E4%BA%A4%E6%B5%81%E7%94%B5/</link>
+        <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://yubailing666.github.io/p/%E7%AC%AC%E4%B8%89%E5%8D%81%E4%B8%80%E7%AB%A0%E7%94%B5%E7%A3%81%E6%8C%AF%E8%8D%A1%E4%B8%8E%E4%BA%A4%E6%B5%81%E7%94%B5/</guid>
+        <description>&lt;hr&gt;
+&lt;h3 id=&#34;1-lc-振荡电路&#34;&gt;1. LC 振荡电路
+&lt;/h3&gt;&lt;h4 id=&#34;直觉引入&#34;&gt;直觉引入
 &lt;/h4&gt;&lt;p&gt;想象一个&lt;strong&gt;弹簧振子&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;弹簧储能（势能） ↔ &lt;strong&gt;电容器&lt;/strong&gt;储能（电场能）&lt;/li&gt;
 &lt;li&gt;质量块动能 ↔ &lt;strong&gt;电感&lt;/strong&gt;储能（磁场能）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;LC 电路就是&amp;quot;电能 ↔ 磁能&amp;quot;来回倒腾，跟弹簧振子&amp;quot;势能 ↔ 动能&amp;quot;来回倒腾一模一样。&lt;/p&gt;
-&lt;h4 id="公式推导"&gt;公式推导
+&lt;h4 id=&#34;公式推导&#34;&gt;公式推导
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;基尔霍夫电压定律 (KVL)&lt;/strong&gt;：&lt;/p&gt;
 $$\frac{q}{C} + L\frac{di}{dt} = 0$$&lt;p&gt;代入 $i = -dq/dt$（放电时电流方向），得：&lt;/p&gt;
 $$L\frac{d^2q}{dt^2} + \frac{q}{C} = 0 \quad\Rightarrow\quad \frac{d^2q}{dt^2} + \frac{1}{LC}q = 0$$&lt;p&gt;这是标准的&lt;strong&gt;简谐振动方程&lt;/strong&gt;，类比弹簧：$\displaystyle \frac{d^2x}{dt^2} + \frac{k}{m}x = 0$&lt;/p&gt;
 &lt;p&gt;所以令 $\omega = 1/\sqrt{LC}$，解为：&lt;/p&gt;
 $$q(t) = Q\cos(\omega t + \varphi) \quad\leftarrow\text{电量振荡}$$&lt;p&gt;
 &lt;/p&gt;
-$$i(t) = -\omega Q\sin(\omega t + \varphi) \quad\leftarrow\text{电流振荡}$$&lt;h4 id="关键公式"&gt;关键公式
+$$i(t) = -\omega Q\sin(\omega t + \varphi) \quad\leftarrow\text{电流振荡}$$&lt;h4 id=&#34;关键公式&#34;&gt;关键公式
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;物理量&lt;/th&gt;
-&lt;th&gt;公式&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;角频率 $\omega$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\omega = 1/\sqrt{LC}$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;周期 $T$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$T = 2\pi\sqrt{LC}$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;电容器储能 $U_E$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$U_E = q^2/2C$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;电感储能 $U_B$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$U_B = Li^2/2$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;总能量&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$U_{\text{total}} = Q^2/2C = LI_{\text{max}}^2/2$（守恒）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;物理量&lt;/th&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;角频率 $\omega$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$\omega = 1/\sqrt{LC}$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;周期 $T$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$T = 2\pi\sqrt{LC}$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;电容器储能 $U_E$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$U_E = q^2/2C$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;电感储能 $U_B$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$U_B = Li^2/2$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;总能量&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$U_{\text{total}} = Q^2/2C = LI_{\text{max}}^2/2$（守恒）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id="-记忆方法"&gt;📝 记忆方法
+&lt;h4 id=&#34;-记忆方法&#34;&gt;📝 记忆方法
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;$\omega = 1/\sqrt{LC}$ → &amp;ldquo;LC 在分母，越大越慢&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;类比弹簧：$C \rightarrow 1/k$（电容大=弹簧软），$L \rightarrow m$（电感大=质量大）&lt;/li&gt;
 &lt;li&gt;$\omega = \sqrt{k/m}$ → $\omega = \sqrt{1/(LC)} = 1/\sqrt{LC}$&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="题型总结"&gt;题型总结
+&lt;h4 id=&#34;题型总结&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;求 $\omega$ 或 $T$&lt;/strong&gt; → 直接套 $\omega = 1/\sqrt{LC}$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;求 $q(t)$ 或 $i(t)$&lt;/strong&gt; → 解微分方程或用能量守恒&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;能量转换&lt;/strong&gt; → 电场能最大时磁场能为0，反之亦然&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id="2-rlc-电路阻尼振荡"&gt;2. RLC 电路（阻尼振荡）
-&lt;/h3&gt;&lt;h4 id="直觉引入-1"&gt;直觉引入
+&lt;h3 id=&#34;2-rlc-电路阻尼振荡&#34;&gt;2. RLC 电路（阻尼振荡）
+&lt;/h3&gt;&lt;h4 id=&#34;直觉引入-1&#34;&gt;直觉引入
 &lt;/h4&gt;&lt;p&gt;LC 理想无损耗，实际电路中一定有 &lt;strong&gt;电阻 $R$&lt;/strong&gt; 耗能 → 振幅指数衰减。类比弹簧加了阻尼。&lt;/p&gt;
-&lt;h4 id="公式推导-1"&gt;公式推导
+&lt;h4 id=&#34;公式推导-1&#34;&gt;公式推导
 &lt;/h4&gt;&lt;p&gt;KVL（加上电阻的电压降）：&lt;/p&gt;
 $$L\frac{d^2q}{dt^2} + R\frac{dq}{dt} + \frac{q}{C} = 0$$&lt;p&gt;令 &lt;strong&gt;阻尼系数 $\beta = R/2L$&lt;/strong&gt;，得：&lt;/p&gt;
 $$\frac{d^2q}{dt^2} + 2\beta\frac{dq}{dt} + \omega_0^2 q = 0 \quad (\omega_0 = 1/\sqrt{LC})$$&lt;p&gt;特征方程：$r^2 + 2\beta r + \omega_0^2 = 0$&lt;/p&gt;
-$$r = -\beta \pm \sqrt{\beta^2 - \omega_0^2}$$&lt;h4 id="三种情况"&gt;三种情况
+$$r = -\beta \pm \sqrt{\beta^2 - \omega_0^2}$$&lt;h4 id=&#34;三种情况&#34;&gt;三种情况
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;条件&lt;/th&gt;
-&lt;th&gt;行为&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Overdamped（过阻尼）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\beta &gt; \omega_0$ $(R &gt; 2\sqrt{L/C})$&lt;/td&gt;
-&lt;td&gt;无振荡，直接指数衰减&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Critically damped（临界阻尼）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\beta = \omega_0$ $(R = 2\sqrt{L/C})$&lt;/td&gt;
-&lt;td&gt;最快的无振荡衰减&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Underdamped（欠阻尼）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\beta &lt; \omega_0$ $(R &lt; 2\sqrt{L/C})$&lt;/td&gt;
-&lt;td&gt;振幅指数衰减的振荡&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;条件&lt;/th&gt;
+          &lt;th&gt;行为&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Overdamped（过阻尼）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$\beta &gt; \omega_0$ $(R &gt; 2\sqrt{L/C})$&lt;/td&gt;
+          &lt;td&gt;无振荡，直接指数衰减&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Critically damped（临界阻尼）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$\beta = \omega_0$ $(R = 2\sqrt{L/C})$&lt;/td&gt;
+          &lt;td&gt;最快的无振荡衰减&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Underdamped（欠阻尼）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$\beta &lt; \omega_0$ $(R &lt; 2\sqrt{L/C})$&lt;/td&gt;
+          &lt;td&gt;振幅指数衰减的振荡&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;欠阻尼解&lt;/strong&gt;：&lt;/p&gt;
-$$q(t) = Q e^{-\beta t} \cos(\omega' t + \varphi)$$&lt;p&gt;其中 $\omega' = \sqrt{\omega_0^2 - \beta^2}$（阻尼振荡频率）&lt;/p&gt;
-&lt;h4 id="现实情景对比"&gt;现实情景对比
+$$q(t) = Q e^{-\beta t} \cos(\omega&#39; t + \varphi)$$&lt;p&gt;其中 $\omega&#39; = \sqrt{\omega_0^2 - \beta^2}$（阻尼振荡频率）&lt;/p&gt;
+&lt;h4 id=&#34;现实情景对比&#34;&gt;现实情景对比
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;现实例子&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Overdamped&lt;/strong&gt;（过阻尼）&lt;/td&gt;
-&lt;td&gt;🚽 马桶盖缓降、油压缓冲门（慢慢关上，不反弹）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Critically damped&lt;/strong&gt;（临界阻尼）&lt;/td&gt;
-&lt;td&gt;🚗 &lt;strong&gt;汽车减震器&lt;/strong&gt;（过坑后最快恢复稳定）；指针仪表（快速到位）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Underdamped&lt;/strong&gt;（欠阻尼）&lt;/td&gt;
-&lt;td&gt;🛎️ 敲音叉/钟声；秋千荡停；弹簧挂重物放手后弹几下&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;现实例子&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Overdamped&lt;/strong&gt;（过阻尼）&lt;/td&gt;
+          &lt;td&gt;🚽 马桶盖缓降、油压缓冲门（慢慢关上，不反弹）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Critically damped&lt;/strong&gt;（临界阻尼）&lt;/td&gt;
+          &lt;td&gt;🚗 &lt;strong&gt;汽车减震器&lt;/strong&gt;（过坑后最快恢复稳定）；指针仪表（快速到位）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Underdamped&lt;/strong&gt;（欠阻尼）&lt;/td&gt;
+          &lt;td&gt;🛎️ 敲音叉/钟声；秋千荡停；弹簧挂重物放手后弹几下&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;直觉&lt;/strong&gt;：门在&lt;strong&gt;蜂蜜&lt;/strong&gt;里关（过阻尼）/ &lt;strong&gt;水&lt;/strong&gt;里关（临界）/ &lt;strong&gt;空气&lt;/strong&gt;里关（欠阻尼 Duang Duang Duang）&lt;/p&gt;
-&lt;h4 id="题型总结-1"&gt;题型总结
+&lt;h4 id=&#34;题型总结-1&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;判断阻尼类型&lt;/strong&gt; → 比较 $R$ 与 $2\sqrt{L/C}$&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;求欠阻尼 $\omega'$&lt;/strong&gt; → $\omega' = \sqrt{1/LC - R^2/4L^2}$&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;求欠阻尼 $\omega&#39;$&lt;/strong&gt; → $\omega&#39; = \sqrt{1/LC - R^2/4L^2}$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;能量衰减速率&lt;/strong&gt; → $e^{-Rt/L}$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id="3-交流电基础--三种基本元件"&gt;3. 交流电基础 &amp;amp; 三种基本元件
-&lt;/h3&gt;&lt;h4 id="直觉引入-2"&gt;直觉引入
+&lt;h3 id=&#34;3-交流电基础--三种基本元件&#34;&gt;3. 交流电基础 &amp;amp; 三种基本元件
+&lt;/h3&gt;&lt;h4 id=&#34;直觉引入-2&#34;&gt;直觉引入
 &lt;/h4&gt;&lt;p&gt;接上交流电源后，每个元件的&amp;quot;阻力&amp;quot;和相位都不一样：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;$R$&lt;/strong&gt;：老老实实，电压电流同相&lt;/li&gt;
@@ -475,223 +508,223 @@ $$q(t) = Q e^{-\beta t} \cos(\omega' t + \varphi)$$&lt;p&gt;其中 $\omega' = \s
 &lt;li&gt;&lt;strong&gt;电感像「拖油瓶」&lt;/strong&gt; — 电压已经推上去了，电流还在后面磨蹭，永远慢半拍&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;一句话：电容冲在前，电感拖在后。&lt;/p&gt;
-&lt;h4 id="三种元件对照"&gt;三种元件对照
+&lt;h4 id=&#34;三种元件对照&#34;&gt;三种元件对照
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;元件&lt;/th&gt;
-&lt;th style="text-align: center"&gt;电压-电流相位&lt;/th&gt;
-&lt;th style="text-align: center"&gt;阻抗&lt;/th&gt;
-&lt;th style="text-align: center"&gt;平均功率&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;$R$（电阻）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: center"&gt;同相 $(\phi=0)$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$R$（电阻）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$&gt;0$（耗能）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;$C$（电容）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: center"&gt;&lt;strong&gt;电流领先 $90^\circ$&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$X_C = 1/(\omega C)$（容抗）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$=0$（储能）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;$L$（电感）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: center"&gt;&lt;strong&gt;电压领先 $90^\circ$&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$X_L = \omega L$（感抗）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$=0$（储能）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;元件&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;电压-电流相位&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;阻抗&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;平均功率&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;$R$（电阻）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;同相 $(\phi=0)$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$R$（电阻）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$&gt;0$（耗能）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;$C$（电容）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;电流领先 $90^\circ$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$X_C = 1/(\omega C)$（容抗）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$=0$（储能）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;$L$（电感）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;strong&gt;电压领先 $90^\circ$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$X_L = \omega L$（感抗）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$=0$（储能）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h4 id="电阻--电路"&gt;电阻 $R$ 电路
+&lt;h4 id=&#34;电阻--电路&#34;&gt;电阻 $R$ 电路
 &lt;/h4&gt;$$v = V_{\text{max}}\cos\omega t,\quad i = \frac{v}{R} = \frac{V_{\text{max}}}{R}\cos\omega t = I_{\text{max}}\cos\omega t$$&lt;ul&gt;
 &lt;li&gt;同相，无相位差&lt;/li&gt;
 &lt;li&gt;$I_{\text{max}} = V_{\text{max}} / R$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id="详细推导纯电容--电路"&gt;详细推导——纯电容 $C$ 电路
-&lt;/h4&gt;&lt;h5 id="基本关系核心方程"&gt;基本关系（核心方程！）
+&lt;h4 id=&#34;详细推导纯电容--电路&#34;&gt;详细推导——纯电容 $C$ 电路
+&lt;/h4&gt;&lt;h5 id=&#34;基本关系核心方程&#34;&gt;基本关系（核心方程！）
 &lt;/h5&gt;$$i = C \frac{dv}{dt}$$&lt;p&gt;电流 $\neq$ 电压的原因：电容是&lt;strong&gt;积累电荷&lt;/strong&gt;的元件，电流流入后电荷慢慢堆积，电压才逐渐建立起来。所以是&lt;strong&gt;电流决定电压的变化速率&lt;/strong&gt;，而不是直接等于电压。&lt;/p&gt;
-&lt;h5 id="设电压求电流"&gt;设电压，求电流
+&lt;h5 id=&#34;设电压求电流&#34;&gt;设电压，求电流
 &lt;/h5&gt;&lt;p&gt;令 $v(t) = V_{\text{max}}\cos\omega t$：&lt;/p&gt;
 $$
 \begin{aligned}
 i &amp;= C \frac{d}{dt}[V_{\text{max}}\cos\omega t] \\
-&amp;= C \cdot V_{\text{max}} \cdot (-\omega\sin\omega t) \\
-&amp;= -\omega C V_{\text{max}} \sin\omega t \\
-&amp;= \omega C V_{\text{max}} \cos(\omega t + 90^\circ)
+  &amp;= C \cdot V_{\text{max}} \cdot (-\omega\sin\omega t) \\
+  &amp;= -\omega C V_{\text{max}} \sin\omega t \\
+  &amp;= \omega C V_{\text{max}} \cos(\omega t + 90^\circ)
 \end{aligned}
 $$&lt;p&gt;📌 &lt;strong&gt;关键三角变换&lt;/strong&gt;：$-\sin\theta = \cos(\theta + 90^\circ)$ —— 这就是相位差 $+90^\circ$ 的来源。&lt;/p&gt;
-&lt;h5 id="相位结论"&gt;相位结论
+&lt;h5 id=&#34;相位结论&#34;&gt;相位结论
 &lt;/h5&gt;$$v(t) = V_{\text{max}}\cos\omega t$$&lt;p&gt;
 &lt;/p&gt;
 $$i(t) = I_{\text{max}}\cos(\omega t + 90^\circ)$$&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;电流领先电压 $90^\circ$&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;物理直觉&lt;/strong&gt;：电压刚要从 0 往上升的那一瞬间，&lt;strong&gt;斜率 $dv/dt$ 最大&lt;/strong&gt;，由 $i = C\,dv/dt$ 可知电流此时已经到峰值了。等电压升到顶峰（$dv/dt = 0$），电流降至 0。所以电流总是&lt;strong&gt;跑在电压前面&lt;/strong&gt; $90^\circ$。&lt;/p&gt;
-&lt;h5 id="振幅关系"&gt;振幅关系
+&lt;h5 id=&#34;振幅关系&#34;&gt;振幅关系
 &lt;/h5&gt;$$I_{\text{max}} = \omega C V_{\text{max}} = \frac{V_{\text{max}}}{X_C}$$&lt;p&gt;其中 &lt;strong&gt;容抗&lt;/strong&gt; $X_C = \dfrac{1}{\omega C}$，单位 $\Omega$&lt;/p&gt;
-&lt;h5 id="参数变化分析"&gt;参数变化分析
+&lt;h5 id=&#34;参数变化分析&#34;&gt;参数变化分析
 &lt;/h5&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;条件变化&lt;/th&gt;
-&lt;th style="text-align: center"&gt;$X_C$&lt;/th&gt;
-&lt;th style="text-align: center"&gt;$I_{\text{max}}$&lt;/th&gt;
-&lt;th style="text-align: left"&gt;物理原因&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\omega \uparrow$（频率变高）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\downarrow$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\uparrow$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;频率高→充放电快→电流容易通过&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\omega \downarrow$（频率变低）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\uparrow$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\downarrow$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;频率低→充放电慢→电流受阻&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\omega \to 0$（&lt;strong&gt;直流！&lt;/strong&gt;）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\to \infty$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\to 0$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;直流不能通过电容&lt;/strong&gt;！隔直通交&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$C \uparrow$（电容变大）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\downarrow$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\uparrow$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;电容大→储电多→同电压下电流更大&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;条件变化&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;$X_C$&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;$I_{\text{max}}$&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;物理原因&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\omega \uparrow$（频率变高）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\downarrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\uparrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;频率高→充放电快→电流容易通过&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\omega \downarrow$（频率变低）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\uparrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\downarrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;频率低→充放电慢→电流受阻&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\omega \to 0$（&lt;strong&gt;直流！&lt;/strong&gt;）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\to \infty$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\to 0$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;直流不能通过电容&lt;/strong&gt;！隔直通交&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$C \uparrow$（电容变大）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\downarrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\uparrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;电容大→储电多→同电压下电流更大&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;一句话&lt;/strong&gt;：电容&lt;strong&gt;通高频阻低频，隔直流通交流&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="详细推导纯电感--电路"&gt;详细推导——纯电感 $L$ 电路
-&lt;/h4&gt;&lt;h5 id="基本关系核心方程-1"&gt;基本关系（核心方程！）
+&lt;h4 id=&#34;详细推导纯电感--电路&#34;&gt;详细推导——纯电感 $L$ 电路
+&lt;/h4&gt;&lt;h5 id=&#34;基本关系核心方程-1&#34;&gt;基本关系（核心方程！）
 &lt;/h5&gt;$$v = L \frac{di}{dt}$$&lt;p&gt;电流 $\neq$ 电压的原因：电感通过磁场&lt;strong&gt;抵抗电流变化&lt;/strong&gt;，电流不能突变。外加电压是为了克服这个&amp;quot;惯性&amp;quot;把电流推起来，所以&lt;strong&gt;电压先来，电流后到&lt;/strong&gt;。&lt;/p&gt;
-&lt;h5 id="设电压求电流-1"&gt;设电压，求电流
+&lt;h5 id=&#34;设电压求电流-1&#34;&gt;设电压，求电流
 &lt;/h5&gt;&lt;p&gt;令 $v(t) = V_{\text{max}}\cos\omega t$：&lt;/p&gt;
 $$
 \begin{aligned}
 i &amp;= \frac{1}{L}\int v\,dt \\
-&amp;= \frac{1}{L}\int V_{\text{max}}\cos\omega t\,dt \\
-&amp;= \frac{V_{\text{max}}}{\omega L}\sin\omega t \\
-&amp;= \frac{V_{\text{max}}}{\omega L}\cos(\omega t - 90^\circ)
+  &amp;= \frac{1}{L}\int V_{\text{max}}\cos\omega t\,dt \\
+  &amp;= \frac{V_{\text{max}}}{\omega L}\sin\omega t \\
+  &amp;= \frac{V_{\text{max}}}{\omega L}\cos(\omega t - 90^\circ)
 \end{aligned}
 $$&lt;p&gt;📌 &lt;strong&gt;关键三角变换&lt;/strong&gt;：$\sin\theta = \cos(\theta - 90^\circ)$ —— 这就是相位差 $-90^\circ$ 的来源。&lt;/p&gt;
-&lt;h5 id="相位结论-1"&gt;相位结论
+&lt;h5 id=&#34;相位结论-1&#34;&gt;相位结论
 &lt;/h5&gt;$$v(t) = V_{\text{max}}\cos\omega t$$&lt;p&gt;
 &lt;/p&gt;
 $$i(t) = I_{\text{max}}\cos(\omega t - 90^\circ)$$&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;电压领先电流 $90^\circ$&lt;/strong&gt;（等价于电流落后电压 $90^\circ$）&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;物理直觉&lt;/strong&gt;：电感的电流有&amp;quot;惯性&amp;quot;（磁场维持），电压要先加上去对抗这个惯性，电流才慢慢建立。等电压过了峰值开始下降，电流还在继续上涨（因为磁场还在释放能量）。所以电压总是&lt;strong&gt;跑在电流前面&lt;/strong&gt; $90^\circ$。&lt;/p&gt;
-&lt;h5 id="振幅关系-1"&gt;振幅关系
+&lt;h5 id=&#34;振幅关系-1&#34;&gt;振幅关系
 &lt;/h5&gt;$$I_{\text{max}} = \frac{V_{\text{max}}}{\omega L} = \frac{V_{\text{max}}}{X_L}$$&lt;p&gt;其中 &lt;strong&gt;感抗&lt;/strong&gt; $X_L = \omega L$，单位 $\Omega$&lt;/p&gt;
-&lt;h5 id="参数变化分析-1"&gt;参数变化分析
+&lt;h5 id=&#34;参数变化分析-1&#34;&gt;参数变化分析
 &lt;/h5&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;条件变化&lt;/th&gt;
-&lt;th style="text-align: center"&gt;$X_L$&lt;/th&gt;
-&lt;th style="text-align: center"&gt;$I_{\text{max}}$&lt;/th&gt;
-&lt;th style="text-align: left"&gt;物理原因&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\omega \uparrow$（频率变高）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\uparrow$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\downarrow$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;高频→磁场变化快→感应反电动势大→阻碍电流&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\omega \downarrow$（频率变低）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\downarrow$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\uparrow$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;低频→磁场变化慢→阻碍小→电流容易通过&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$\omega \to 0$（&lt;strong&gt;直流！&lt;/strong&gt;）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\to 0$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\to V_{\text{max}}/R$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;直流下电感相当于导线&lt;/strong&gt;（仅保留线圈电阻）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;$L \uparrow$（电感变大）&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\uparrow$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\downarrow$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;电感大→&amp;ldquo;惯性&amp;quot;大→电流更难建立&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;条件变化&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;$X_L$&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;$I_{\text{max}}$&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;物理原因&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\omega \uparrow$（频率变高）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\uparrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\downarrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;高频→磁场变化快→感应反电动势大→阻碍电流&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\omega \downarrow$（频率变低）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\downarrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\uparrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;低频→磁场变化慢→阻碍小→电流容易通过&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\omega \to 0$（&lt;strong&gt;直流！&lt;/strong&gt;）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\to 0$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\to V_{\text{max}}/R$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;直流下电感相当于导线&lt;/strong&gt;（仅保留线圈电阻）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$L \uparrow$（电感变大）&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\uparrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\downarrow$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;电感大→&amp;ldquo;惯性&amp;quot;大→电流更难建立&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;一句话&lt;/strong&gt;：电感&lt;strong&gt;通低频阻高频，通直流阻交流&lt;/strong&gt;（和电容完全相反！）。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="记忆方法"&gt;记忆方法
+&lt;h4 id=&#34;记忆方法&#34;&gt;记忆方法
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;CIVIL 口诀&lt;/strong&gt;：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;C 电路：I → V（电流领先电压 Current leads Voltage）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;L 电路：V → I（电压领先电流 Voltage leads Current）
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;C 电路：I → V（电流领先电压 Current leads Voltage）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;L 电路：V → I（电压领先电流 Voltage leads Current）
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;口诀&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;$X_C = 1/\omega C$&lt;/td&gt;
-&lt;td&gt;&amp;ldquo;C 在分母，频率越高容抗越小&amp;rdquo;——高频更容易过电容&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$X_L = \omega L$&lt;/td&gt;
-&lt;td&gt;&amp;ldquo;L 在分子，频率越高感抗越大&amp;rdquo;——高频更难过电感&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;口诀&lt;/th&gt;
+          &lt;th&gt;含义&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$X_C = 1/\omega C$&lt;/td&gt;
+          &lt;td&gt;&amp;ldquo;C 在分母，频率越高容抗越小&amp;rdquo;——高频更容易过电容&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$X_L = \omega L$&lt;/td&gt;
+          &lt;td&gt;&amp;ldquo;L 在分子，频率越高感抗越大&amp;rdquo;——高频更难过电感&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;英语单词 &amp;amp; 记忆法：&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;中文&lt;/th&gt;
-&lt;th&gt;英文&lt;/th&gt;
-&lt;th style="text-align: center"&gt;符号&lt;/th&gt;
-&lt;th style="text-align: center"&gt;公式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;记忆法&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;感抗&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Inductive Reactance&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$X_L$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$X_L = \omega L$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;React&lt;/strong&gt; = 抵抗、反抗。电感&lt;strong&gt;抵抗&lt;/strong&gt;电流变化，所以叫 Reactance。&amp;ldquo;Inductive&amp;rdquo; 来自 Inductor（电感）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;容抗&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;Capacitive Reactance&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$X_C$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$X_C = 1/\omega C$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;同样是 Reactance，&amp;ldquo;Capacitive&amp;rdquo; 来自 Capacitor（电容）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;中文&lt;/th&gt;
+          &lt;th&gt;英文&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;符号&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;公式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;记忆法&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;感抗&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Inductive Reactance&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$X_L$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$X_L = \omega L$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;React&lt;/strong&gt; = 抵抗、反抗。电感&lt;strong&gt;抵抗&lt;/strong&gt;电流变化，所以叫 Reactance。&amp;ldquo;Inductive&amp;rdquo; 来自 Inductor（电感）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;容抗&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Capacitive Reactance&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$X_C$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$X_C = 1/\omega C$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;同样是 Reactance，&amp;ldquo;Capacitive&amp;rdquo; 来自 Capacitor（电容）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;公式推导记忆：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -706,44 +739,44 @@ obreakspace\omega \uparrow$ → $X_L \uparrow$（高频难过电感）&lt;/li&gt
 obreakspace\omega \uparrow$ → $X_C \downarrow$（高频容易过电容）&lt;/li&gt;
 &lt;li&gt;两个公式正好&lt;strong&gt;互为倒数&lt;/strong&gt;的感觉（一个是 $\omega L$，一个是 $1/\omega C$），对比着记不会混&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="题型总结-2"&gt;题型总结
+&lt;h4 id=&#34;题型总结-2&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;求 $X_C$ 或 $X_L$&lt;/strong&gt; → $X_C = 1/\omega C$, $X_L = \omega L$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;求 $I_{\text{max}}$&lt;/strong&gt; → 纯电阻电路 $V_{\text{max}}/R$，纯电容 $V_{\text{max}}/X_C$，纯电感 $V_{\text{max}}/X_L$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;相位判断&lt;/strong&gt; → CIVIL 口诀&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id="4-串联-rlc-电路"&gt;4. 串联 RLC 电路
-&lt;/h3&gt;&lt;h4 id="直觉引入-3"&gt;直觉引入
+&lt;h3 id=&#34;4-串联-rlc-电路&#34;&gt;4. 串联 RLC 电路
+&lt;/h3&gt;&lt;h4 id=&#34;直觉引入-3&#34;&gt;直觉引入
 &lt;/h4&gt;&lt;p&gt;三个元件串联，总电压是 $v_R + v_L + v_C$。但因为三个电压相位不同（$v_R$ 同相、$v_L$ 领先 $90^\circ$、$v_C$ 落后 $90^\circ$），不能直接代数相加，要&lt;strong&gt;矢量相加&lt;/strong&gt;。&lt;/p&gt;
-&lt;h4 id="关键概念"&gt;关键概念
+&lt;h4 id=&#34;关键概念&#34;&gt;关键概念
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;概念&lt;/th&gt;
-&lt;th&gt;公式&lt;/th&gt;
-&lt;th style="text-align: left"&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Impedance $Z$（阻抗）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$Z = \sqrt{R^2 + (X_L - X_C)^2}$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;总&amp;quot;阻力&amp;rdquo;，勾股定理&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$I_{\text{max}}$&lt;/td&gt;
-&lt;td&gt;$I_{\text{max}} = V_{\text{max}} / Z$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;类似 $V = IR$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;相位差 $\phi$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\tan\phi = (X_L - X_C)/R$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;$\phi&gt;0$：电流落后（感性）；$\phi&lt;0$：电流领先（容性）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;概念&lt;/th&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Impedance $Z$（阻抗）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$Z = \sqrt{R^2 + (X_L - X_C)^2}$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;总&amp;quot;阻力&amp;rdquo;，勾股定理&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$I_{\text{max}}$&lt;/td&gt;
+          &lt;td&gt;$I_{\text{max}} = V_{\text{max}} / Z$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;类似 $V = IR$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;相位差 $\phi$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$\tan\phi = (X_L - X_C)/R$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;$\phi&gt;0$：电流落后（感性）；$\phi&lt;0$：电流领先（容性）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id="公式推导-2"&gt;公式推导
+&lt;h4 id=&#34;公式推导-2&#34;&gt;公式推导
 &lt;/h4&gt;&lt;p&gt;设电流 $i = I_{\text{max}}\cos(\omega t - \phi)$，则各元件电压：&lt;/p&gt;
 $$v_R = I_{\text{max}}R\cos(\omega t - \phi)$$&lt;p&gt;
 &lt;/p&gt;
@@ -752,102 +785,102 @@ $$v_L = -I_{\text{max}}X_L\sin(\omega t - \phi)$$&lt;p&gt;
 $$v_C = I_{\text{max}}X_C\sin(\omega t - \phi)$$&lt;p&gt;KVL：$v_R + v_L + v_C = V_{\text{max}}\cos\omega t$&lt;/p&gt;
 &lt;p&gt;将 $v_L$ 写成 $\cos(\omega t - \phi + 90^\circ)$、$v_C$ 写成 $\cos(\omega t - \phi - 90^\circ)$，利用矢量合成，最终得：&lt;/p&gt;
 $$V_{\text{max}}^2 = I_{\text{max}}^2[R^2 + (X_L - X_C)^2]$$$$\boxed{Z = \sqrt{R^2 + (X_L - X_C)^2}}$$&lt;p&gt;&lt;strong&gt;三个电压的相位关系&lt;/strong&gt;（用相量图理解）：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;span class="lnt"&gt;6
-&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; V_L (↑, 领先90°)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ↑
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; │
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; V_R →┼→ (→, 同相)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; │
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ↓
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; V_C (↓, 落后90°)
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        V_L (↑, 领先90°)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         ↑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    V_R →┼→ (→, 同相)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;         ↓
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        V_C (↓, 落后90°)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;$V_L - V_C$ 的差值决定整体是感性（偏上）还是容性（偏下）。&lt;/p&gt;
-&lt;h4 id="三种情况-1"&gt;三种情况
+&lt;h4 id=&#34;三种情况-1&#34;&gt;三种情况
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;条件&lt;/th&gt;
-&lt;th style="text-align: center"&gt;$\phi$&lt;/th&gt;
-&lt;th style="text-align: left"&gt;电路性质&lt;/th&gt;
-&lt;th style="text-align: left"&gt;电流 vs 电压&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;$X_L &gt; X_C$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\phi &gt; 0$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Inductive（感性）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;电流&lt;strong&gt;落后&lt;/strong&gt;电压&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$X_L &lt; X_C$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\phi &lt; 0$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Capacitive（容性）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;电流&lt;strong&gt;领先&lt;/strong&gt;电压&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$X_L = X_C$&lt;/td&gt;
-&lt;td style="text-align: center"&gt;$\phi = 0$&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;Resistive（纯阻性/谐振）&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;同相，电流最大&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;条件&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;$\phi$&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;电路性质&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;电流 vs 电压&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$X_L &gt; X_C$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\phi &gt; 0$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Inductive（感性）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;电流&lt;strong&gt;落后&lt;/strong&gt;电压&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$X_L &lt; X_C$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\phi &lt; 0$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Capacitive（容性）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;电流&lt;strong&gt;领先&lt;/strong&gt;电压&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$X_L = X_C$&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;$\phi = 0$&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Resistive（纯阻性/谐振）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;同相，电流最大&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h4 id="题型总结-3"&gt;题型总结
+&lt;h4 id=&#34;题型总结-3&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;求 $Z$&lt;/strong&gt; → 算 $X_L$ 和 $X_C$ → 相减 → 勾股定理&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;求 $\phi$&lt;/strong&gt; → $\tan\phi = (X_L - X_C)/R$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;判断电路性质&lt;/strong&gt; → 比较 $X_L$ 和 $X_C$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id="5-谐振-resonance"&gt;5. 谐振 (Resonance)
-&lt;/h3&gt;&lt;h4 id="直觉引入-4"&gt;直觉引入
+&lt;h3 id=&#34;5-谐振-resonance&#34;&gt;5. 谐振 (Resonance)
+&lt;/h3&gt;&lt;h4 id=&#34;直觉引入-4&#34;&gt;直觉引入
 &lt;/h4&gt;&lt;p&gt;当 $X_L = X_C$ 时，感抗和容抗恰好互相抵消，总阻抗最小 $Z = R$，电流达到最大。就像荡秋千，推的频率刚好等于固有频率 → 振幅最大。&lt;/p&gt;
-&lt;h4 id="关键公式-1"&gt;关键公式
+&lt;h4 id=&#34;关键公式-1&#34;&gt;关键公式
 &lt;/h4&gt;$$\text{谐振条件：}\quad \omega L = \frac{1}{\omega C} \;\Rightarrow\; \omega_0 = \frac{1}{\sqrt{LC}}$$$$\text{谐振时：}\quad Z = R,\quad I_{\text{max}} = \frac{V_{\text{max}}}{R}\text{（最大！）}$$&lt;p&gt;&lt;strong&gt;品质因子 $Q$&lt;/strong&gt;（注意不是电荷）：&lt;/p&gt;
 $$Q = \frac{\omega_0 L}{R} = \frac{1}{\omega_0 R C}$$&lt;p&gt;$Q$ 越大 → 谐振峰越尖锐 → &lt;strong&gt;选择性越好&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id="-记忆方法-1"&gt;📝 记忆方法
+&lt;h4 id=&#34;-记忆方法-1&#34;&gt;📝 记忆方法
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;$\omega_0 = 1/\sqrt{LC}$ 和 LC 自由振荡频率一模一样&lt;/li&gt;
 &lt;li&gt;$Q = \omega_0 L/R$ → &amp;ldquo;$L$ 越大 $R$ 越小 → 峰越尖&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;谐振时 $Z$ 最小电流最大&amp;rdquo; → 阻抗抵消了，R 说了算&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="题型总结-4"&gt;题型总结
+&lt;h4 id=&#34;题型总结-4&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;求谐振频率&lt;/strong&gt; → $\omega_0 = 1/\sqrt{LC}$ 或 $f_0 = 1/(2\pi\sqrt{LC})$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;谐振 $I_{\text{max}}$&lt;/strong&gt; → $I_{\text{max}} = V_{\text{max}}/R$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;求 $Q$&lt;/strong&gt; → $Q = \omega_0 L/R = 1/(\omega_0 RC)$&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id="6-交流电功率"&gt;6. 交流电功率
-&lt;/h3&gt;&lt;h4 id="直觉引入-5"&gt;直觉引入
+&lt;h3 id=&#34;6-交流电功率&#34;&gt;6. 交流电功率
+&lt;/h3&gt;&lt;h4 id=&#34;直觉引入-5&#34;&gt;直觉引入
 &lt;/h4&gt;&lt;p&gt;交流电压电流不断变化，瞬时功率也在变。我们关心的是&lt;strong&gt;平均功率&lt;/strong&gt;。&lt;/p&gt;
-&lt;h4 id="rms-值有效值"&gt;RMS 值（有效值）
+&lt;h4 id=&#34;rms-值有效值&#34;&gt;RMS 值（有效值）
 &lt;/h4&gt;$$I_{\text{rms}} = \frac{I_{\text{max}}}{\sqrt{2}},\quad V_{\text{rms}} = \frac{V_{\text{max}}}{\sqrt{2}}$$&lt;p&gt;📝 &lt;strong&gt;万用表显示的是 RMS！&lt;/strong&gt; 家用 220V = RMS → 峰值 $220\times\sqrt{2} \approx 311$V&lt;/p&gt;
-&lt;h4 id="平均功率"&gt;平均功率
+&lt;h4 id=&#34;平均功率&#34;&gt;平均功率
 &lt;/h4&gt;$$P_{\text{avg}} = I_{\text{rms}}^2 R = V_{\text{rms}} I_{\text{rms}} \cos\phi$$&lt;ul&gt;
 &lt;li&gt;$\cos\phi = R/Z$（&lt;strong&gt;power factor&lt;/strong&gt;，功率因数）&lt;/li&gt;
 &lt;li&gt;纯电阻：$\cos\phi = 1$；纯电容/纯电感：$\cos\phi = 0$（平均功率=0，储能不耗能）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="题型总结-5"&gt;题型总结
+&lt;h4 id=&#34;题型总结-5&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;RMS 值&lt;/strong&gt; → 峰值 $/\sqrt{2}$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;平均功率&lt;/strong&gt; → $P_{\text{avg}} = I_{\text{rms}}^2 R = V_{\text{rms}}I_{\text{rms}}\cos\phi$&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;功率因数&lt;/strong&gt; → $\cos\phi = R/Z$，越接近 1 效率越高&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
-&lt;h3 id="7-变压器-transformer"&gt;7. 变压器 (Transformer)
+&lt;h3 id=&#34;7-变压器-transformer&#34;&gt;7. 变压器 (Transformer)
 &lt;/h3&gt;$$\frac{V_2}{V_1} = \frac{N_2}{N_1},\qquad \frac{I_2}{I_1} = \frac{N_1}{N_2}$$&lt;ul&gt;
 &lt;li&gt;$N_2 &gt; N_1$ → &lt;strong&gt;step-up（升压）&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;$N_2 &lt; N_1$ → &lt;strong&gt;step-down（降压）&lt;/strong&gt;&lt;/li&gt;
@@ -856,91 +889,96 @@ $$Q = \frac{\omega_0 L}{R} = \frac{1}{\omega_0 R C}$$&lt;p&gt;$Q$ 越大 → 谐
 &lt;/ul&gt;
 &lt;p&gt;📝 &amp;ldquo;升压降流，降压升流&amp;rdquo; — 哪边匝数多，哪边电压高&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="8-易混淆概念对比"&gt;8. 易混淆概念对比
+&lt;h3 id=&#34;8-易混淆概念对比&#34;&gt;8. 易混淆概念对比
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;易混点&lt;/th&gt;
-&lt;th&gt;区别&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;$X_L$ vs $X_C$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$X_L = \omega L$（正比 $\omega$），$X_C = 1/\omega C$（反比 $\omega$）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;$Q$（电荷）vs $Q$（品质因子）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;电荷单位 C，品质因子无量纲&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;$\omega$ vs $f$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\omega = 2\pi f$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;谐振 $\omega_0$ vs 阻尼 $\omega'$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;$\omega_0 = 1/\sqrt{LC}$，$\omega' = \sqrt{\omega_0^2 - \beta^2}$&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;$I_{\text{max}}$ vs $I_{\text{rms}}$&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;考试看清问 peak 还是 rms&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;易混点&lt;/th&gt;
+          &lt;th&gt;区别&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;$X_L$ vs $X_C$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$X_L = \omega L$（正比 $\omega$），$X_C = 1/\omega C$（反比 $\omega$）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;$Q$（电荷）vs $Q$（品质因子）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;电荷单位 C，品质因子无量纲&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;$\omega$ vs $f$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$\omega = 2\pi f$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;谐振 $\omega_0$ vs 阻尼 $\omega&#39;$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;$\omega_0 = 1/\sqrt{LC}$，$\omega&#39; = \sqrt{\omega_0^2 - \beta^2}$&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;$I_{\text{max}}$ vs $I_{\text{rms}}$&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;考试看清问 peak 还是 rms&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="9-公式速查"&gt;9. 公式速查
+&lt;h3 id=&#34;9-公式速查&#34;&gt;9. 公式速查
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;公式&lt;/th&gt;
-&lt;th&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;$\omega_0 = 1/\sqrt{LC}$&lt;/td&gt;
-&lt;td&gt;谐振/振荡角频率&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$\beta = R/2L$&lt;/td&gt;
-&lt;td&gt;阻尼系数&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$X_L = \omega L$&lt;/td&gt;
-&lt;td&gt;感抗&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$X_C = 1/(\omega C)$&lt;/td&gt;
-&lt;td&gt;容抗&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$Z = \sqrt{R^2 + (X_L - X_C)^2}$&lt;/td&gt;
-&lt;td&gt;RLC 总阻抗&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$\tan\phi = (X_L - X_C)/R$&lt;/td&gt;
-&lt;td&gt;相位差&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$I_{\text{max}} = V_{\text{max}}/Z$&lt;/td&gt;
-&lt;td&gt;电流振幅&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$I_{\text{rms}} = I_{\text{max}}/\sqrt{2}$&lt;/td&gt;
-&lt;td&gt;有效值&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$P_{\text{avg}} = I_{\text{rms}}^2 R = V_{\text{rms}} I_{\text{rms}} \cos\phi$&lt;/td&gt;
-&lt;td&gt;平均功率&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;$V_2/V_1 = N_2/N_1$&lt;/td&gt;
-&lt;td&gt;变压器电压比&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$\omega_0 = 1/\sqrt{LC}$&lt;/td&gt;
+          &lt;td&gt;谐振/振荡角频率&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$\beta = R/2L$&lt;/td&gt;
+          &lt;td&gt;阻尼系数&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$X_L = \omega L$&lt;/td&gt;
+          &lt;td&gt;感抗&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$X_C = 1/(\omega C)$&lt;/td&gt;
+          &lt;td&gt;容抗&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$Z = \sqrt{R^2 + (X_L - X_C)^2}$&lt;/td&gt;
+          &lt;td&gt;RLC 总阻抗&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$\tan\phi = (X_L - X_C)/R$&lt;/td&gt;
+          &lt;td&gt;相位差&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$I_{\text{max}} = V_{\text{max}}/Z$&lt;/td&gt;
+          &lt;td&gt;电流振幅&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$I_{\text{rms}} = I_{\text{max}}/\sqrt{2}$&lt;/td&gt;
+          &lt;td&gt;有效值&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$P_{\text{avg}} = I_{\text{rms}}^2 R = V_{\text{rms}} I_{\text{rms}} \cos\phi$&lt;/td&gt;
+          &lt;td&gt;平均功率&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;$V_2/V_1 = N_2/N_1$&lt;/td&gt;
+          &lt;td&gt;变压器电压比&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;🗓 最后更新：2026-04-28 | 来源：SUSTC General Physics II Ch.31&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;hr&gt;</description></item></channel></rss>
+&lt;hr&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,11 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>依数性 on 余佰凌的空间</title><link>https://yubailing666.github.io/tags/%E4%BE%9D%E6%95%B0%E6%80%A7/</link><description>Recent content in 依数性 on 余佰凌的空间</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>余佰凌</copyright><lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/tags/%E4%BE%9D%E6%95%B0%E6%80%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>第十三章——Properties of Solutions</title><link>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</link><pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate><guid>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</guid><description>&lt;h1 id="大学化学--复习卡片"&gt;大学化学 · 复习卡片
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>依数性 on 余佰凌的空间</title>
+        <link>https://yubailing666.github.io/tags/%E4%BE%9D%E6%95%B0%E6%80%A7/</link>
+        <description>Recent content in 依数性 on 余佰凌的空间</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>余佰凌</copyright>
+        <lastBuildDate>Wed, 29 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://yubailing666.github.io/tags/%E4%BE%9D%E6%95%B0%E6%80%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>第十三章——Properties of Solutions</title>
+        <link>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</link>
+        <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://yubailing666.github.io/p/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0properties-of-solutions/</guid>
+        <description>&lt;h1 id=&#34;大学化学--复习卡片&#34;&gt;大学化学 · 复习卡片
 &lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;边学边整理，期末直接背。关键术语保留英文，解释用中文。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;hr&gt;
-&lt;h2 id="ch13-properties-of-solutions溶液的性质"&gt;Ch.13 Properties of Solutions（溶液的性质）
+&lt;h2 id=&#34;ch13-properties-of-solutions溶液的性质&#34;&gt;Ch.13 Properties of Solutions（溶液的性质）
 &lt;/h2&gt;&lt;hr&gt;
-&lt;h3 id="1-基本概念"&gt;1. 基本概念
+&lt;h3 id=&#34;1-基本概念&#34;&gt;1. 基本概念
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Solution（溶液）&lt;/strong&gt;：两种或以上纯物质的均匀混合物&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Solute（溶质）&lt;/strong&gt; → 被分散的物质&lt;/li&gt;
@@ -13,30 +28,30 @@
 &lt;li&gt;溶液也可以是固体（合金）或气体（空气）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="2-溶液形成的驱动力"&gt;2. 溶液形成的驱动力
+&lt;h3 id=&#34;2-溶液形成的驱动力&#34;&gt;2. 溶液形成的驱动力
 &lt;/h3&gt;&lt;p&gt;取决于两个因素：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;因素&lt;/th&gt;
-&lt;th&gt;说明&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Entropy（熵）↑&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;物质混合 → 混乱度↑ → 自发趋势&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Intermolecular interactions（分子间作用力）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶质–溶质、溶剂–溶剂、溶质–溶剂 三者竞争&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;因素&lt;/th&gt;
+          &lt;th&gt;说明&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Entropy（熵）↑&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;物质混合 → 混乱度↑ → 自发趋势&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Intermolecular interactions（分子间作用力）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶质–溶质、溶剂–溶剂、溶质–溶剂 三者竞争&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;⚠️ 溶质和溶剂之间的分子间力必须&lt;strong&gt;足够强&lt;/strong&gt;，才能竞争过溶质内部和溶剂内部的作用力。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Solvation（溶剂化）&lt;/strong&gt;：溶剂分子包围溶质粒子的过程。溶剂为水时称为 &lt;strong&gt;Hydration（水合）&lt;/strong&gt;。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="3-溶液形成中的能量变化"&gt;3. 溶液形成中的能量变化
+&lt;h3 id=&#34;3-溶液形成中的能量变化&#34;&gt;3. 溶液形成中的能量变化
 &lt;/h3&gt;&lt;p&gt;\((\text{solute})_n \rightarrow n\;\text{solute}\quad \Delta H_{\text{solute}} &gt; 0\)（破坏溶质间作用力，吸热）&lt;/p&gt;
 &lt;p&gt;\((\text{solvent})_n \rightarrow n\;\text{solvent}\quad \Delta H_{\text{solvent}} &gt; 0\)（破坏溶剂间作用力，吸热）&lt;/p&gt;
 &lt;p&gt;\(n\;\text{solute} + n\;\text{solvent} \rightarrow \text{solution}\quad \Delta H_{\text{mix}} &lt; 0\)（溶质–溶剂作用，放热）&lt;/p&gt;
@@ -46,75 +61,75 @@ $$\Delta H_{\text{soln}} = \Delta H_{\text{solute}} + \Delta H_{\text{solvent}} 
 &lt;/ul&gt;
 &lt;p&gt;📝 吸热也能自发 → &lt;strong&gt;Entropy（熵增）驱动！&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="4-dissolution--chemical-reaction"&gt;4. Dissolution ≠ Chemical Reaction
+&lt;h3 id=&#34;4-dissolution--chemical-reaction&#34;&gt;4. Dissolution ≠ Chemical Reaction
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Dissolution（溶解）是 physical change（物理变化）&lt;/strong&gt; → 蒸发溶剂可回收原溶质&lt;/li&gt;
 &lt;li&gt;如果回收不了 → 实际上是发生了&lt;strong&gt;化学反应&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="5-溶液类型"&gt;5. 溶液类型
+&lt;h3 id=&#34;5-溶液类型&#34;&gt;5. 溶液类型
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;定义&lt;/th&gt;
-&lt;th&gt;特点&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Saturated（饱和）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶剂量已溶解最大量溶质&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;dynamic equilibrium（动态平衡）&lt;/strong&gt;：dissolution = crystallization&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Unsaturated（不饱和）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶质量少于饱和所需&lt;/td&gt;
-&lt;td&gt;还能继续溶解&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Supersaturated（过饱和）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;溶质量超过正常溶解度&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;不稳定&lt;/strong&gt;，加 seed crystal 或 scratching 即结晶&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;定义&lt;/th&gt;
+          &lt;th&gt;特点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Saturated（饱和）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶剂量已溶解最大量溶质&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;dynamic equilibrium（动态平衡）&lt;/strong&gt;：dissolution = crystallization&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Unsaturated（不饱和）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶质量少于饱和所需&lt;/td&gt;
+          &lt;td&gt;还能继续溶解&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Supersaturated（过饱和）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;溶质量超过正常溶解度&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;不稳定&lt;/strong&gt;，加 seed crystal 或 scratching 即结晶&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;⚠️ &lt;strong&gt;Solubility（溶解度）定义&lt;/strong&gt;：一定温度下，某固态物质在 &lt;strong&gt;100 g 溶剂&lt;/strong&gt; 中达到饱和时所溶解的质量。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="6-影响-solubility-的因素"&gt;6. 影响 Solubility 的因素
-&lt;/h3&gt;&lt;h4 id="61-like-dissolves-like相似相溶"&gt;6.1 &amp;ldquo;Like Dissolves Like&amp;rdquo;（相似相溶）
+&lt;h3 id=&#34;6-影响-solubility-的因素&#34;&gt;6. 影响 Solubility 的因素
+&lt;/h3&gt;&lt;h4 id=&#34;61-like-dissolves-like相似相溶&#34;&gt;6.1 &amp;ldquo;Like Dissolves Like&amp;rdquo;（相似相溶）
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Solute（溶质）&lt;/th&gt;
-&lt;th&gt;Solvent（溶剂）&lt;/th&gt;
-&lt;th&gt;结果&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Polar（极性）&lt;/td&gt;
-&lt;td&gt;Polar（极性）&lt;/td&gt;
-&lt;td&gt;溶 ✔&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
-&lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
-&lt;td&gt;溶 ✔&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Polar&lt;/td&gt;
-&lt;td&gt;Nonpolar&lt;/td&gt;
-&lt;td&gt;不溶 ✘&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Solute（溶质）&lt;/th&gt;
+          &lt;th&gt;Solvent（溶剂）&lt;/th&gt;
+          &lt;th&gt;结果&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Polar（极性）&lt;/td&gt;
+          &lt;td&gt;Polar（极性）&lt;/td&gt;
+          &lt;td&gt;溶 ✔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
+          &lt;td&gt;Nonpolar（非极性）&lt;/td&gt;
+          &lt;td&gt;溶 ✔&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Polar&lt;/td&gt;
+          &lt;td&gt;Nonpolar&lt;/td&gt;
+          &lt;td&gt;不溶 ✘&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Glucose（葡萄糖）&lt;/strong&gt;（有 H-bonding）→ 溶于水 ✔&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Cyclohexane（环己烷）&lt;/strong&gt;（只有 dispersion forces）→ 不溶于水 ✘&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Vitamin A&lt;/strong&gt; → 溶于非极性溶剂（脂肪）| &lt;strong&gt;Vitamin C&lt;/strong&gt; → 溶于极性溶剂（水）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="62-压力效应--henrys-law亨利定律"&gt;6.2 压力效应 — Henry&amp;rsquo;s Law（亨利定律）
+&lt;h4 id=&#34;62-压力效应--henrys-law亨利定律&#34;&gt;6.2 压力效应 — Henry&amp;rsquo;s Law（亨利定律）
 &lt;/h4&gt;&lt;p&gt;&lt;strong&gt;（只对气体显著）&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;\(S_g = k \cdot P_g\)&lt;/p&gt;
@@ -128,104 +143,104 @@ $$\Delta H_{\text{soln}} = \Delta H_{\text{solute}} + \Delta H_{\text{solvent}} 
 &lt;p&gt;📝 &lt;strong&gt;例题&lt;/strong&gt;：CO₂ 在 4.0 atm 下，\(k = 3.4 \times 10^{-2}\) mol/L·atm
 → \(S_{CO_2} = (3.4 \times 10^{-2})(4.0) =\) &lt;strong&gt;0.14 M&lt;/strong&gt;
 M是摩尔每升&lt;/p&gt;
-&lt;h4 id="63-温度效应"&gt;6.3 温度效应
+&lt;h4 id=&#34;63-温度效应&#34;&gt;6.3 温度效应
 &lt;/h4&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;溶质类型&lt;/th&gt;
-&lt;th&gt;温度↑ 的影响&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;固体&lt;/strong&gt; 溶质&lt;/td&gt;
-&lt;td&gt;Solubility ↑（通常）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;气体&lt;/strong&gt; 溶质&lt;/td&gt;
-&lt;td&gt;Solubility ↓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;溶质类型&lt;/th&gt;
+          &lt;th&gt;温度↑ 的影响&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;固体&lt;/strong&gt; 溶质&lt;/td&gt;
+          &lt;td&gt;Solubility ↑（通常）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;气体&lt;/strong&gt; 溶质&lt;/td&gt;
+          &lt;td&gt;Solubility ↓&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;生活例子&lt;/strong&gt;：碳酸饮料冷藏更&amp;quot;气泡足&amp;quot;；温水里氧气少&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="7-浓度表示法ways-of-expressing-concentration"&gt;7. 浓度表示法（Ways of Expressing Concentration）
+&lt;h3 id=&#34;7-浓度表示法ways-of-expressing-concentration&#34;&gt;7. 浓度表示法（Ways of Expressing Concentration）
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;名称&lt;/th&gt;
-&lt;th&gt;公式&lt;/th&gt;
-&lt;th&gt;注意&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Mass percentage（质量百分比）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;(溶质质量/溶液质量)×100%&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;ppm&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;(溶质质量/溶液质量)×\(10^6\)&lt;/td&gt;
-&lt;td&gt;百万分之一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;ppb&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;(溶质质量/溶液质量)×\(10^9\)&lt;/td&gt;
-&lt;td&gt;十亿分之一&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Mole fraction \(X\)（摩尔分数）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(n_A / (n_A + n_B)\)&lt;/td&gt;
-&lt;td&gt;注意区分溶剂和溶质&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Molarity \(M\)（摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;moles of solute / 溶液体积(L)&lt;/td&gt;
-&lt;td&gt;❗ &lt;strong&gt;随温度变化&lt;/strong&gt;（体积热胀冷缩）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Molality \(m\)（重量摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;moles of solute / 溶剂质量(kg)&lt;/td&gt;
-&lt;td&gt;✅ &lt;strong&gt;不随温度变化&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;名称&lt;/th&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+          &lt;th&gt;注意&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mass percentage（质量百分比）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;(溶质质量/溶液质量)×100%&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ppm&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;(溶质质量/溶液质量)×\(10^6\)&lt;/td&gt;
+          &lt;td&gt;百万分之一&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;ppb&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;(溶质质量/溶液质量)×\(10^9\)&lt;/td&gt;
+          &lt;td&gt;十亿分之一&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Mole fraction \(X\)（摩尔分数）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(n_A / (n_A + n_B)\)&lt;/td&gt;
+          &lt;td&gt;注意区分溶剂和溶质&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Molarity \(M\)（摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;moles of solute / 溶液体积(L)&lt;/td&gt;
+          &lt;td&gt;❗ &lt;strong&gt;随温度变化&lt;/strong&gt;（体积热胀冷缩）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Molality \(m\)（重量摩尔浓度）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;moles of solute / 溶剂质量(kg)&lt;/td&gt;
+          &lt;td&gt;✅ &lt;strong&gt;不随温度变化&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;温度变化时记得用 Molality (\(m\)) ！&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="8-colligative-properties依数性"&gt;8. Colligative Properties（依数性）
+&lt;h3 id=&#34;8-colligative-properties依数性&#34;&gt;8. Colligative Properties（依数性）
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;只与溶质&lt;strong&gt;粒子数量&lt;/strong&gt;有关，与溶质&lt;strong&gt;种类&lt;/strong&gt;无关。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;四种依数性：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;性质&lt;/th&gt;
-&lt;th&gt;规律&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Vapor-pressure lowering（蒸气压下降）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(P_{\text{solution}} &lt; P^\circ_{\text{solvent}}\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Boiling-point elevation（沸点升高）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(T_b &gt; T^\circ_b\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Freezing-point depression（凝固点降低）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(T_f &lt; T^\circ_f\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Osmotic pressure（渗透压）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;\(\pi\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;性质&lt;/th&gt;
+          &lt;th&gt;规律&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Vapor-pressure lowering（蒸气压下降）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(P_{\text{solution}} &lt; P^\circ_{\text{solvent}}\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Boiling-point elevation（沸点升高）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(T_b &gt; T^\circ_b\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Freezing-point depression（凝固点降低）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(T_f &lt; T^\circ_f\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Osmotic pressure（渗透压）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;\(\pi\)&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="9-蒸气压下降--raoults-law拉乌尔定律"&gt;9. 蒸气压下降 — Raoult&amp;rsquo;s Law（拉乌尔定律）
+&lt;h3 id=&#34;9-蒸气压下降--raoults-law拉乌尔定律&#34;&gt;9. 蒸气压下降 — Raoult&amp;rsquo;s Law（拉乌尔定律）
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;\(P_{\text{solution}} = X_{\text{solvent}} \cdot P^\circ_{\text{solvent}}\)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -244,63 +259,63 @@ M是摩尔每升&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;⚠️ &lt;strong&gt;与稀溶液近似（dilute solution approximation）的区别&lt;/strong&gt;：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style="text-align: left"&gt;对比项&lt;/th&gt;
-&lt;th style="text-align: left"&gt;理想溶液&lt;/th&gt;
-&lt;th style="text-align: left"&gt;稀溶液近似&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;浓度范围&lt;/td&gt;
-&lt;td style="text-align: left"&gt;&lt;strong&gt;任意浓度&lt;/strong&gt;都成立&lt;/td&gt;
-&lt;td style="text-align: left"&gt;只&lt;strong&gt;低浓度&lt;/strong&gt;下近似成立&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;Raoult&amp;rsquo;s Law 服从&lt;/td&gt;
-&lt;td style="text-align: left"&gt;严格服从&lt;/td&gt;
-&lt;td style="text-align: left"&gt;近似服从&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;\(\Delta H_{\text{mix}}\)&lt;/td&gt;
-&lt;td style="text-align: left"&gt;\(= 0\)&lt;/td&gt;
-&lt;td style="text-align: left"&gt;\(\approx 0\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style="text-align: left"&gt;实际存在？&lt;/td&gt;
-&lt;td style="text-align: left"&gt;理想化模型，实际&lt;strong&gt;不存在&lt;/strong&gt;&lt;/td&gt;
-&lt;td style="text-align: left"&gt;实际&lt;strong&gt;稀溶液&lt;/strong&gt;近似适用&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;对比项&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;理想溶液&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;稀溶液近似&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;浓度范围&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;任意浓度&lt;/strong&gt;都成立&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;只&lt;strong&gt;低浓度&lt;/strong&gt;下近似成立&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;Raoult&amp;rsquo;s Law 服从&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;严格服从&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;近似服从&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;\(\Delta H_{\text{mix}}\)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;\(= 0\)&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;\(\approx 0\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;实际存在？&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;理想化模型，实际&lt;strong&gt;不存在&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;实际&lt;strong&gt;稀溶液&lt;/strong&gt;近似适用&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="10-boiling-point-elevation--freezing-point-depression"&gt;10. Boiling-Point Elevation &amp;amp; Freezing-Point Depression
+&lt;h3 id=&#34;10-boiling-point-elevation--freezing-point-depression&#34;&gt;10. Boiling-Point Elevation &amp;amp; Freezing-Point Depression
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;\(\Delta T_b = K_b \cdot m\)
 \(\Delta T_f = K_f \cdot m\)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;符号&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;\(K_b\)&lt;/td&gt;
-&lt;td&gt;molal boiling-point elevation constant（溶剂性质）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(K_f\)&lt;/td&gt;
-&lt;td&gt;molal freezing-point depression constant（溶剂性质）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(m\)&lt;/td&gt;
-&lt;td&gt;molality（重量摩尔浓度）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;符号&lt;/th&gt;
+          &lt;th&gt;含义&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(K_b\)&lt;/td&gt;
+          &lt;td&gt;molal boiling-point elevation constant（溶剂性质）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(K_f\)&lt;/td&gt;
+          &lt;td&gt;molal freezing-point depression constant（溶剂性质）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(m\)&lt;/td&gt;
+          &lt;td&gt;molality（重量摩尔浓度）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;\(T_b = T^\circ_b + \Delta T_b\)
 \(T_f = T^\circ_f - \Delta T_f\)&lt;/p&gt;
@@ -310,34 +325,34 @@ M是摩尔每升&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;strong&gt;推导过程&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;已知 \(\Delta T_f = K_f \cdot m\) 且 \(m\) = molality&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;span class="lnt"&gt;6
-&lt;/span&gt;&lt;span class="lnt"&gt;7
-&lt;/span&gt;&lt;span class="lnt"&gt;8
-&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;m = moles of solute / mass of solvent (kg)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; = (m_B / M_B) / m_A ← m_B：溶质质量(g)，M_B：摩尔质量(g/mol)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; = m_B / (M_B · m_A)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;代入 ΔT_f = K_f · m：
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ΔT_f = K_f · m_B / (M_B · m_A)
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;移项：
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;M_B = K_f · m_B / (ΔT_f · m_A) ✓
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;m = moles of solute / mass of solvent (kg)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  = (m_B / M_B) / m_A            ← m_B：溶质质量(g)，M_B：摩尔质量(g/mol)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  = m_B / (M_B · m_A)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;代入 ΔT_f = K_f · m：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ΔT_f = K_f · m_B / (M_B · m_A)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;移项：
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;M_B = K_f · m_B / (ΔT_f · m_A)  ✓
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;⚠️ &lt;strong&gt;注意单位&lt;/strong&gt;：\(m_B\) 是溶质质量(g)，\(m_A\) 是溶剂质量(kg)&lt;/p&gt;
 &lt;p&gt;📝 &lt;strong&gt;Antifreeze（防冻剂）应用&lt;/strong&gt;：ethylene glycol（乙二醇），40% 水溶液冰点 −24℃&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="11-电解质的依数性--vant-hoff-factor-"&gt;11. 电解质的依数性 — van&amp;rsquo;t Hoff Factor (\(i\))
+&lt;h3 id=&#34;11-电解质的依数性--vant-hoff-factor-&#34;&gt;11. 电解质的依数性 — van&amp;rsquo;t Hoff Factor (\(i\))
 &lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;\(\Delta T = K \cdot m \cdot i\)&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -348,7 +363,7 @@ M是摩尔每升&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;⚠️ 浓度越高 → 重新关联越多 → \(i\) 越小&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="12-osmosis渗透-osmotic-pressure渗透压"&gt;12. Osmosis（渗透）&amp;amp; Osmotic Pressure（渗透压）
+&lt;h3 id=&#34;12-osmosis渗透-osmotic-pressure渗透压&#34;&gt;12. Osmosis（渗透）&amp;amp; Osmotic Pressure（渗透压）
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;Osmosis（渗透）&lt;/strong&gt;：溶剂从&lt;strong&gt;低溶质浓度侧&lt;/strong&gt; → &lt;strong&gt;高溶质浓度侧&lt;/strong&gt;，通过 semipermeable membrane（半透膜）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Osmotic pressure (\(\pi\)，渗透压)&lt;/strong&gt;：阻止渗透所需的最小压力&lt;/p&gt;
 &lt;blockquote&gt;
@@ -361,7 +376,7 @@ M是摩尔每升&lt;/p&gt;
 &lt;li&gt;\(T\) = 温度 (K)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h4 id="直觉理解"&gt;直觉理解
+&lt;h4 id=&#34;直觉理解&#34;&gt;直觉理解
 &lt;/h4&gt;&lt;p&gt;渗透压可以类比为&lt;strong&gt;气体压强&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;气体分子撞容器壁 → 产生压强&lt;/li&gt;
@@ -369,39 +384,39 @@ M是摩尔每升&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;浓度越高（\(M\) 越大）、温度越高（\(T\) 越大），粒子撞得越猛 → \(\pi\) 越大。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="推导稀溶液近似"&gt;推导（稀溶液近似）
+&lt;h4 id=&#34;推导稀溶液近似&#34;&gt;推导（稀溶液近似）
 &lt;/h4&gt;&lt;p&gt;范特霍夫发现渗透压公式和理想气体状态方程&lt;strong&gt;形式完全一样&lt;/strong&gt;：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;理想气体&lt;/th&gt;
-&lt;th&gt;稀溶液渗透压&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;\(pV = nRT\)&lt;/td&gt;
-&lt;td&gt;\(\pi V = inRT\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(p = nRT/V\)&lt;/td&gt;
-&lt;td&gt;\(\pi = inRT/V\)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(p = (n/V)RT\)&lt;/td&gt;
-&lt;td&gt;\(\pi = i \cdot (n/V)RT = iMRT\) ✓&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;理想气体&lt;/th&gt;
+          &lt;th&gt;稀溶液渗透压&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(pV = nRT\)&lt;/td&gt;
+          &lt;td&gt;\(\pi V = inRT\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(p = nRT/V\)&lt;/td&gt;
+          &lt;td&gt;\(\pi = inRT/V\)&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(p = (n/V)RT\)&lt;/td&gt;
+          &lt;td&gt;\(\pi = i \cdot (n/V)RT = iMRT\) ✓&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;这不是巧合。在&lt;strong&gt;稀溶液&lt;/strong&gt;中，溶质分子间的相互作用可以忽略，行为像理想气体中的分子一样独立运动。唯一的区别是加上 \(i\) 来修正电解质电离带来的粒子数增加。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h4 id="-记忆方法"&gt;📝 记忆方法
+&lt;h4 id=&#34;-记忆方法&#34;&gt;📝 记忆方法
 &lt;/h4&gt;&lt;ul&gt;
 &lt;li&gt;\(\pi = iMRT\) → 和理想气体 \(pV = nRT\) 长得一模一样，只是多了个 \(i\)&lt;/li&gt;
 &lt;li&gt;\(R\) 用 8.314（SI 单位，压力用 Pa）&lt;/li&gt;
 &lt;li&gt;\(\pi\) 是&lt;strong&gt;阻止&lt;/strong&gt;渗透的压力，不是渗透推动力，方向别搞反&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="题型总结"&gt;题型总结
+&lt;h4 id=&#34;题型总结&#34;&gt;题型总结
 &lt;/h4&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;求 \(\pi\)&lt;/strong&gt; → \(\pi = iMRT\)（给了 \(M, T, i\) 直接代）&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;求 molar mass&lt;/strong&gt; → \(\pi = (m_B/M_B)RT/V\) → \(M_B = m_BRT/(\pi V)\)&lt;/li&gt;
@@ -409,35 +424,35 @@ M是摩尔每升&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;电解质别忘了 \(\times i\)&lt;/strong&gt;：NaCl ≈ 2，CaCl₂ ≈ 3&lt;/li&gt;
 &lt;/ol&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;定义&lt;/th&gt;
-&lt;th&gt;对细胞的影响&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Isotonic（等渗）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;内外渗透压相等&lt;/td&gt;
-&lt;td&gt;正常&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hypertonic（高渗）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;外 &amp;gt; 内&lt;/td&gt;
-&lt;td&gt;水流出 → &lt;strong&gt;crenation（皱缩）&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hypotonic（低渗）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;外 &amp;lt; 内&lt;/td&gt;
-&lt;td&gt;水流入 → &lt;strong&gt;hemolysis（溶血）&lt;/strong&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;定义&lt;/th&gt;
+          &lt;th&gt;对细胞的影响&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Isotonic（等渗）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;内外渗透压相等&lt;/td&gt;
+          &lt;td&gt;正常&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hypertonic（高渗）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;外 &amp;gt; 内&lt;/td&gt;
+          &lt;td&gt;水流出 → &lt;strong&gt;crenation（皱缩）&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hypotonic（低渗）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;外 &amp;lt; 内&lt;/td&gt;
+          &lt;td&gt;水流入 → &lt;strong&gt;hemolysis（溶血）&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;Normal saline（生理盐水）&lt;/strong&gt;：0.16 M NaCl ≈ 0.9%，与血液等渗&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reverse osmosis（反渗透）&lt;/strong&gt;：施加大于 \(\pi\) 的压力在浓溶液侧 → 水反向流动 → &lt;strong&gt;desalination（海水淡化）&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3 id="13-colloids胶体"&gt;13. Colloids（胶体）
+&lt;h3 id=&#34;13-colloids胶体&#34;&gt;13. Colloids（胶体）
 &lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;定义&lt;/strong&gt;：粒子直径 &lt;strong&gt;5~1000 nm&lt;/strong&gt;，介于真溶液和悬浮液之间&lt;/p&gt;
@@ -447,47 +462,47 @@ M是摩尔每升&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;类型&lt;/th&gt;
-&lt;th&gt;特点&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hydrophilic colloid（亲水胶体）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;与水亲和，稳定&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;Hydrophobic colloid（疏水胶体）&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;怕水，需 &lt;strong&gt;emulsifier（乳化剂）&lt;/strong&gt; 稳定&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;类型&lt;/th&gt;
+          &lt;th&gt;特点&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hydrophilic colloid（亲水胶体）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;与水亲和，稳定&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;Hydrophobic colloid（疏水胶体）&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;怕水，需 &lt;strong&gt;emulsifier（乳化剂）&lt;/strong&gt; 稳定&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;📝 &lt;strong&gt;词根记忆法（-philic vs -phobic）&lt;/strong&gt;：&lt;/p&gt;
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;词根&lt;/th&gt;
-&lt;th&gt;来源&lt;/th&gt;
-&lt;th&gt;含义&lt;/th&gt;
-&lt;th&gt;例词&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;-philic&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;希腊语 &lt;em&gt;philia&lt;/em&gt; = 爱&lt;/td&gt;
-&lt;td&gt;→ 喜欢、亲和&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;hydrophilic&lt;/strong&gt;（hydro=水 + philic=爱 → 亲水）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;strong&gt;-phobic&lt;/strong&gt;&lt;/td&gt;
-&lt;td&gt;希腊语 &lt;em&gt;phobia&lt;/em&gt; = 恐惧&lt;/td&gt;
-&lt;td&gt;→ 讨厌、排斥&lt;/td&gt;
-&lt;td&gt;&lt;strong&gt;hydrophobic&lt;/strong&gt;（hydro=水 + phobic=怕 → 疏水）&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;词根&lt;/th&gt;
+          &lt;th&gt;来源&lt;/th&gt;
+          &lt;th&gt;含义&lt;/th&gt;
+          &lt;th&gt;例词&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;-philic&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;希腊语 &lt;em&gt;philia&lt;/em&gt; = 爱&lt;/td&gt;
+          &lt;td&gt;→ 喜欢、亲和&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;hydrophilic&lt;/strong&gt;（hydro=水 + philic=爱 → 亲水）&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;strong&gt;-phobic&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;希腊语 &lt;em&gt;phobia&lt;/em&gt; = 恐惧&lt;/td&gt;
+          &lt;td&gt;→ 讨厌、排斥&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;hydrophobic&lt;/strong&gt;（hydro=水 + phobic=怕 → 疏水）&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;strong&gt;两个速记法&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
@@ -497,22 +512,22 @@ M是摩尔每升&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Emulsifier（乳化剂）&lt;/strong&gt;：一端亲水、一端疏水 → 乳化油脂（如肥皂 \(C_{17}H_{35}COONa\)）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;怎么判断适不适合做乳化剂？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;看分子结构是否同时具备&lt;strong&gt;两亲性（amphiphilic / amphipathic）&lt;/strong&gt;：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
-&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
-&lt;/span&gt;&lt;span class="lnt"&gt;2
-&lt;/span&gt;&lt;span class="lnt"&gt;3
-&lt;/span&gt;&lt;span class="lnt"&gt;4
-&lt;/span&gt;&lt;span class="lnt"&gt;5
-&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class="lntd"&gt;
-&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;疏水端（hydrophobic tail） 亲水端（hydrophilic head）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 长碳氢链（nonpolar） 极性/离子基团（polar/ionic）
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; │ │
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; CH₃(CH₂)₁₄CH₂ — C(=O)O⁻ Na⁺
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; ↑ ↑
-&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; 亲油（爱脂肪） 亲水（爱水）
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;疏水端（hydrophobic tail）    亲水端（hydrophilic head）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   长碳氢链（nonpolar）           极性/离子基团（polar/ionic）
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       │                               │
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  CH₃(CH₂)₁₄CH₂ — C(=O)O⁻ Na⁺
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;       ↑                               ↑
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  亲油（爱脂肪）                    亲水（爱水）
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;strong&gt;判断三步走&lt;/strong&gt;：&lt;/p&gt;
@@ -534,43 +549,43 @@ M是摩尔每升&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Dialysis（渗析）&lt;/strong&gt;：用 semipermeable membrane 分离离子和胶体粒子&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;h3 id="14-公式汇总"&gt;14. 公式汇总
+&lt;h3 id=&#34;14-公式汇总&#34;&gt;14. 公式汇总
 &lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;公式&lt;/th&gt;
-&lt;th&gt;用途&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;\(S_g = k \cdot P_g\)&lt;/td&gt;
-&lt;td&gt;Henry&amp;rsquo;s Law —— 气体溶解度&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(P_{\text{solution}} = X_{\text{solvent}} \cdot P^\circ_{\text{solvent}}\)&lt;/td&gt;
-&lt;td&gt;Raoult&amp;rsquo;s Law —— 蒸气压&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(\Delta T_b = K_b \cdot m \cdot i\)&lt;/td&gt;
-&lt;td&gt;Boiling-point elevation&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(\Delta T_f = K_f \cdot m \cdot i\)&lt;/td&gt;
-&lt;td&gt;Freezing-point depression&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(\pi = iMRT\)&lt;/td&gt;
-&lt;td&gt;Osmotic pressure&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;\(M_B = K_f \cdot m_B / (\Delta T_f \cdot m_A)\)&lt;/td&gt;
-&lt;td&gt;求 molar mass&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;公式&lt;/th&gt;
+          &lt;th&gt;用途&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(S_g = k \cdot P_g\)&lt;/td&gt;
+          &lt;td&gt;Henry&amp;rsquo;s Law —— 气体溶解度&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(P_{\text{solution}} = X_{\text{solvent}} \cdot P^\circ_{\text{solvent}}\)&lt;/td&gt;
+          &lt;td&gt;Raoult&amp;rsquo;s Law —— 蒸气压&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(\Delta T_b = K_b \cdot m \cdot i\)&lt;/td&gt;
+          &lt;td&gt;Boiling-point elevation&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(\Delta T_f = K_f \cdot m \cdot i\)&lt;/td&gt;
+          &lt;td&gt;Freezing-point depression&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(\pi = iMRT\)&lt;/td&gt;
+          &lt;td&gt;Osmotic pressure&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;\(M_B = K_f \cdot m_B / (\Delta T_f \cdot m_A)\)&lt;/td&gt;
+          &lt;td&gt;求 molar mass&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;hr&gt;
-&lt;h3 id="练习题来自课件"&gt;练习题（来自课件）
+&lt;h3 id=&#34;练习题来自课件&#34;&gt;练习题（来自课件）
 &lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;&amp;ldquo;Like dissolves like&amp;rdquo; 指的是 ______ 的相似性&lt;/strong&gt;
@@ -618,4 +633,9 @@ NaCl(\(i \approx 2\)) / CaCl₂(\(i \approx 3\)) / KI(\(i \approx 2\)) / LiNO₃
 &lt;hr&gt;
 &lt;blockquote&gt;
 &lt;p&gt;🗓 最后更新：2026-04-28 | 来源：Chapter 13 课件&lt;/p&gt;
-&lt;/blockquote&gt;</description></item></channel></rss>
+&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
