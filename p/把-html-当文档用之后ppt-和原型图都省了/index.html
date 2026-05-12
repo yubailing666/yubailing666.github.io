@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="AI 助手失联了怎么办？从清 session 到写自动重启脚本的实战记录">
-<title>OpenClaw 断连自救与自动重启</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="HTML 是 AI 最擅长的输出格式。可读性强、能做PPT、能做设计稿。一份文件三种用法。">
+<title>把 HTML 当文档用之后，PPT 和原型图都省了</title>
 
-<link rel='canonical' href='https://yubailing666.github.io/p/openclaw-%E6%96%AD%E8%BF%9E%E8%87%AA%E6%95%91%E4%B8%8E%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF/'>
+<link rel='canonical' href='https://yubailing666.github.io/p/%E6%8A%8A-html-%E5%BD%93%E6%96%87%E6%A1%A3%E7%94%A8%E4%B9%8B%E5%90%8Eppt-%E5%92%8C%E5%8E%9F%E5%9E%8B%E5%9B%BE%E9%83%BD%E7%9C%81%E4%BA%86/'>
 
-<link rel="stylesheet" href="/scss/style.min.c141fa7f089dce101a8f37fe2e449c3f3179af78da35bef65eef05d9a75c80ed.css"><meta property='og:title' content="OpenClaw 断连自救与自动重启">
-<meta property='og:description' content="AI 助手失联了怎么办？从清 session 到写自动重启脚本的实战记录">
-<meta property='og:url' content='https://yubailing666.github.io/p/openclaw-%E6%96%AD%E8%BF%9E%E8%87%AA%E6%95%91%E4%B8%8E%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF/'>
+<link rel="stylesheet" href="/scss/style.min.c141fa7f089dce101a8f37fe2e449c3f3179af78da35bef65eef05d9a75c80ed.css"><meta property='og:title' content="把 HTML 当文档用之后，PPT 和原型图都省了">
+<meta property='og:description' content="HTML 是 AI 最擅长的输出格式。可读性强、能做PPT、能做设计稿。一份文件三种用法。">
+<meta property='og:url' content='https://yubailing666.github.io/p/%E6%8A%8A-html-%E5%BD%93%E6%96%87%E6%A1%A3%E7%94%A8%E4%B9%8B%E5%90%8Eppt-%E5%92%8C%E5%8E%9F%E5%9E%8B%E5%9B%BE%E9%83%BD%E7%9C%81%E4%BA%86/'>
 <meta property='og:site_name' content='余佰凌的空间'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='OpenClaw' /><meta property='article:tag' content='运维' /><meta property='article:tag' content='自恢复' /><meta property='article:tag' content='Windows' /><meta property='article:published_time' content='2026-05-05T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-05-05T00:00:00&#43;00:00'/>
-<meta name="twitter:title" content="OpenClaw 断连自救与自动重启">
-<meta name="twitter:description" content="AI 助手失联了怎么办？从清 session 到写自动重启脚本的实战记录">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='openclaw' /><meta property='article:tag' content='html' /><meta property='article:tag' content='工具' /><meta property='article:tag' content='工作流' /><meta property='article:published_time' content='2026-05-12T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2026-05-12T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="把 HTML 当文档用之后，PPT 和原型图都省了">
+<meta name="twitter:description" content="HTML 是 AI 最擅长的输出格式。可读性强、能做PPT、能做设计稿。一份文件三种用法。">
     </head>
     <body class="
     article-page
@@ -243,49 +243,7 @@
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                
-    <section class="widget archives">
-        <div class="widget-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-        </div>
-        <h2 class="widget-title section-title">目录</h2>
-        
-        <div class="widget--toc">
-            <nav id="TableOfContents">
-  <ol>
-    <li><a href="#发生了什么">发生了什么</a></li>
-    <li><a href="#快速恢复">快速恢复</a></li>
-    <li><a href="#根治方案自动重启脚本">根治方案：自动重启脚本</a></li>
-    <li><a href="#从中学到什么">从中学到什么</a>
-      <ol>
-        <li><a href="#1-会话文件是脆弱的">1. 会话文件是脆弱的</a></li>
-        <li><a href="#2-自动恢复--手动抢救">2. 自动恢复 &gt; 手动抢救</a></li>
-        <li><a href="#3-配置项的安全警告">3. 配置项的安全警告</a></li>
-        <li><a href="#4-升级修复">4. 升级修复</a></li>
-      </ol>
-    </li>
-    <li><a href="#附heartbeat-健康检查">附：HEARTBEAT 健康检查</a></li>
-  </ol>
-</nav>
-        </div>
-    </section>
-
-            
-        
-    </aside>
-
+    
 
             <main class="main full-width">
     <article class="main-article">
@@ -298,8 +256,8 @@
             
             
             
-            <a href="/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/" style="background-color: hsl(163, 60%, 84%); color: hsl(163, 60%, 15%);">
-                技术笔记
+            <a href="/categories/%E5%B7%A5%E5%85%B7/" style="background-color: hsl(59, 60%, 84%); color: hsl(59, 60%, 15%);">
+                工具
             </a>
         
     </header>
@@ -307,12 +265,12 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/openclaw-%E6%96%AD%E8%BF%9E%E8%87%AA%E6%95%91%E4%B8%8E%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF/">OpenClaw 断连自救与自动重启</a>
+            <a href="/p/%E6%8A%8A-html-%E5%BD%93%E6%96%87%E6%A1%A3%E7%94%A8%E4%B9%8B%E5%90%8Eppt-%E5%92%8C%E5%8E%9F%E5%9E%8B%E5%9B%BE%E9%83%BD%E7%9C%81%E4%BA%86/">把 HTML 当文档用之后，PPT 和原型图都省了</a>
         </h2>
     
         
         <h3 class="article-subtitle">
-            AI 助手失联了怎么办？从清 session 到写自动重启脚本的实战记录
+            HTML 是 AI 最擅长的输出格式。可读性强、能做PPT、能做设计稿。一份文件三种用法。
         </h3>
         
     </div>
@@ -333,7 +291,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published" datetime='2026-05-05T00:00:00Z'>2026-05-05</time>
+                <time class="article-time--published" datetime='2026-05-12T00:00:00Z'>2026-05-12</time>
             </div>
         
 
@@ -363,112 +321,26 @@
     <section class="article-content">
     
     
-    <h2 id="发生了什么">发生了什么
-</h2><p>某天越雨突然不回消息了。重启 gateway 也没用，进程卡死在启动阶段。</p>
-<p>排查发现：<strong>sessions 目录里的微信会话文件损坏了</strong>。OpenClaw 在启动时尝试加载这些文件，遇到坏数据直接堵住，整个 gateway 起不来。</p>
-<h2 id="快速恢复">快速恢复
-</h2><p>如果你也遇到类似情况，最直接的恢复方式：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span><span class="lnt">8
-</span><span class="lnt">9
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-powershell" data-lang="powershell"><span class="line"><span class="cl"><span class="c"># 1. 清空会话文件（聊天记录会丢失，但长时记忆还在）</span>
-</span></span><span class="line"><span class="cl"><span class="nb">rmdir </span><span class="p">/</span><span class="n">s</span> <span class="p">/</span><span class="n">q</span> <span class="n">C:</span><span class="p">\</span><span class="n">Users</span><span class="p">\</span><span class="n">Administrator</span><span class="p">\.</span><span class="n">openclaw</span><span class="p">\</span><span class="n">agents</span><span class="p">\</span><span class="n">main</span><span class="p">\</span><span class="n">sessions</span><span class="p">\</span>
-</span></span><span class="line"><span class="cl"><span class="n">mkdir</span> <span class="n">C:</span><span class="p">\</span><span class="n">Users</span><span class="p">\</span><span class="n">Administrator</span><span class="p">\.</span><span class="n">openclaw</span><span class="p">\</span><span class="n">agents</span><span class="p">\</span><span class="n">main</span><span class="p">\</span><span class="n">sessions</span><span class="p">\</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># 2. 清 temp</span>
-</span></span><span class="line"><span class="cl"><span class="nb">del </span><span class="p">/</span><span class="n">q</span> <span class="k">%</span><span class="n">TEMP</span><span class="p">%\</span><span class="n">openclaw</span><span class="p">\*.*</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c"># 3. 重启</span>
-</span></span><span class="line"><span class="cl"><span class="n">openclaw</span> <span class="n">gateway</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p><strong>注意：</strong> <code>MEMORY.md</code> 和 <code>memory/</code> 目录不会受影响，长时记忆完好。丢失的只是当次的对话上下文。</p>
-<h2 id="根治方案自动重启脚本">根治方案：自动重启脚本
-</h2><p>手动恢复太慢了。写一个批处理，崩了自动重开：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-batch" data-lang="batch"><span class="line"><span class="cl"><span class="p">@</span><span class="k">echo</span> off
-</span></span><span class="line"><span class="cl">chcp 65001 <span class="p">&gt;</span>nul
-</span></span><span class="line"><span class="cl"><span class="k">title</span> OpenClaw Gateway - Auto Restart
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">:</span><span class="nl">loop</span>
-</span></span><span class="line"><span class="cl"><span class="k">echo</span> [<span class="nv">%date%</span> <span class="nv">%time%</span>] Starting OpenClaw Gateway...
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">:</span><span class="c1">: 自动清理 temp</span>
-</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="k">exist</span> <span class="s2">&#34;</span><span class="nv">%TEMP%</span><span class="s2">\openclaw\&#34;</span> <span class="p">(</span>
-</span></span><span class="line"><span class="cl">    <span class="k">del</span> /q <span class="s2">&#34;</span><span class="nv">%TEMP%</span><span class="s2">\openclaw\*.*&#34;</span> <span class="mi">2</span><span class="p">&gt;</span>nul
-</span></span><span class="line"><span class="cl"><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">openclaw gateway
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="k">echo</span> Gateway exited (code <span class="nv">%ERRORLEVEL%</span>). Restarting in 3s...
-</span></span><span class="line"><span class="cl">timeout /t 3 /nobreak <span class="p">&gt;</span>nul
-</span></span><span class="line"><span class="cl"><span class="k">goto</span> <span class="nl">loop</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="从中学到什么">从中学到什么
-</h2><h3 id="1-会话文件是脆弱的">1. 会话文件是脆弱的
-</h3><p>OpenClaw 把每个微信用户的对话存为 session 文件。如果这些文件损坏（断电、非正常退出都可能导致），gateway 就起不来。</p>
-<h3 id="2-自动恢复--手动抢救">2. 自动恢复 &gt; 手动抢救
-</h3><p>写一个循环重启的 wrapper 是最低成本的自救方案。之后可以考虑用 <code>nssm</code> 把它包装成 Windows 服务。</p>
-<h3 id="3-配置项的安全警告">3. 配置项的安全警告
-</h3><p>启动日志里有 <code>allowInsecureAuth=true</code> 的警告。这个配置方便开发调试，但生产环境应该关掉。</p>
-<h3 id="4-升级修复">4. 升级修复
-</h3><p>从 <code>2026.4.24</code> 升级到 <code>2026.5.3-1</code> 后稳定了许多。版本更新往往包含底层的稳定性修复，值得定期检查：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm view openclaw version    <span class="c1"># 查看最新版</span>
-</span></span><span class="line"><span class="cl">npm install -g openclaw@latest  <span class="c1"># 升级</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="附heartbeat-健康检查">附：HEARTBEAT 健康检查
-</h2><p>在日常 heartbeat 里挂一个检查：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Gateway process still running?
-</span></span><span class="line"><span class="cl">Session dir not bloated (&gt;50MB → flag)
-</span></span><span class="line"><span class="cl">New OpenClaw versions available?
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>越雨会定期检查这几个指标，有问题就汇报，不需要你主动盯着。</p>
+    <p>把 HTML 当文档用之后，PPT 和原型图都省了</p>
+<p>先聊一下 HTML 这个东西的本质。</p>
+<p>HTML 不是什么高深的东西。它就是一套带标签的纯文本。浏览器能读，AI 也能读。对 AI 来说，输出 HTML 跟输出一段文字几乎没有区别——语法简单、结构清晰、不需要额外工具。</p>
+<p>但 HTML 有一个其他文本格式没有的优势：它直接是可视的。你在浏览器里打开一个 HTML 文件，它就是排版好的页面。什么软件都不用装。</p>
+<p>这个特性让它在我现在的工具链里占了三个位置。</p>
+<p><strong>当文档用</strong></p>
+<p>我写东西用 md，但分享出去的时候经常转成 HTML。因为 HTML 不需要对方装任何软件——发个链接或者传个文件，浏览器打开就能看。排版固定、样式统一，不会像 docx 那样换个电脑格式全乱。</p>
+<p>一些需要稍微精致一点的文档，直接在 md 里嵌一段 HTML 块。Obsidian 预览模式能正常渲染，效果跟网页一样。</p>
+<p><strong>当 PPT 用</strong></p>
+<p>装了一个 next-slide 的 skill（ClawHub 上有），效果是把 md 转成一套 HTML 幻灯片。写好的内容丢进去，几秒生成，50 多种主题可选。浏览器里打开就能演示，或者发链接给别人。</p>
+<p>不用 Keynote，不用 PowerPoint，不用调格式。内容写在 md 里，换个壳就是幻灯片。</p>
+<p><strong>当设计原型图用</strong></p>
+<p>这是最让我觉得省事的一个用法。</p>
+<p>以前做一个页面设计，要先在 Figma 里画一遍，然后写代码再实现一遍。现在直接写一段 HTML+CSS，跟 AI 说&quot;帮我把这个页面布局做出来&quot;，它输出一个能跑的 HTML 文件。打开看效果，不满意继续改。改到满意了，这段 HTML 可以直接当最终产品用——它不是原型图，它就是成品。</p>
+<p>从原型到实现，一次完成。</p>
+<p><strong>为什么会这样</strong></p>
+<p>说穿了原因很简单：AI 最擅长输出的格式不是 docx、不是 PDF、不是 Figma 文件——是纯文本。而纯文本格式里，HTML 是表达能力最强的那个。它能排版、能交互、能做样式。你在 AI 面前写一个需求，它一秒给你一个能打开的页面。</p>
+<p>不用打开 Figma、不用拖拽组件、不用调像素。</p>
+<p>现在我的工作流变成了这样：想一个东西，用 md 记下来；需要给人看，转成 HTML；需要做演示，转成幻灯片；需要做设计，让 AI 直接生成 HTML 原型。同一份原料，换四个包装。</p>
+<p>工具链就是 md + OpenClaw + next-slide。没什么门槛，试了就知道。</p>
 
 </section>
 
@@ -479,11 +351,11 @@
         
             <a href="/tags/openclaw/">Openclaw</a>
         
-            <a href="/tags/%E8%BF%90%E7%BB%B4/">运维</a>
+            <a href="/tags/html/">Html</a>
         
-            <a href="/tags/%E8%87%AA%E6%81%A2%E5%A4%8D/">自恢复</a>
+            <a href="/tags/%E5%B7%A5%E5%85%B7/">工具</a>
         
-            <a href="/tags/windows/">Windows</a>
+            <a href="/tags/%E5%B7%A5%E4%BD%9C%E6%B5%81/">工作流</a>
         
     </section>
 
@@ -549,12 +421,12 @@
             
                 
 <article class="">
-    <a href="/p/ai-%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8E%A7%E5%88%B6-playwright-%E6%90%AD%E5%BB%BA%E7%AC%94%E8%AE%B0/">
+    <a href="/p/%E6%8A%8A%E5%B7%A5%E4%BD%9C%E6%B5%81%E6%90%AC%E5%88%B0-md-%E4%B9%8B%E5%90%8E%E6%88%91%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">AI 浏览器控制 —— Playwright 搭建笔记</h2>
+            <h2 class="article-title">把工作流搬到 md 之后，我回不去了</h2>
         </div>
     </a>
 </article>
@@ -562,12 +434,38 @@
             
                 
 <article class="">
-    <a href="/p/java-swing-layoutmanager-%E5%85%A5%E9%97%A8/">
+    <a href="/p/%E4%B8%89%E5%88%86%E9%92%9F%E8%A3%85%E5%A5%BD-openclaw/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Java Swing LayoutManager 入门</h2>
+            <h2 class="article-title">三分钟装好 OpenClaw</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E7%94%A8%E4%BA%86%E5%87%A0%E4%B8%AA%E6%9C%88-openclaw%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">用了几个月 OpenClaw，回不去了</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="">
+    <a href="/p/%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A%E7%94%9F%E6%88%90%E5%99%A8-sustech-%E7%89%A9%E7%90%86%E5%AE%9E%E9%AA%8C-skill/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">物理实验报告生成器 —— SUSTech 物理实验 Skill</h2>
         </div>
     </a>
 </article>
