@@ -91,40 +91,6 @@
 </description>
         </item>
         <item>
-        <title>三分钟装好 OpenClaw</title>
-        <link>https://yubailing666.github.io/p/%E4%B8%89%E5%88%86%E9%92%9F%E8%A3%85%E5%A5%BD-openclaw/</link>
-        <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-        
-        <guid>https://yubailing666.github.io/p/%E4%B8%89%E5%88%86%E9%92%9F%E8%A3%85%E5%A5%BD-openclaw/</guid>
-        <description>&lt;p&gt;打开终端，一行命令：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;npm install -g openclaw
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;装完跑 openclaw 看有没有成功。&lt;/p&gt;
-&lt;p&gt;然后配一个模型。去 deepseek.com 拿 API key，终端跑：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openclaw config set model-provider deepseek
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openclaw config set model deepseek/deepseek-v4-flash
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;openclaw config set api-key 你的key
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;也支持 Claude、GPT。配完就能聊了。&lt;/p&gt;
-&lt;p&gt;想在微信上用同一个 AI，装 openclaw-weixin 插件，GitHub 搜一下按 README 配。&lt;/p&gt;
-&lt;p&gt;确保先装了 Node.js。&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>用了几个月 OpenClaw，回不去了</title>
         <link>https://yubailing666.github.io/p/%E7%94%A8%E4%BA%86%E5%87%A0%E4%B8%AA%E6%9C%88-openclaw%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86/</link>
         <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
